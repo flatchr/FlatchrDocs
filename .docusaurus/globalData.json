@@ -1,0 +1,53 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting_started",
+          "docs": [
+            {
+              "id": "getting_started",
+              "path": "/docs/getting_started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Creer_un_candidat",
+              "path": "/docs/QuickStart/Creer_un_candidat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Recuperer_les_annonces",
+              "path": "/docs/QuickStart/Recuperer_les_annonces",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Recuperer_un_candidat",
+              "path": "/docs/QuickStart/Recuperer_un_candidat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Use Cases/Formulaire_personalise",
+              "path": "/docs/Use Cases/Formulaire_personalise",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Use Cases/Multicomptes",
+              "path": "/docs/Use Cases/Multicomptes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Use Cases/Statistiques",
+              "path": "/docs/Use Cases/Statistiques",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

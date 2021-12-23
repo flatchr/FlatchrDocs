@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Use Cases/Formulaire_personalise",
+  "id": "Use Cases/Formulaire_personalise",
+  "title": "Formulaire personnalisé",
+  "description": "Créer son propre formulaire pour mettre les candidats dans Flatchr",
+  "source": "@site/docs/Use Cases/Formulaire_personalise.md",
+  "sourceDirName": "Use Cases",
+  "slug": "/Use Cases/Formulaire_personalise",
+  "permalink": "/docs/Use Cases/Formulaire_personalise",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Use Cases/Formulaire_personalise.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Créer un candidat",
+    "permalink": "/docs/QuickStart/Creer_un_candidat"
+  },
+  "next": {
+    "title": "Multicomptes",
+    "permalink": "/docs/Use Cases/Multicomptes"
+  }
+}

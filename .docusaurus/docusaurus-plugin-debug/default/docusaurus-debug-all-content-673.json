@@ -1,0 +1,275 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/workspace/docs/sidebars.js",
+          "contentPath": "/workspace/docs/docs",
+          "contentPathLocalized": "/workspace/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "getting_started",
+              "id": "getting_started",
+              "title": "Getting Started",
+              "description": "Introduction",
+              "source": "@site/docs/getting_started.md",
+              "sourceDirName": ".",
+              "slug": "/getting_started",
+              "permalink": "/docs/getting_started",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/getting_started.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Récupérer les annonces",
+                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Creer_un_candidat",
+              "id": "QuickStart/Creer_un_candidat",
+              "title": "Créer un candidat",
+              "description": "",
+              "source": "@site/docs/QuickStart/Creer_un_candidat.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/Creer_un_candidat",
+              "permalink": "/docs/QuickStart/Creer_un_candidat",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/QuickStart/Creer_un_candidat.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Récupérer les infos d'un candidat",
+                "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+              },
+              "next": {
+                "title": "Formulaire personnalisé",
+                "permalink": "/docs/Use Cases/Formulaire_personalise"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Recuperer_les_annonces",
+              "id": "QuickStart/Recuperer_les_annonces",
+              "title": "Récupérer les annonces",
+              "description": "Paramètres",
+              "source": "@site/docs/QuickStart/Recuperer_les_annonces.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/Recuperer_les_annonces",
+              "permalink": "/docs/QuickStart/Recuperer_les_annonces",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/QuickStart/Recuperer_les_annonces.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/getting_started"
+              },
+              "next": {
+                "title": "Récupérer les infos d'un candidat",
+                "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Recuperer_un_candidat",
+              "id": "QuickStart/Recuperer_un_candidat",
+              "title": "Récupérer les infos d'un candidat",
+              "description": "",
+              "source": "@site/docs/QuickStart/Recuperer_un_candidat.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/Recuperer_un_candidat",
+              "permalink": "/docs/QuickStart/Recuperer_un_candidat",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/QuickStart/Recuperer_un_candidat.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Récupérer les annonces",
+                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+              },
+              "next": {
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
+              }
+            },
+            {
+              "unversionedId": "Use Cases/Formulaire_personalise",
+              "id": "Use Cases/Formulaire_personalise",
+              "title": "Formulaire personnalisé",
+              "description": "Créer son propre formulaire pour mettre les candidats dans Flatchr",
+              "source": "@site/docs/Use Cases/Formulaire_personalise.md",
+              "sourceDirName": "Use Cases",
+              "slug": "/Use Cases/Formulaire_personalise",
+              "permalink": "/docs/Use Cases/Formulaire_personalise",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Use Cases/Formulaire_personalise.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
+              },
+              "next": {
+                "title": "Multicomptes",
+                "permalink": "/docs/Use Cases/Multicomptes"
+              }
+            },
+            {
+              "unversionedId": "Use Cases/Multicomptes",
+              "id": "Use Cases/Multicomptes",
+              "title": "Multicomptes",
+              "description": "",
+              "source": "@site/docs/Use Cases/Multicomptes.md",
+              "sourceDirName": "Use Cases",
+              "slug": "/Use Cases/Multicomptes",
+              "permalink": "/docs/Use Cases/Multicomptes",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Use Cases/Multicomptes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Formulaire personnalisé",
+                "permalink": "/docs/Use Cases/Formulaire_personalise"
+              },
+              "next": {
+                "title": "Récupérer ses données pour les intégrer dans un outil de BI",
+                "permalink": "/docs/Use Cases/Statistiques"
+              }
+            },
+            {
+              "unversionedId": "Use Cases/Statistiques",
+              "id": "Use Cases/Statistiques",
+              "title": "Récupérer ses données pour les intégrer dans un outil de BI",
+              "description": "",
+              "source": "@site/docs/Use Cases/Statistiques.md",
+              "sourceDirName": "Use Cases",
+              "slug": "/Use Cases/Statistiques",
+              "permalink": "/docs/Use Cases/Statistiques",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Use Cases/Statistiques.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Multicomptes",
+                "permalink": "/docs/Use Cases/Multicomptes"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "getting_started"
+              },
+              {
+                "type": "category",
+                "label": "QuickStart",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Recuperer_les_annonces"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Recuperer_un_candidat"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Creer_un_candidat"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Use Cases",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Use Cases/Formulaire_personalise"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Use Cases/Multicomptes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Use Cases/Statistiques"
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "getting_started",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/Webhooks",
+        "source": "@site/src/pages/Webhooks.md"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/sites-carrieres",
+        "source": "@site/src/pages/sites-carrieres.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

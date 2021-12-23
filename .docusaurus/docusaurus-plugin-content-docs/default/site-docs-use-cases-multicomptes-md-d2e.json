@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Use Cases/Multicomptes",
+  "id": "Use Cases/Multicomptes",
+  "title": "Multicomptes",
+  "description": "",
+  "source": "@site/docs/Use Cases/Multicomptes.md",
+  "sourceDirName": "Use Cases",
+  "slug": "/Use Cases/Multicomptes",
+  "permalink": "/docs/Use Cases/Multicomptes",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Use Cases/Multicomptes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Formulaire personnalisé",
+    "permalink": "/docs/Use Cases/Formulaire_personalise"
+  },
+  "next": {
+    "title": "Récupérer ses données pour les intégrer dans un outil de BI",
+    "permalink": "/docs/Use Cases/Statistiques"
+  }
+}

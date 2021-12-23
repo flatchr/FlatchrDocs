@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Recuperer_un_candidat",
+  "id": "QuickStart/Recuperer_un_candidat",
+  "title": "Récupérer les infos d'un candidat",
+  "description": "",
+  "source": "@site/docs/QuickStart/Recuperer_un_candidat.md",
+  "sourceDirName": "QuickStart",
+  "slug": "/QuickStart/Recuperer_un_candidat",
+  "permalink": "/docs/QuickStart/Recuperer_un_candidat",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/QuickStart/Recuperer_un_candidat.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Récupérer les annonces",
+    "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+  },
+  "next": {
+    "title": "Créer un candidat",
+    "permalink": "/docs/QuickStart/Creer_un_candidat"
+  }
+}

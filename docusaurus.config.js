@@ -57,10 +57,11 @@ const config = {
             type: 'doc',
             docId: 'getting_started',
             position: 'left',
-            label: 'API Reference',
+            label: 'API',
           },
           {to: '/Webhooks', label: 'Webhooks', position: 'left'},
           {to: '/sites-carrieres', label: 'Sites Carrières', position: 'left'},
+          {href: 'https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif', label: 'API Reference', position: 'right'},
           
         ],
       },
@@ -71,11 +72,12 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'API Reference',
+                label: 'API',
                 to: '/docs/getting_started',
               },
               {to: '/Webhooks', label: 'Webhooks'},
               {to: '/sites-carrieres', label: 'Sites Carrières'},
+              {href: 'https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif', label: 'API Reference'},
             ],
           },
           {

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "getting_started",
+  "id": "getting_started",
+  "title": "Getting Started",
+  "description": "Introduction",
+  "source": "@site/docs/getting_started.md",
+  "sourceDirName": ".",
+  "slug": "/getting_started",
+  "permalink": "/docs/getting_started",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/getting_started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Récupérer les annonces",
+    "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+  }
+}

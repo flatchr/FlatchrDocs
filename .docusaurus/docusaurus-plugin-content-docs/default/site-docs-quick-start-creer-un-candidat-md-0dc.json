@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Creer_un_candidat",
+  "id": "QuickStart/Creer_un_candidat",
+  "title": "Créer un candidat",
+  "description": "",
+  "source": "@site/docs/QuickStart/Creer_un_candidat.md",
+  "sourceDirName": "QuickStart",
+  "slug": "/QuickStart/Creer_un_candidat",
+  "permalink": "/docs/QuickStart/Creer_un_candidat",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/QuickStart/Creer_un_candidat.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Récupérer les infos d'un candidat",
+    "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+  },
+  "next": {
+    "title": "Formulaire personnalisé",
+    "permalink": "/docs/Use Cases/Formulaire_personalise"
+  }
+}

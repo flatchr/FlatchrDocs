@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Recuperer_les_annonces",
+  "id": "QuickStart/Recuperer_les_annonces",
+  "title": "Récupérer les annonces",
+  "description": "Paramètres",
+  "source": "@site/docs/QuickStart/Recuperer_les_annonces.md",
+  "sourceDirName": "QuickStart",
+  "slug": "/QuickStart/Recuperer_les_annonces",
+  "permalink": "/docs/QuickStart/Recuperer_les_annonces",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/QuickStart/Recuperer_les_annonces.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/getting_started"
+  },
+  "next": {
+    "title": "Récupérer les infos d'un candidat",
+    "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+  }
+}

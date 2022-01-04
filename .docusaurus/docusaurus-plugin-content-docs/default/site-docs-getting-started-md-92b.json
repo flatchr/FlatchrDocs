@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Récupérer les annonces",
-    "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+    "title": "Formulaire personnalisé",
+    "permalink": "/docs/Use Cases/Formulaire_personalise"
   }
 }

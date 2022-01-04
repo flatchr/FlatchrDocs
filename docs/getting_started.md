@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ### URL
 
-L'URL racine de l'API Flatchr est : https://flatchr.io.
+L'URL racine de l'API Flatchr est : https://api.flatchr.io.
 
 ### Format
 L'API est au format REST et toutes les données entrantes ou sortantes sont au format JSON encodé en UTF-8.

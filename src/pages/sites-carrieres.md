@@ -1,8 +1,13 @@
  # Intégration d'un iframe
+ 
 
 Le site [flatchr.io](https://www.flatchr.io/) permet l’intégration des annonces du client sur son site internet ou intranet sans nécessité de connaissance informatique et par simple copier-coller, grâce à l'utilisation d'un iframe.
 
-:::info Important
+Si vous voulez récupérer vos annonces au format JSON, vous pouvez le faire grâce à l'API 👉 [Récupérer les annonces](/docs/QuickStart/Recuperer_les_annonces).
+
+<br/>
+
+:::caution Important
 Pour paramétrer l'iframe, il faut récupérer votre `slug`, c’est la référence unique de votre entreprise qui se trouve dans l’URL de votre site carrière
 
 **Exemple:** dans https://avivacuisines.flatchr.io, `avivacuisines` est la référence unique ou "slug").

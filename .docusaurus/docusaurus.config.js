@@ -113,7 +113,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 Flatchr International "
+      "copyright": "Copyright © 2022 Flatchr International "
     },
     "prism": {
       "theme": {

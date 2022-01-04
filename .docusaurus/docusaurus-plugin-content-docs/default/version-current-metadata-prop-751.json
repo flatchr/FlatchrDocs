@@ -16,32 +16,6 @@
       },
       {
         "type": "category",
-        "label": "QuickStart",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Récupérer les annonces",
-            "href": "/docs/QuickStart/Recuperer_les_annonces",
-            "docId": "QuickStart/Recuperer_les_annonces"
-          },
-          {
-            "type": "link",
-            "label": "Récupérer les infos d'un candidat",
-            "href": "/docs/QuickStart/Recuperer_un_candidat",
-            "docId": "QuickStart/Recuperer_un_candidat"
-          },
-          {
-            "type": "link",
-            "label": "Créer un candidat",
-            "href": "/docs/QuickStart/Creer_un_candidat",
-            "docId": "QuickStart/Creer_un_candidat"
-          }
-        ]
-      },
-      {
-        "type": "category",
         "label": "Use Cases",
         "collapsible": true,
         "collapsed": true,
@@ -65,6 +39,32 @@
             "docId": "Use Cases/Statistiques"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "QuickStart",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Récupérer les annonces",
+            "href": "/docs/QuickStart/Recuperer_les_annonces",
+            "docId": "QuickStart/Recuperer_les_annonces"
+          },
+          {
+            "type": "link",
+            "label": "Récupérer les infos d'un candidat",
+            "href": "/docs/QuickStart/Recuperer_un_candidat",
+            "docId": "QuickStart/Recuperer_un_candidat"
+          },
+          {
+            "type": "link",
+            "label": "Créer un candidat",
+            "href": "/docs/QuickStart/Creer_un_candidat",
+            "docId": "QuickStart/Creer_un_candidat"
+          }
+        ]
       }
     ]
   },
@@ -84,7 +84,7 @@
     "QuickStart/Recuperer_les_annonces": {
       "id": "QuickStart/Recuperer_les_annonces",
       "title": "Récupérer les annonces",
-      "description": "Paramètres",
+      "description": "L'URL racine est ici https://carrers.flatchr.io",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Recuperer_un_candidat": {

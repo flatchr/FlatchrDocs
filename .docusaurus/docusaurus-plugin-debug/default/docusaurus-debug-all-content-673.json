@@ -36,8 +36,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Récupérer les annonces",
-                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+                "title": "Formulaire personnalisé",
+                "permalink": "/docs/Use Cases/Formulaire_personalise"
               }
             },
             {
@@ -60,17 +60,13 @@
               "previous": {
                 "title": "Récupérer les infos d'un candidat",
                 "permalink": "/docs/QuickStart/Recuperer_un_candidat"
-              },
-              "next": {
-                "title": "Formulaire personnalisé",
-                "permalink": "/docs/Use Cases/Formulaire_personalise"
               }
             },
             {
               "unversionedId": "QuickStart/Recuperer_les_annonces",
               "id": "QuickStart/Recuperer_les_annonces",
               "title": "Récupérer les annonces",
-              "description": "Paramètres",
+              "description": "L'URL racine est ici https://carrers.flatchr.io",
               "source": "@site/docs/QuickStart/Recuperer_les_annonces.md",
               "sourceDirName": "QuickStart",
               "slug": "/QuickStart/Recuperer_les_annonces",
@@ -84,8 +80,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/getting_started"
+                "title": "Récupérer ses données pour les intégrer dans un outil de BI",
+                "permalink": "/docs/Use Cases/Statistiques"
               },
               "next": {
                 "title": "Récupérer les infos d'un candidat",
@@ -133,8 +129,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Créer un candidat",
-                "permalink": "/docs/QuickStart/Creer_un_candidat"
+                "title": "Getting Started",
+                "permalink": "/docs/getting_started"
               },
               "next": {
                 "title": "Multicomptes",
@@ -181,6 +177,10 @@
               "previous": {
                 "title": "Multicomptes",
                 "permalink": "/docs/Use Cases/Multicomptes"
+              },
+              "next": {
+                "title": "Récupérer les annonces",
+                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
               }
             }
           ],
@@ -189,26 +189,6 @@
               {
                 "type": "doc",
                 "id": "getting_started"
-              },
-              {
-                "type": "category",
-                "label": "QuickStart",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "QuickStart/Recuperer_les_annonces"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "QuickStart/Recuperer_un_candidat"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "QuickStart/Creer_un_candidat"
-                  }
-                ]
               },
               {
                 "type": "category",
@@ -227,6 +207,26 @@
                   {
                     "type": "doc",
                     "id": "Use Cases/Statistiques"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "QuickStart",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Recuperer_les_annonces"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Recuperer_un_candidat"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Creer_un_candidat"
                   }
                 ]
               }

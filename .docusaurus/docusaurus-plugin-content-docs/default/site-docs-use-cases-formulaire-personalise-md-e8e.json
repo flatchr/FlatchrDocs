@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "vacancy",
-    "permalink": "/docs/Schemas/vacancy"
+    "title": "Créer un candidat",
+    "permalink": "/docs/QuickStart/Creer_un_candidat"
   },
   "next": {
     "title": "Multicomptes",

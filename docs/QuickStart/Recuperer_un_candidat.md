@@ -1,15 +1,17 @@
 ---
 sidebar_position: 2
 ---
+
+
 # Rechercher un candidat
 
 Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.
 
 
-### Requête
+## Requête
 
 
-```
+```jsx
 POST https://api.flatchr.io/company/{companyID}/search/applicants
 ```
 
@@ -19,7 +21,7 @@ Pour l'obtenir vous pouvez vous rapprocher du support flatchr ou aller le cherch
 
 :::info
 
-#### Paramètres
+### Paramètres
 |Name|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
 companyId|path|string|true|Identifiant de l'entreprise
@@ -30,31 +32,95 @@ email|query|string||Mail du candidat|
 hired|query|boolean||Le candidat est il recruté ou non|
 colum|query|string||Nom de la colonne dans laquelle est le candidat|
 start|query|string||Date au format "JJ/MM/AA" pour rechercher les candidats créés à partir d'une date donnée"
-company|query|string||Permet de chercher sur plusieurs entreprise pour les multicomptes|
+company|query|string||Permet de rechercher sur plusieurs entreprises pour les multicomptes|
 
-### Exemple de requête
-```jsx title="Requête cURL pour Flatchr"
-curl -X GET https://careers.flatchr.io/company/flatchr.json \ -H 'Accept: */*'
+### Exemples de requête
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+<Tabs>
+<TabItem value="name" label="Nom" default>
+
+```jsx title="Requête cURL"
+curl -X POST https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/search/applicants
+    -H "Authorization: Bearer {token}"
+    -H 'Content-Type: application/json'
+    -d '{"lastname":"{nom}"}'
 ```
 
-### Réponse
+</TabItem>
+<TabItem value="mail" label="Email" >
+
+```jsx title="Requête cURL"
+curl -X POST https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/search/applicants
+    -H "Authorization: Bearer {token}"
+    -H 'Content-Type: application/json'
+    -d '{"email":"{mail@mail.com}"}'
+```
+
+</TabItem>
+<TabItem value="hired" label="Recruté" >
+
+```jsx title="Requête cURL"
+curl -X POST https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/search/applicants
+    -H "Authorization: Bearer {token}"
+    -H 'Content-Type: application/json'
+    -d '{"hired":"true"}'
+```
+
+</TabItem>
+<TabItem value="since" label="Depuis le 01/01/2022" >
+
+```jsx title="Requête cURL"
+curl -X POST https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/search/applicants
+    -H "Authorization: Bearer {token}"
+    -H 'Content-Type: application/json'
+    -d '{"start":"01/01/22"}'
+```
+
+</TabItem>
+<TabItem value="company" label="Multicomptes" >
+
+```jsx title="Requête cURL"
+curl -X POST https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/search/applicants
+    -H "Authorization: Bearer {token}"
+    -H 'Content-Type: application/json'
+    -d '{"hired":"true","company":"{company}"}'
+```
+
+</TabItem>
+
+</Tabs>
+
+## Réponse
 |Name|Type|Description|
 |---|---|---|
-id|string|Clé de la diffusion|
-offer_id|integer|Identifiant offre jobboards|
-external_id|||
-published|boolean|L'annonce est elle publiée ou non|
-created_at|timestamp|Date de création de la diffusion|
-vacancy|[vacancy](/docs/Schemas/vacancy)||
-vacancy_id|string|Identifiant de l'annonce|
-
-
-
-
-
-
-
+applicant|string|Id du candidat|
+vacancy|string|Offre sur laquelle il a postulé|
+column|string|Colonne dans laquelle est le candidat|
+external_id|string|Id externe|
+firstname|string|Prénom|
+lastname|string|Nom|
+email|string|Mail|
+phone|string|Téléphone|
+created_at|string|Date de création du candidat (JJ/MM/AA)|
+source|string|Source de la candidature|
 
 ### Exemple de réponse
 
-
+```json
+[{
+    "applicant": "z7gWQnjXG77hJRak",
+    "vacancy": "Ingénieur Développement  H/F ",
+    "column": "Recruté",
+    "external_id": "",
+    "firstname": "Juliette",
+    "lastname": "larfoillou",
+    "email": "larfoillou.j@gmail.com",
+    "phone": "+33 6 37 89 87 57",
+    "created_at": "09/11/21",
+    "source": "L'Apec"
+}]
+```

@@ -9,13 +9,18 @@ L'URL racine est ici https://carrers.flatchr.io
 
 :::
 
-### Requête
+## Requête
 
 Il est possible de récupérer vos annonces au format JSON en utilisant la requête suivante : 
 
-```
+```jsx
 GET /company/{slug}.json
 ```
+
+### Paramètres
+|Name|In|Type|Obligatoire|Description|
+|---|---|---|---|---|
+slug|path|string|true|Slug de l'entreprise |
 
 :::tip Slug
 Votre `slug` est la référence unique de votre entreprise qui se trouve dans l’URL de votre site carrière.
@@ -26,10 +31,11 @@ Votre `slug` est la référence unique de votre entreprise qui se trouve dans l�
 
 ### Exemple de requête
 ```jsx title="Requête cURL pour Flatchr"
-curl -X GET https://careers.flatchr.io/company/flatchr.json \ -H 'Accept: */*'
+curl -X GET https://careers.flatchr.io/company/flatchr.json
+    -H "Authorization: Bearer {token}"
 ```
 
-### Réponse
+## Réponse
 |Name|Type|Description|
 |---|---|---|
 id|string|Clé de la diffusion|

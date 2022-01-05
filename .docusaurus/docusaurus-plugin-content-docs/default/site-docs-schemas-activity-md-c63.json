@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Créer un candidat",
-    "permalink": "/docs/QuickStart/Creer_un_candidat"
+    "title": "Récupérer ses données pour les intégrer dans un outil de BI",
+    "permalink": "/docs/Use Cases/Statistiques"
   },
   "next": {
     "title": "address",

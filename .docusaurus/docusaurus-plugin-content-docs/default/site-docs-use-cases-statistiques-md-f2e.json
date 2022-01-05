@@ -15,5 +15,9 @@
   "previous": {
     "title": "Multicomptes",
     "permalink": "/docs/Use Cases/Multicomptes"
+  },
+  "next": {
+    "title": "activity",
+    "permalink": "/docs/Schemas/activity"
   }
 }

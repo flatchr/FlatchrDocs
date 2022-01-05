@@ -28,7 +28,7 @@
           },
           {
             "type": "link",
-            "label": "Récupérer les infos d'un candidat",
+            "label": "Rechercher un candidat",
             "href": "/docs/QuickStart/Recuperer_un_candidat",
             "docId": "QuickStart/Recuperer_un_candidat"
           },
@@ -151,8 +151,8 @@
     },
     "QuickStart/Recuperer_un_candidat": {
       "id": "QuickStart/Recuperer_un_candidat",
-      "title": "Récupérer les infos d'un candidat",
-      "description": "",
+      "title": "Rechercher un candidat",
+      "description": "Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/activity": {

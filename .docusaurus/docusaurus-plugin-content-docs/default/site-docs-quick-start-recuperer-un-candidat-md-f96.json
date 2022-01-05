@@ -1,8 +1,8 @@
 {
   "unversionedId": "QuickStart/Recuperer_un_candidat",
   "id": "QuickStart/Recuperer_un_candidat",
-  "title": "Récupérer les infos d'un candidat",
-  "description": "",
+  "title": "Rechercher un candidat",
+  "description": "Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.",
   "source": "@site/docs/QuickStart/Recuperer_un_candidat.md",
   "sourceDirName": "QuickStart",
   "slug": "/QuickStart/Recuperer_un_candidat",

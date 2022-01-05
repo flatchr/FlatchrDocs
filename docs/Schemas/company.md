@@ -21,11 +21,11 @@ created_at | timestamp | Date de création |
 hiddens|[hiddens](./hiddens)||
 shared_applicants|boolean||
 shields|[[shield](./shield)]||
-ip_addresses|string||
+ip_addresses|string|| 
 billing_name|string|Nom de facturation|
 retention_policy | string | Mentions légales pour postuler | 
 activity |[activity](./activity) |  | 
 meta_logo | string | Logo | 
 logo | string | Logo | 
-address	 | [address](./address |  | 
+address	 | [address](./address) |  | 
 addressFormatted |string|Adresse|

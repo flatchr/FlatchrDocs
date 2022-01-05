@@ -17,7 +17,7 @@
     "permalink": "/docs/Use Cases/Multicomptes"
   },
   "next": {
-    "title": "Récupérer les annonces",
-    "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+    "title": "address",
+    "permalink": "/docs/Schemas/address"
   }
 }

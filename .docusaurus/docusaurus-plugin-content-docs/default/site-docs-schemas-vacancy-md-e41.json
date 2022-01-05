@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Schemas/vacancy",
+  "id": "Schemas/vacancy",
+  "title": "vacancy",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/vacancy.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/vacancy",
+  "permalink": "/docs/Schemas/vacancy",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/vacancy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tags",
+    "permalink": "/docs/Schemas/tags"
+  }
+}

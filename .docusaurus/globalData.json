@@ -31,6 +31,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Schemas/address",
+              "path": "/docs/Schemas/address",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/company",
+              "path": "/docs/Schemas/company",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/options",
+              "path": "/docs/Schemas/options",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/questions",
+              "path": "/docs/Schemas/questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/tags",
+              "path": "/docs/Schemas/tags",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/vacancy",
+              "path": "/docs/Schemas/vacancy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Use Cases/Formulaire_personalise",
               "path": "/docs/Use Cases/Formulaire_personalise",
               "sidebar": "tutorialSidebar"

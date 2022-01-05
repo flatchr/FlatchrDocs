@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/address",
+  "id": "Schemas/address",
+  "title": "address",
+  "description": "",
+  "source": "@site/docs/Schemas/address.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/address",
+  "permalink": "/docs/Schemas/address",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/address.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Récupérer ses données pour les intégrer dans un outil de BI",
+    "permalink": "/docs/Use Cases/Statistiques"
+  },
+  "next": {
+    "title": "company",
+    "permalink": "/docs/Schemas/company"
+  }
+}

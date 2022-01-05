@@ -55,7 +55,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','caf'),
+    component: ComponentCreator('/docs','4a0'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -78,6 +78,42 @@ export default [
       {
         path: '/docs/QuickStart/Recuperer_un_candidat',
         component: ComponentCreator('/docs/QuickStart/Recuperer_un_candidat','cf7'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/address',
+        component: ComponentCreator('/docs/Schemas/address','fe7'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/company',
+        component: ComponentCreator('/docs/Schemas/company','f4a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/options',
+        component: ComponentCreator('/docs/Schemas/options','49a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/questions',
+        component: ComponentCreator('/docs/Schemas/questions','9a6'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/tags',
+        component: ComponentCreator('/docs/Schemas/tags','a8f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/vacancy',
+        component: ComponentCreator('/docs/Schemas/vacancy','3e5'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

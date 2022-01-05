@@ -33,7 +33,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---webhooksefe-4d6"
   },
-  "/docs-caf": {
+  "/docs-4a0": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -52,6 +52,30 @@
   "/docs/QuickStart/Recuperer_un_candidat-cf7": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quick-start-recuperer-un-candidatf-96-2c1"
+  },
+  "/docs/Schemas/address-fe7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-address-544-c80"
+  },
+  "/docs/Schemas/company-f4a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-company-3-f-9-c70"
+  },
+  "/docs/Schemas/options-49a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-optionsb-9-c-031"
+  },
+  "/docs/Schemas/questions-9a6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-questions-5-fc-73a"
+  },
+  "/docs/Schemas/tags-a8f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-tags-1-e-4-c79"
+  },
+  "/docs/Schemas/vacancy-3e5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-vacancye-41-001"
   },
   "/docs/Use Cases/Formulaire_personalise-686": {
     "component": "component---theme-doc-item-178-a40",

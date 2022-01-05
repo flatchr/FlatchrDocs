@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Récupérer ses données pour les intégrer dans un outil de BI",
-    "permalink": "/docs/Use Cases/Statistiques"
+    "title": "Getting Started",
+    "permalink": "/docs/getting_started"
   },
   "next": {
     "title": "Récupérer les infos d'un candidat",

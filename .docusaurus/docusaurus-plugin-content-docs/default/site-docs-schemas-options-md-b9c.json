@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/options",
+  "id": "Schemas/options",
+  "title": "options",
+  "description": "",
+  "source": "@site/docs/Schemas/options.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/options",
+  "permalink": "/docs/Schemas/options",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/options.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "company",
+    "permalink": "/docs/Schemas/company"
+  },
+  "next": {
+    "title": "questions",
+    "permalink": "/docs/Schemas/questions"
+  }
+}

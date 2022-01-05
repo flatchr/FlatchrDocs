@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/company",
+  "id": "Schemas/company",
+  "title": "company",
+  "description": "",
+  "source": "@site/docs/Schemas/company.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/company",
+  "permalink": "/docs/Schemas/company",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/company.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "address",
+    "permalink": "/docs/Schemas/address"
+  },
+  "next": {
+    "title": "options",
+    "permalink": "/docs/Schemas/options"
+  }
+}

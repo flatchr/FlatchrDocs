@@ -18,5 +18,9 @@
   "previous": {
     "title": "Récupérer les infos d'un candidat",
     "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+  },
+  "next": {
+    "title": "Formulaire personnalisé",
+    "permalink": "/docs/Use Cases/Formulaire_personalise"
   }
 }

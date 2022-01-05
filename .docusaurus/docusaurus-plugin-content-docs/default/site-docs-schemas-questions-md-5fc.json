@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/questions",
+  "id": "Schemas/questions",
+  "title": "questions",
+  "description": "",
+  "source": "@site/docs/Schemas/questions.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/questions",
+  "permalink": "/docs/Schemas/questions",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/questions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "options",
+    "permalink": "/docs/Schemas/options"
+  },
+  "next": {
+    "title": "tags",
+    "permalink": "/docs/Schemas/tags"
+  }
+}

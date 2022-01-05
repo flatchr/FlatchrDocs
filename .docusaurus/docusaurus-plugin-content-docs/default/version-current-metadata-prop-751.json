@@ -16,6 +16,32 @@
       },
       {
         "type": "category",
+        "label": "QuickStart",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Récupérer les annonces",
+            "href": "/docs/QuickStart/Recuperer_les_annonces",
+            "docId": "QuickStart/Recuperer_les_annonces"
+          },
+          {
+            "type": "link",
+            "label": "Récupérer les infos d'un candidat",
+            "href": "/docs/QuickStart/Recuperer_un_candidat",
+            "docId": "QuickStart/Recuperer_un_candidat"
+          },
+          {
+            "type": "link",
+            "label": "Créer un candidat",
+            "href": "/docs/QuickStart/Creer_un_candidat",
+            "docId": "QuickStart/Creer_un_candidat"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Use Cases",
         "collapsible": true,
         "collapsed": true,
@@ -42,27 +68,45 @@
       },
       {
         "type": "category",
-        "label": "QuickStart",
+        "label": "Schemas",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Récupérer les annonces",
-            "href": "/docs/QuickStart/Recuperer_les_annonces",
-            "docId": "QuickStart/Recuperer_les_annonces"
+            "label": "address",
+            "href": "/docs/Schemas/address",
+            "docId": "Schemas/address"
           },
           {
             "type": "link",
-            "label": "Récupérer les infos d'un candidat",
-            "href": "/docs/QuickStart/Recuperer_un_candidat",
-            "docId": "QuickStart/Recuperer_un_candidat"
+            "label": "company",
+            "href": "/docs/Schemas/company",
+            "docId": "Schemas/company"
           },
           {
             "type": "link",
-            "label": "Créer un candidat",
-            "href": "/docs/QuickStart/Creer_un_candidat",
-            "docId": "QuickStart/Creer_un_candidat"
+            "label": "options",
+            "href": "/docs/Schemas/options",
+            "docId": "Schemas/options"
+          },
+          {
+            "type": "link",
+            "label": "questions",
+            "href": "/docs/Schemas/questions",
+            "docId": "Schemas/questions"
+          },
+          {
+            "type": "link",
+            "label": "tags",
+            "href": "/docs/Schemas/tags",
+            "docId": "Schemas/tags"
+          },
+          {
+            "type": "link",
+            "label": "vacancy",
+            "href": "/docs/Schemas/vacancy",
+            "docId": "Schemas/vacancy"
           }
         ]
       }
@@ -91,6 +135,42 @@
       "id": "QuickStart/Recuperer_un_candidat",
       "title": "Récupérer les infos d'un candidat",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/address": {
+      "id": "Schemas/address",
+      "title": "address",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/company": {
+      "id": "Schemas/company",
+      "title": "company",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/options": {
+      "id": "Schemas/options",
+      "title": "options",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/questions": {
+      "id": "Schemas/questions",
+      "title": "questions",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/tags": {
+      "id": "Schemas/tags",
+      "title": "tags",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/vacancy": {
+      "id": "Schemas/vacancy",
+      "title": "vacancy",
+      "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },
     "Use Cases/Formulaire_personalise": {

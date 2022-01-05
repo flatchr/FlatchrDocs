@@ -36,8 +36,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Formulaire personnalisé",
-                "permalink": "/docs/Use Cases/Formulaire_personalise"
+                "title": "Récupérer les annonces",
+                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
               }
             },
             {
@@ -60,6 +60,10 @@
               "previous": {
                 "title": "Récupérer les infos d'un candidat",
                 "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+              },
+              "next": {
+                "title": "Formulaire personnalisé",
+                "permalink": "/docs/Use Cases/Formulaire_personalise"
               }
             },
             {
@@ -80,8 +84,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Récupérer ses données pour les intégrer dans un outil de BI",
-                "permalink": "/docs/Use Cases/Statistiques"
+                "title": "Getting Started",
+                "permalink": "/docs/getting_started"
               },
               "next": {
                 "title": "Récupérer les infos d'un candidat",
@@ -115,6 +119,140 @@
               }
             },
             {
+              "unversionedId": "Schemas/address",
+              "id": "Schemas/address",
+              "title": "address",
+              "description": "",
+              "source": "@site/docs/Schemas/address.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/address",
+              "permalink": "/docs/Schemas/address",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/address.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Récupérer ses données pour les intégrer dans un outil de BI",
+                "permalink": "/docs/Use Cases/Statistiques"
+              },
+              "next": {
+                "title": "company",
+                "permalink": "/docs/Schemas/company"
+              }
+            },
+            {
+              "unversionedId": "Schemas/company",
+              "id": "Schemas/company",
+              "title": "company",
+              "description": "",
+              "source": "@site/docs/Schemas/company.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/company",
+              "permalink": "/docs/Schemas/company",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/company.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "address",
+                "permalink": "/docs/Schemas/address"
+              },
+              "next": {
+                "title": "options",
+                "permalink": "/docs/Schemas/options"
+              }
+            },
+            {
+              "unversionedId": "Schemas/options",
+              "id": "Schemas/options",
+              "title": "options",
+              "description": "",
+              "source": "@site/docs/Schemas/options.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/options",
+              "permalink": "/docs/Schemas/options",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/options.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "company",
+                "permalink": "/docs/Schemas/company"
+              },
+              "next": {
+                "title": "questions",
+                "permalink": "/docs/Schemas/questions"
+              }
+            },
+            {
+              "unversionedId": "Schemas/questions",
+              "id": "Schemas/questions",
+              "title": "questions",
+              "description": "",
+              "source": "@site/docs/Schemas/questions.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/questions",
+              "permalink": "/docs/Schemas/questions",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/questions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "options",
+                "permalink": "/docs/Schemas/options"
+              },
+              "next": {
+                "title": "tags",
+                "permalink": "/docs/Schemas/tags"
+              }
+            },
+            {
+              "unversionedId": "Schemas/tags",
+              "id": "Schemas/tags",
+              "title": "tags",
+              "description": "",
+              "source": "@site/docs/Schemas/tags.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/tags",
+              "permalink": "/docs/Schemas/tags",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/tags.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "questions",
+                "permalink": "/docs/Schemas/questions"
+              },
+              "next": {
+                "title": "vacancy",
+                "permalink": "/docs/Schemas/vacancy"
+              }
+            },
+            {
+              "unversionedId": "Schemas/vacancy",
+              "id": "Schemas/vacancy",
+              "title": "vacancy",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/vacancy.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/vacancy",
+              "permalink": "/docs/Schemas/vacancy",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/vacancy.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "tags",
+                "permalink": "/docs/Schemas/tags"
+              }
+            },
+            {
               "unversionedId": "Use Cases/Formulaire_personalise",
               "id": "Use Cases/Formulaire_personalise",
               "title": "Formulaire personnalisé",
@@ -129,8 +267,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/getting_started"
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
               },
               "next": {
                 "title": "Multicomptes",
@@ -179,8 +317,8 @@
                 "permalink": "/docs/Use Cases/Multicomptes"
               },
               "next": {
-                "title": "Récupérer les annonces",
-                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+                "title": "address",
+                "permalink": "/docs/Schemas/address"
               }
             }
           ],
@@ -189,6 +327,26 @@
               {
                 "type": "doc",
                 "id": "getting_started"
+              },
+              {
+                "type": "category",
+                "label": "QuickStart",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Recuperer_les_annonces"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Recuperer_un_candidat"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Creer_un_candidat"
+                  }
+                ]
               },
               {
                 "type": "category",
@@ -212,21 +370,33 @@
               },
               {
                 "type": "category",
-                "label": "QuickStart",
+                "label": "Schemas",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "QuickStart/Recuperer_les_annonces"
+                    "id": "Schemas/address"
                   },
                   {
                     "type": "doc",
-                    "id": "QuickStart/Recuperer_un_candidat"
+                    "id": "Schemas/company"
                   },
                   {
                     "type": "doc",
-                    "id": "QuickStart/Creer_un_candidat"
+                    "id": "Schemas/options"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/questions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/tags"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/vacancy"
                   }
                 ]
               }

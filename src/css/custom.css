@@ -92,3 +92,13 @@ table {
    table tr:nth-child(even) > td {
     background-color: #fbfcfd;
   }
+
+  html[data-theme='dark']  table tr:nth-child(odd) > td {
+    background-color: #18191a; 
+  }
+
+  html[data-theme='dark']  table tr:nth-child(even) > td {
+    background-color: #242526;
+  }
+ 
+  

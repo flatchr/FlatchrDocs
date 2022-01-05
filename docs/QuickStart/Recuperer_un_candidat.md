@@ -22,9 +22,9 @@ Pour l'obtenir vous pouvez vous rapprocher du support flatchr ou aller le cherch
 :::info
 
 ### Paramètres
-|Name|In|Type|Obligatoire|Description|
+|Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-companyId|path|string|true|Identifiant de l'entreprise
+companyId|path|string|<center>✔️</center>|Identifiant de l'entreprise
 ||||||
 firstname|query|string||Prénom|
 lastname|query|string||Nom|

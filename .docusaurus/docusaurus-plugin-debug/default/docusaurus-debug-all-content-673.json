@@ -62,8 +62,8 @@
                 "permalink": "/docs/QuickStart/Recuperer_un_candidat"
               },
               "next": {
-                "title": "Formulaire personnalisé",
-                "permalink": "/docs/Use Cases/Formulaire_personalise"
+                "title": "activity",
+                "permalink": "/docs/Schemas/activity"
               }
             },
             {
@@ -133,8 +133,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Récupérer ses données pour les intégrer dans un outil de BI",
-                "permalink": "/docs/Use Cases/Statistiques"
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
               },
               "next": {
                 "title": "address",
@@ -319,6 +319,10 @@
               "previous": {
                 "title": "tags",
                 "permalink": "/docs/Schemas/tag"
+              },
+              "next": {
+                "title": "Formulaire personnalisé",
+                "permalink": "/docs/Use Cases/Formulaire_personalise"
               }
             },
             {
@@ -336,8 +340,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Créer un candidat",
-                "permalink": "/docs/QuickStart/Creer_un_candidat"
+                "title": "vacancy",
+                "permalink": "/docs/Schemas/vacancy"
               },
               "next": {
                 "title": "Multicomptes",
@@ -384,10 +388,6 @@
               "previous": {
                 "title": "Multicomptes",
                 "permalink": "/docs/Use Cases/Multicomptes"
-              },
-              "next": {
-                "title": "activity",
-                "permalink": "/docs/Schemas/activity"
               }
             }
           ],
@@ -414,26 +414,6 @@
                   {
                     "type": "doc",
                     "id": "QuickStart/Creer_un_candidat"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Use Cases",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Use Cases/Formulaire_personalise"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Use Cases/Multicomptes"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Use Cases/Statistiques"
                   }
                 ]
               },
@@ -478,6 +458,26 @@
                   {
                     "type": "doc",
                     "id": "Schemas/vacancy"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Use Cases",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Use Cases/Formulaire_personalise"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Use Cases/Multicomptes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Use Cases/Statistiques"
                   }
                 ]
               }

@@ -18,9 +18,9 @@ GET /company/{slug}.json
 ```
 
 ### Paramètres
-|Name|In|Type|Obligatoire|Description|
+|Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-slug|path|string|true|Slug de l'entreprise |
+slug|path|string|<center>✔️</center>|Slug de l'entreprise |
 
 :::tip Slug
 Votre `slug` est la référence unique de votre entreprise qui se trouve dans l’URL de votre site carrière.

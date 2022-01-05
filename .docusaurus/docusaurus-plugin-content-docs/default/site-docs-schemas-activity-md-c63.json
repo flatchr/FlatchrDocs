@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/activity",
+  "id": "Schemas/activity",
+  "title": "activity",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/activity.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/activity",
+  "permalink": "/docs/Schemas/activity",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/activity.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Créer un candidat",
+    "permalink": "/docs/QuickStart/Creer_un_candidat"
+  },
+  "next": {
+    "title": "address",
+    "permalink": "/docs/Schemas/address"
+  }
+}

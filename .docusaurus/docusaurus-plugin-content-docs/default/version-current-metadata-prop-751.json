@@ -42,6 +42,68 @@
       },
       {
         "type": "category",
+        "label": "Schemas",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "activity",
+            "href": "/docs/Schemas/activity",
+            "docId": "Schemas/activity"
+          },
+          {
+            "type": "link",
+            "label": "address",
+            "href": "/docs/Schemas/address",
+            "docId": "Schemas/address"
+          },
+          {
+            "type": "link",
+            "label": "company",
+            "href": "/docs/Schemas/company",
+            "docId": "Schemas/company"
+          },
+          {
+            "type": "link",
+            "label": "hiddens",
+            "href": "/docs/Schemas/hiddens",
+            "docId": "Schemas/hiddens"
+          },
+          {
+            "type": "link",
+            "label": "options",
+            "href": "/docs/Schemas/options",
+            "docId": "Schemas/options"
+          },
+          {
+            "type": "link",
+            "label": "question",
+            "href": "/docs/Schemas/question",
+            "docId": "Schemas/question"
+          },
+          {
+            "type": "link",
+            "label": "shield",
+            "href": "/docs/Schemas/shield",
+            "docId": "Schemas/shield"
+          },
+          {
+            "type": "link",
+            "label": "tags",
+            "href": "/docs/Schemas/tag",
+            "docId": "Schemas/tag"
+          },
+          {
+            "type": "link",
+            "label": "vacancy",
+            "href": "/docs/Schemas/vacancy",
+            "docId": "Schemas/vacancy"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Use Cases",
         "collapsible": true,
         "collapsed": true,
@@ -63,50 +125,6 @@
             "label": "Récupérer ses données pour les intégrer dans un outil de BI",
             "href": "/docs/Use Cases/Statistiques",
             "docId": "Use Cases/Statistiques"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Schemas",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "address",
-            "href": "/docs/Schemas/address",
-            "docId": "Schemas/address"
-          },
-          {
-            "type": "link",
-            "label": "company",
-            "href": "/docs/Schemas/company",
-            "docId": "Schemas/company"
-          },
-          {
-            "type": "link",
-            "label": "options",
-            "href": "/docs/Schemas/options",
-            "docId": "Schemas/options"
-          },
-          {
-            "type": "link",
-            "label": "questions",
-            "href": "/docs/Schemas/questions",
-            "docId": "Schemas/questions"
-          },
-          {
-            "type": "link",
-            "label": "tags",
-            "href": "/docs/Schemas/tags",
-            "docId": "Schemas/tags"
-          },
-          {
-            "type": "link",
-            "label": "vacancy",
-            "href": "/docs/Schemas/vacancy",
-            "docId": "Schemas/vacancy"
           }
         ]
       }
@@ -137,34 +155,52 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
+    "Schemas/activity": {
+      "id": "Schemas/activity",
+      "title": "activity",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
     "Schemas/address": {
       "id": "Schemas/address",
       "title": "address",
-      "description": "",
+      "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/company": {
       "id": "Schemas/company",
       "title": "company",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/hiddens": {
+      "id": "Schemas/hiddens",
+      "title": "hiddens",
       "description": "",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/options": {
       "id": "Schemas/options",
       "title": "options",
-      "description": "",
+      "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },
-    "Schemas/questions": {
-      "id": "Schemas/questions",
-      "title": "questions",
-      "description": "",
+    "Schemas/question": {
+      "id": "Schemas/question",
+      "title": "question",
+      "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },
-    "Schemas/tags": {
-      "id": "Schemas/tags",
+    "Schemas/shield": {
+      "id": "Schemas/shield",
+      "title": "shield",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/tag": {
+      "id": "Schemas/tag",
       "title": "tags",
-      "description": "",
+      "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/vacancy": {

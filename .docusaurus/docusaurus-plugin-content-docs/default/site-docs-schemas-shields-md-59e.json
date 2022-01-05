@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/shields",
+  "id": "Schemas/shields",
+  "title": "shields",
+  "description": "",
+  "source": "@site/docs/Schemas/shields.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/shields",
+  "permalink": "/docs/Schemas/shields",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/shields.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "question",
+    "permalink": "/docs/Schemas/question"
+  },
+  "next": {
+    "title": "tags",
+    "permalink": "/docs/Schemas/tag"
+  }
+}

@@ -55,7 +55,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','4a0'),
+    component: ComponentCreator('/docs','abc'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -82,6 +82,12 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/Schemas/activity',
+        component: ComponentCreator('/docs/Schemas/activity','eed'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/Schemas/address',
         component: ComponentCreator('/docs/Schemas/address','fe7'),
         exact: true,
@@ -94,20 +100,32 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/Schemas/hiddens',
+        component: ComponentCreator('/docs/Schemas/hiddens','6ad'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/Schemas/options',
         component: ComponentCreator('/docs/Schemas/options','49a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Schemas/questions',
-        component: ComponentCreator('/docs/Schemas/questions','9a6'),
+        path: '/docs/Schemas/question',
+        component: ComponentCreator('/docs/Schemas/question','9ee'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Schemas/tags',
-        component: ComponentCreator('/docs/Schemas/tags','a8f'),
+        path: '/docs/Schemas/shield',
+        component: ComponentCreator('/docs/Schemas/shield','92f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/tag',
+        component: ComponentCreator('/docs/Schemas/tag','ef3'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

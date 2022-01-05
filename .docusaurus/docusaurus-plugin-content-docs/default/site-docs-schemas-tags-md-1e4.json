@@ -2,7 +2,7 @@
   "unversionedId": "Schemas/tags",
   "id": "Schemas/tags",
   "title": "tags",
-  "description": "",
+  "description": "|Name|Type|Description|",
   "source": "@site/docs/Schemas/tags.md",
   "sourceDirName": "Schemas",
   "slug": "/Schemas/tags",
@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "questions",
-    "permalink": "/docs/Schemas/questions"
+    "title": "shields",
+    "permalink": "/docs/Schemas/shields"
   },
   "next": {
     "title": "vacancy",

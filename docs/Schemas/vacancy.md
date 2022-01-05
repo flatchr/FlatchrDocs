@@ -14,7 +14,7 @@ profile|string|Descriptif du profil recherché|
 salary|integer|Salaire pour le poste|
 status|integer|Statut de l'annonce|
 language|enum|Langue ex: fr_FR|
-tags|[tags](./tags)||
+tags|[[tag](./tag)]|Un tableau de tag|
 contract_type_id|integer|Id du type de contrat|
 education_level_id|integer|Id du niveau d'étude demandé|
 activity_id|integer|Id du secteur d'activité|
@@ -46,4 +46,4 @@ address|[address](./address)||
 adressFormatted|string|Adresse de l'entreprise|
 company|[company](./company)||
 slug_mail|string|slug de l'email pour l'envoi de candidatures|
-questions|[questions](./questions)||
+questions|[[question](./question)]|Un tableau de questions|

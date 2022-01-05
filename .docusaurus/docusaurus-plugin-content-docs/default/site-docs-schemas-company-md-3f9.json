@@ -2,7 +2,7 @@
   "unversionedId": "Schemas/company",
   "id": "Schemas/company",
   "title": "company",
-  "description": "",
+  "description": "|Name|Type|Description|",
   "source": "@site/docs/Schemas/company.md",
   "sourceDirName": "Schemas",
   "slug": "/Schemas/company",
@@ -17,7 +17,7 @@
     "permalink": "/docs/Schemas/address"
   },
   "next": {
-    "title": "options",
-    "permalink": "/docs/Schemas/options"
+    "title": "hiddens",
+    "permalink": "/docs/Schemas/hiddens"
   }
 }

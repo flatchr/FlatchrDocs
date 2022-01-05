@@ -62,8 +62,8 @@
                 "permalink": "/docs/QuickStart/Recuperer_un_candidat"
               },
               "next": {
-                "title": "Formulaire personnalisé",
-                "permalink": "/docs/Use Cases/Formulaire_personalise"
+                "title": "activity",
+                "permalink": "/docs/Schemas/activity"
               }
             },
             {
@@ -119,10 +119,33 @@
               }
             },
             {
+              "unversionedId": "Schemas/activity",
+              "id": "Schemas/activity",
+              "title": "activity",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/activity.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/activity",
+              "permalink": "/docs/Schemas/activity",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/activity.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
+              },
+              "next": {
+                "title": "address",
+                "permalink": "/docs/Schemas/address"
+              }
+            },
+            {
               "unversionedId": "Schemas/address",
               "id": "Schemas/address",
               "title": "address",
-              "description": "",
+              "description": "|Name|Type|Description|",
               "source": "@site/docs/Schemas/address.md",
               "sourceDirName": "Schemas",
               "slug": "/Schemas/address",
@@ -133,8 +156,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Récupérer ses données pour les intégrer dans un outil de BI",
-                "permalink": "/docs/Use Cases/Statistiques"
+                "title": "activity",
+                "permalink": "/docs/Schemas/activity"
               },
               "next": {
                 "title": "company",
@@ -145,7 +168,7 @@
               "unversionedId": "Schemas/company",
               "id": "Schemas/company",
               "title": "company",
-              "description": "",
+              "description": "|Name|Type|Description|",
               "source": "@site/docs/Schemas/company.md",
               "sourceDirName": "Schemas",
               "slug": "/Schemas/company",
@@ -160,6 +183,29 @@
                 "permalink": "/docs/Schemas/address"
               },
               "next": {
+                "title": "hiddens",
+                "permalink": "/docs/Schemas/hiddens"
+              }
+            },
+            {
+              "unversionedId": "Schemas/hiddens",
+              "id": "Schemas/hiddens",
+              "title": "hiddens",
+              "description": "",
+              "source": "@site/docs/Schemas/hiddens.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/hiddens",
+              "permalink": "/docs/Schemas/hiddens",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/hiddens.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "company",
+                "permalink": "/docs/Schemas/company"
+              },
+              "next": {
                 "title": "options",
                 "permalink": "/docs/Schemas/options"
               }
@@ -168,7 +214,7 @@
               "unversionedId": "Schemas/options",
               "id": "Schemas/options",
               "title": "options",
-              "description": "",
+              "description": "|Name|Type|Description|",
               "source": "@site/docs/Schemas/options.md",
               "sourceDirName": "Schemas",
               "slug": "/Schemas/options",
@@ -179,24 +225,24 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "company",
-                "permalink": "/docs/Schemas/company"
+                "title": "hiddens",
+                "permalink": "/docs/Schemas/hiddens"
               },
               "next": {
-                "title": "questions",
-                "permalink": "/docs/Schemas/questions"
+                "title": "question",
+                "permalink": "/docs/Schemas/question"
               }
             },
             {
-              "unversionedId": "Schemas/questions",
-              "id": "Schemas/questions",
-              "title": "questions",
-              "description": "",
-              "source": "@site/docs/Schemas/questions.md",
+              "unversionedId": "Schemas/question",
+              "id": "Schemas/question",
+              "title": "question",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/question.md",
               "sourceDirName": "Schemas",
-              "slug": "/Schemas/questions",
-              "permalink": "/docs/Schemas/questions",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/questions.md",
+              "slug": "/Schemas/question",
+              "permalink": "/docs/Schemas/question",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/question.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -206,27 +252,50 @@
                 "permalink": "/docs/Schemas/options"
               },
               "next": {
-                "title": "tags",
-                "permalink": "/docs/Schemas/tags"
+                "title": "shield",
+                "permalink": "/docs/Schemas/shield"
               }
             },
             {
-              "unversionedId": "Schemas/tags",
-              "id": "Schemas/tags",
-              "title": "tags",
-              "description": "",
-              "source": "@site/docs/Schemas/tags.md",
+              "unversionedId": "Schemas/shield",
+              "id": "Schemas/shield",
+              "title": "shield",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/shield.md",
               "sourceDirName": "Schemas",
-              "slug": "/Schemas/tags",
-              "permalink": "/docs/Schemas/tags",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/tags.md",
+              "slug": "/Schemas/shield",
+              "permalink": "/docs/Schemas/shield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/shield.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "questions",
-                "permalink": "/docs/Schemas/questions"
+                "title": "question",
+                "permalink": "/docs/Schemas/question"
+              },
+              "next": {
+                "title": "tags",
+                "permalink": "/docs/Schemas/tag"
+              }
+            },
+            {
+              "unversionedId": "Schemas/tag",
+              "id": "Schemas/tag",
+              "title": "tags",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/tag.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/tag",
+              "permalink": "/docs/Schemas/tag",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/tag.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "shield",
+                "permalink": "/docs/Schemas/shield"
               },
               "next": {
                 "title": "vacancy",
@@ -249,7 +318,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "tags",
-                "permalink": "/docs/Schemas/tags"
+                "permalink": "/docs/Schemas/tag"
+              },
+              "next": {
+                "title": "Formulaire personnalisé",
+                "permalink": "/docs/Use Cases/Formulaire_personalise"
               }
             },
             {
@@ -267,8 +340,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Créer un candidat",
-                "permalink": "/docs/QuickStart/Creer_un_candidat"
+                "title": "vacancy",
+                "permalink": "/docs/Schemas/vacancy"
               },
               "next": {
                 "title": "Multicomptes",
@@ -315,10 +388,6 @@
               "previous": {
                 "title": "Multicomptes",
                 "permalink": "/docs/Use Cases/Multicomptes"
-              },
-              "next": {
-                "title": "address",
-                "permalink": "/docs/Schemas/address"
               }
             }
           ],
@@ -350,6 +419,50 @@
               },
               {
                 "type": "category",
+                "label": "Schemas",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Schemas/activity"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/address"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/company"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/hiddens"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/options"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/question"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/shield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/tag"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/vacancy"
+                  }
+                ]
+              },
+              {
+                "type": "category",
                 "label": "Use Cases",
                 "collapsible": true,
                 "collapsed": true,
@@ -365,38 +478,6 @@
                   {
                     "type": "doc",
                     "id": "Use Cases/Statistiques"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Schemas",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Schemas/address"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Schemas/company"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Schemas/options"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Schemas/questions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Schemas/tags"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Schemas/vacancy"
                   }
                 ]
               }

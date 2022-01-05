@@ -33,7 +33,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---webhooksefe-4d6"
   },
-  "/docs-4a0": {
+  "/docs-abc": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -53,6 +53,10 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quick-start-recuperer-un-candidatf-96-2c1"
   },
+  "/docs/Schemas/activity-eed": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-activityc-63-863"
+  },
   "/docs/Schemas/address-fe7": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-address-544-c80"
@@ -61,17 +65,25 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-company-3-f-9-c70"
   },
+  "/docs/Schemas/hiddens-6ad": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-hiddensc-3-c-0ca"
+  },
   "/docs/Schemas/options-49a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-optionsb-9-c-031"
   },
-  "/docs/Schemas/questions-9a6": {
+  "/docs/Schemas/question-9ee": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-schemas-questions-5-fc-73a"
+    "content": "content---docs-schemas-questionf-36-ec0"
   },
-  "/docs/Schemas/tags-a8f": {
+  "/docs/Schemas/shield-92f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-schemas-tags-1-e-4-c79"
+    "content": "content---docs-schemas-shield-98-d-5ec"
+  },
+  "/docs/Schemas/tag-ef3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-tagcfd-ab1"
   },
   "/docs/Schemas/vacancy-3e5": {
     "component": "component---theme-doc-item-178-a40",

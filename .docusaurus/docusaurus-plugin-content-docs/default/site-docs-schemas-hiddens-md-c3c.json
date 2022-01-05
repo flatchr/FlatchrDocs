@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/hiddens",
+  "id": "Schemas/hiddens",
+  "title": "hiddens",
+  "description": "",
+  "source": "@site/docs/Schemas/hiddens.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/hiddens",
+  "permalink": "/docs/Schemas/hiddens",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/hiddens.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "company",
+    "permalink": "/docs/Schemas/company"
+  },
+  "next": {
+    "title": "options",
+    "permalink": "/docs/Schemas/options"
+  }
+}

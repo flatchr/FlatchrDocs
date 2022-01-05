@@ -2,7 +2,7 @@
   "unversionedId": "Schemas/address",
   "id": "Schemas/address",
   "title": "address",
-  "description": "",
+  "description": "|Name|Type|Description|",
   "source": "@site/docs/Schemas/address.md",
   "sourceDirName": "Schemas",
   "slug": "/Schemas/address",
@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Récupérer ses données pour les intégrer dans un outil de BI",
-    "permalink": "/docs/Use Cases/Statistiques"
+    "title": "activity",
+    "permalink": "/docs/Schemas/activity"
   },
   "next": {
     "title": "company",

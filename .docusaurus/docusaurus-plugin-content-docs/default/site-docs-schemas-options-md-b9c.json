@@ -2,7 +2,7 @@
   "unversionedId": "Schemas/options",
   "id": "Schemas/options",
   "title": "options",
-  "description": "",
+  "description": "|Name|Type|Description|",
   "source": "@site/docs/Schemas/options.md",
   "sourceDirName": "Schemas",
   "slug": "/Schemas/options",
@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "company",
-    "permalink": "/docs/Schemas/company"
+    "title": "hiddens",
+    "permalink": "/docs/Schemas/hiddens"
   },
   "next": {
-    "title": "questions",
-    "permalink": "/docs/Schemas/questions"
+    "title": "question",
+    "permalink": "/docs/Schemas/question"
   }
 }

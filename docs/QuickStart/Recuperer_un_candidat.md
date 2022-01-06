@@ -14,6 +14,7 @@ Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.
 ```jsx
 POST /company/{companyID}/search/applicants
 ```
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
 
 :::tip companyID
 Afin d'utiliser l'API vous avez besoin de votre `companyID` qui est un identifiant alphanumérique sur 16 caractères. 

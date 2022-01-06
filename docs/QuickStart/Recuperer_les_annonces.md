@@ -16,6 +16,8 @@ Il est possible de récupérer vos annonces au format JSON en utilisant la requ�
 ```jsx
 GET /company/{slug}.json
 ```
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
+
 
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|

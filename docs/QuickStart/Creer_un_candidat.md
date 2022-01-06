@@ -20,6 +20,7 @@ Vous pouvez créer des candidats en utilisant l'API grâce à la requête suivan
 ```jsx
     POST vacancy/candidate/json
 ```
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
 </details>
 
 <details>
@@ -28,6 +29,7 @@ Vous pouvez créer des candidats en utilisant l'API grâce à la requête suivan
 ```jsx
     POST vacancy/candidate/custom
 ```
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
 </details>
 
 

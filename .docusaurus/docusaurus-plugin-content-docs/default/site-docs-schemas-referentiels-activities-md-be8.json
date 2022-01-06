@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/Referentiels/activities",
+  "id": "Schemas/Referentiels/activities",
+  "title": "activities",
+  "description": "Le référenciel des secteurs d'activité peut être appelé avec la requête :",
+  "source": "@site/docs/Schemas/Referentiels/activities.md",
+  "sourceDirName": "Schemas/Referentiels",
+  "slug": "/Schemas/Referentiels/activities",
+  "permalink": "/docs/Schemas/Referentiels/activities",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/activities.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "vacancy",
+    "permalink": "/docs/Schemas/vacancy"
+  },
+  "next": {
+    "title": "channels",
+    "permalink": "/docs/Schemas/Referentiels/channels"
+  }
+}

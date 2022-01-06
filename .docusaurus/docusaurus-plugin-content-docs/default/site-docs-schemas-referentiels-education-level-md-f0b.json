@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/Referentiels/education_level",
+  "id": "Schemas/Referentiels/education_level",
+  "title": "education level",
+  "description": "Le référenciel des niveaux d'éducation peut être appelé avec la requête :",
+  "source": "@site/docs/Schemas/Referentiels/education_level.md",
+  "sourceDirName": "Schemas/Referentiels",
+  "slug": "/Schemas/Referentiels/education_level",
+  "permalink": "/docs/Schemas/Referentiels/education_level",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/education_level.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "contract type",
+    "permalink": "/docs/Schemas/Referentiels/contract_type"
+  },
+  "next": {
+    "title": "Formulaire personnalisé",
+    "permalink": "/docs/Use Cases/Formulaire_personalise"
+  }
+}

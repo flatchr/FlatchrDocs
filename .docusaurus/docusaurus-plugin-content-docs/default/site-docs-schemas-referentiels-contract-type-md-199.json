@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/Referentiels/contract type",
+  "id": "Schemas/Referentiels/contract type",
+  "title": "contract type",
+  "description": "Le référenciel des contract type peutêtre appelé avec la requête :",
+  "source": "@site/docs/Schemas/Referentiels/contract type.md",
+  "sourceDirName": "Schemas/Referentiels",
+  "slug": "/Schemas/Referentiels/contract type",
+  "permalink": "/docs/Schemas/Referentiels/contract type",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/contract type.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "vacancy",
+    "permalink": "/docs/Schemas/vacancy"
+  },
+  "next": {
+    "title": "Formulaire personnalisé",
+    "permalink": "/docs/Use Cases/Formulaire_personalise"
+  }
+}

@@ -105,6 +105,44 @@
             "label": "vacancy",
             "href": "/docs/Schemas/vacancy",
             "docId": "Schemas/vacancy"
+          },
+          {
+            "type": "category",
+            "label": "Referentiels",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "activities",
+                "href": "/docs/Schemas/Referentiels/activities",
+                "docId": "Schemas/Referentiels/activities"
+              },
+              {
+                "type": "link",
+                "label": "channels",
+                "href": "/docs/Schemas/Referentiels/channels",
+                "docId": "Schemas/Referentiels/channels"
+              },
+              {
+                "type": "link",
+                "label": "contract type",
+                "href": "/docs/Schemas/Referentiels/contract_type",
+                "docId": "Schemas/Referentiels/contract_type"
+              },
+              {
+                "type": "link",
+                "label": "education levels",
+                "href": "/docs/Schemas/Referentiels/education_levels",
+                "docId": "Schemas/Referentiels/education_levels"
+              },
+              {
+                "type": "link",
+                "label": "metiers",
+                "href": "/docs/Schemas/Referentiels/metiers",
+                "docId": "Schemas/Referentiels/metiers"
+              }
+            ]
           }
         ]
       },
@@ -201,6 +239,36 @@
       "id": "Schemas/question",
       "title": "question",
       "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/Referentiels/activities": {
+      "id": "Schemas/Referentiels/activities",
+      "title": "activities",
+      "description": "Le référenciel des secteurs d'activité peut être appelé avec la requête :",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/Referentiels/channels": {
+      "id": "Schemas/Referentiels/channels",
+      "title": "channels",
+      "description": "Le référenciel des filières peut être appelé avec la requête :",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/Referentiels/contract_type": {
+      "id": "Schemas/Referentiels/contract_type",
+      "title": "contract type",
+      "description": "Le référenciel des types de contrat peut être appelé avec la requête :",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/Referentiels/education_levels": {
+      "id": "Schemas/Referentiels/education_levels",
+      "title": "education levels",
+      "description": "Le référenciel des niveaux d'éducation peut être appelé avec la requête :",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/Referentiels/metiers": {
+      "id": "Schemas/Referentiels/metiers",
+      "title": "metiers",
+      "description": "Le référenciel des métiers peut être appelé avec la requête :",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/shield": {

@@ -15,11 +15,11 @@ salary|integer|Salaire pour le poste|
 status|integer|Statut de l'annonce|
 language|enum|Langue ex: fr_FR|
 tags|[[tag](./tag)]|Un tableau de tag|
-contract_type_id|integer|Id du type de contrat|
-education_level_id|integer|Id du niveau d'étude demandé|
-activity_id|integer|Id du secteur d'activité|
-channel_id|integer|Id de la filière|
-metier_id|integer|Id du métier|
+contract_type_id|integer|Id du [type de contrat](./referentiels/contract_type)|
+education_level_id|integer|Id du [niveau d'étude](./referentiels/education_levels) demandé|
+activity_id|integer|Id du [secteur d'activité](./referentiels/activities)|
+channel_id|integer|Id de la [filière](./referentiels/channels)|
+metier_id|integer|Id du [métier](./referentiels/metiers)|
 company_id|integer|Id de l'entreprise|
 mensuality|enum|Descriptif du salaire (y: annuel, m:mensuel, h: horaire)|
 apply_url|url||

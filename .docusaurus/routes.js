@@ -55,7 +55,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','6d7'),
+    component: ComponentCreator('/docs','3d6'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -120,6 +120,36 @@ export default [
       {
         path: '/docs/Schemas/question',
         component: ComponentCreator('/docs/Schemas/question','9ee'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/Referentiels/activities',
+        component: ComponentCreator('/docs/Schemas/Referentiels/activities','4c2'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/Referentiels/channels',
+        component: ComponentCreator('/docs/Schemas/Referentiels/channels','4c8'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/Referentiels/contract_type',
+        component: ComponentCreator('/docs/Schemas/Referentiels/contract_type','44d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/Referentiels/education_levels',
+        component: ComponentCreator('/docs/Schemas/Referentiels/education_levels','5ae'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/Referentiels/metiers',
+        component: ComponentCreator('/docs/Schemas/Referentiels/metiers','10c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

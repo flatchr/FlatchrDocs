@@ -66,6 +66,31 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Schemas/Referentiels/activities",
+              "path": "/docs/Schemas/Referentiels/activities",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/channels",
+              "path": "/docs/Schemas/Referentiels/channels",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/contract_type",
+              "path": "/docs/Schemas/Referentiels/contract_type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/education_levels",
+              "path": "/docs/Schemas/Referentiels/education_levels",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/metiers",
+              "path": "/docs/Schemas/Referentiels/metiers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Schemas/shield",
               "path": "/docs/Schemas/shield",
               "sidebar": "tutorialSidebar"

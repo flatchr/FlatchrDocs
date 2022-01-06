@@ -34,7 +34,7 @@ Vous pouvez créer des candidats en utilisant l'API grâce à la requête suivan
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-vacancy	| query | string | <center>✔️</center> | Identifiant unique de l’annonce |
+vacancy	| query | string | <center>✔️</center> | Slug de l'annonce  |
 firstname| query | string | <center>✔️</center> | Prénom /[a-zA-Z]/ |
 lastname | query | string | <center>✔️</center> | Nom /[a-zA-Z]/ |
 token | query | string | <center>✔️</center> |	Clé API. Elle est créée dans l’interface Flatchr |

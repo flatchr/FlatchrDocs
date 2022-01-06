@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/Referentiels/metiers",
+  "id": "Schemas/Referentiels/metiers",
+  "title": "metiers",
+  "description": "Le référenciel des métiers peut être appelé avec la requête :",
+  "source": "@site/docs/Schemas/Referentiels/metiers.md",
+  "sourceDirName": "Schemas/Referentiels",
+  "slug": "/Schemas/Referentiels/metiers",
+  "permalink": "/docs/Schemas/Referentiels/metiers",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/metiers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "education levels",
+    "permalink": "/docs/Schemas/Referentiels/education_levels"
+  },
+  "next": {
+    "title": "Formulaire personnalisé",
+    "permalink": "/docs/Use Cases/Formulaire_personalise"
+  }
+}

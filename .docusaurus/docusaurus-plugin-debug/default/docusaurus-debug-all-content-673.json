@@ -280,6 +280,121 @@
               }
             },
             {
+              "unversionedId": "Schemas/Referentiels/activities",
+              "id": "Schemas/Referentiels/activities",
+              "title": "activities",
+              "description": "Le référenciel des secteurs d'activité peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/activities.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/activities",
+              "permalink": "/docs/Schemas/Referentiels/activities",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/activities.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "vacancy",
+                "permalink": "/docs/Schemas/vacancy"
+              },
+              "next": {
+                "title": "channels",
+                "permalink": "/docs/Schemas/Referentiels/channels"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/channels",
+              "id": "Schemas/Referentiels/channels",
+              "title": "channels",
+              "description": "Le référenciel des filières peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/channels.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/channels",
+              "permalink": "/docs/Schemas/Referentiels/channels",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/channels.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "activities",
+                "permalink": "/docs/Schemas/Referentiels/activities"
+              },
+              "next": {
+                "title": "contract type",
+                "permalink": "/docs/Schemas/Referentiels/contract_type"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/contract_type",
+              "id": "Schemas/Referentiels/contract_type",
+              "title": "contract type",
+              "description": "Le référenciel des types de contrat peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/contract_type.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/contract_type",
+              "permalink": "/docs/Schemas/Referentiels/contract_type",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/contract_type.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "channels",
+                "permalink": "/docs/Schemas/Referentiels/channels"
+              },
+              "next": {
+                "title": "education levels",
+                "permalink": "/docs/Schemas/Referentiels/education_levels"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/education_levels",
+              "id": "Schemas/Referentiels/education_levels",
+              "title": "education levels",
+              "description": "Le référenciel des niveaux d'éducation peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/education_levels.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/education_levels",
+              "permalink": "/docs/Schemas/Referentiels/education_levels",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/education_levels.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "contract type",
+                "permalink": "/docs/Schemas/Referentiels/contract_type"
+              },
+              "next": {
+                "title": "metiers",
+                "permalink": "/docs/Schemas/Referentiels/metiers"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/metiers",
+              "id": "Schemas/Referentiels/metiers",
+              "title": "metiers",
+              "description": "Le référenciel des métiers peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/metiers.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/metiers",
+              "permalink": "/docs/Schemas/Referentiels/metiers",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/metiers.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "education levels",
+                "permalink": "/docs/Schemas/Referentiels/education_levels"
+              },
+              "next": {
+                "title": "Formulaire personnalisé",
+                "permalink": "/docs/Use Cases/Formulaire_personalise"
+              }
+            },
+            {
               "unversionedId": "Schemas/shield",
               "id": "Schemas/shield",
               "title": "shield",
@@ -344,8 +459,8 @@
                 "permalink": "/docs/Schemas/tag"
               },
               "next": {
-                "title": "Formulaire personnalisé",
-                "permalink": "/docs/Use Cases/Formulaire_personalise"
+                "title": "activities",
+                "permalink": "/docs/Schemas/Referentiels/activities"
               }
             },
             {
@@ -363,8 +478,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "vacancy",
-                "permalink": "/docs/Schemas/vacancy"
+                "title": "metiers",
+                "permalink": "/docs/Schemas/Referentiels/metiers"
               },
               "next": {
                 "title": "Multicomptes",
@@ -485,6 +600,34 @@
                   {
                     "type": "doc",
                     "id": "Schemas/vacancy"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Referentiels",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/activities"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/channels"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/contract_type"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/education_levels"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/metiers"
+                      }
+                    ]
                   }
                 ]
               },

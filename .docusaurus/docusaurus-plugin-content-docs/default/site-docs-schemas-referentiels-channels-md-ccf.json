@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/Referentiels/channels",
+  "id": "Schemas/Referentiels/channels",
+  "title": "channels",
+  "description": "Le référenciel des filières peut être appelé avec la requête :",
+  "source": "@site/docs/Schemas/Referentiels/channels.md",
+  "sourceDirName": "Schemas/Referentiels",
+  "slug": "/Schemas/Referentiels/channels",
+  "permalink": "/docs/Schemas/Referentiels/channels",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/Referentiels/channels.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "activities",
+    "permalink": "/docs/Schemas/Referentiels/activities"
+  },
+  "next": {
+    "title": "contract type",
+    "permalink": "/docs/Schemas/Referentiels/contract_type"
+  }
+}

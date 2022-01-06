@@ -44,7 +44,7 @@
               "unversionedId": "QuickStart/Creer_un_candidat",
               "id": "QuickStart/Creer_un_candidat",
               "title": "Créer un candidat",
-              "description": "",
+              "description": "L'URL racine est ici https://carrers.flatchr.io",
               "source": "@site/docs/QuickStart/Creer_un_candidat.md",
               "sourceDirName": "QuickStart",
               "slug": "/QuickStart/Creer_un_candidat",
@@ -160,6 +160,29 @@
                 "permalink": "/docs/Schemas/activity"
               },
               "next": {
+                "title": "answer",
+                "permalink": "/docs/Schemas/answer"
+              }
+            },
+            {
+              "unversionedId": "Schemas/answer",
+              "id": "Schemas/answer",
+              "title": "answer",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/answer.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/answer",
+              "permalink": "/docs/Schemas/answer",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/answer.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "address",
+                "permalink": "/docs/Schemas/address"
+              },
+              "next": {
                 "title": "company",
                 "permalink": "/docs/Schemas/company"
               }
@@ -179,8 +202,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "address",
-                "permalink": "/docs/Schemas/address"
+                "title": "answer",
+                "permalink": "/docs/Schemas/answer"
               },
               "next": {
                 "title": "hiddens",
@@ -430,6 +453,10 @@
                   {
                     "type": "doc",
                     "id": "Schemas/address"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/answer"
                   },
                   {
                     "type": "doc",

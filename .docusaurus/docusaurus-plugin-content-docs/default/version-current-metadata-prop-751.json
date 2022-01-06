@@ -60,6 +60,12 @@
           },
           {
             "type": "link",
+            "label": "answer",
+            "href": "/docs/Schemas/answer",
+            "docId": "Schemas/answer"
+          },
+          {
+            "type": "link",
             "label": "company",
             "href": "/docs/Schemas/company",
             "docId": "Schemas/company"
@@ -140,7 +146,7 @@
     "QuickStart/Creer_un_candidat": {
       "id": "QuickStart/Creer_un_candidat",
       "title": "Créer un candidat",
-      "description": "",
+      "description": "L'URL racine est ici https://carrers.flatchr.io",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Recuperer_les_annonces": {
@@ -164,6 +170,12 @@
     "Schemas/address": {
       "id": "Schemas/address",
       "title": "address",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/answer": {
+      "id": "Schemas/answer",
+      "title": "answer",
       "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },

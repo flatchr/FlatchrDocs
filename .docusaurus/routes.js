@@ -55,7 +55,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','abc'),
+    component: ComponentCreator('/docs','6d7'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -90,6 +90,12 @@ export default [
       {
         path: '/docs/Schemas/address',
         component: ComponentCreator('/docs/Schemas/address','fe7'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/answer',
+        component: ComponentCreator('/docs/Schemas/answer','b32'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

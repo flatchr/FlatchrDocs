@@ -33,7 +33,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---webhooksefe-4d6"
   },
-  "/docs-abc": {
+  "/docs-6d7": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -60,6 +60,10 @@
   "/docs/Schemas/address-fe7": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-address-544-c80"
+  },
+  "/docs/Schemas/answer-b32": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-answer-17-f-3d2"
   },
   "/docs/Schemas/company-f4a": {
     "component": "component---theme-doc-item-178-a40",

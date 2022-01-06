@@ -41,6 +41,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Schemas/answer",
+              "path": "/docs/Schemas/answer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Schemas/company",
               "path": "/docs/Schemas/company",
               "sidebar": "tutorialSidebar"

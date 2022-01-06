@@ -12,7 +12,7 @@ Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.
 
 
 ```jsx
-POST https://api.flatchr.io/company/{companyID}/search/applicants
+POST /company/{companyID}/search/applicants
 ```
 
 :::tip companyID

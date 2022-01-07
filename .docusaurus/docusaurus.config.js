@@ -41,13 +41,18 @@ export default {
           "label": "API"
         },
         {
-          "to": "/Webhooks",
-          "label": "Webhooks",
+          "to": "/sites-carrieres",
+          "label": "Sites Carrières",
           "position": "left"
         },
         {
-          "to": "/sites-carrieres",
-          "label": "Sites Carrières",
+          "to": "/sso",
+          "label": "SSO",
+          "position": "left"
+        },
+        {
+          "to": "/Webhooks",
+          "label": "Webhooks",
           "position": "left"
         },
         {
@@ -69,12 +74,16 @@ export default {
               "to": "/docs/getting_started"
             },
             {
-              "to": "/Webhooks",
-              "label": "Webhooks"
-            },
-            {
               "to": "/sites-carrieres",
               "label": "Sites Carrières"
+            },
+            {
+              "to": "/sso",
+              "label": "SSO"
+            },
+            {
+              "to": "/Webhooks",
+              "label": "Webhooks"
             },
             {
               "href": "https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif",

@@ -49,6 +49,11 @@ export default [
     exact: true
   },
   {
+    path: '/SSO',
+    component: ComponentCreator('/SSO','fb0'),
+    exact: true
+  },
+  {
     path: '/Webhooks',
     component: ComponentCreator('/Webhooks','a42'),
     exact: true

@@ -672,6 +672,11 @@
     "default": [
       {
         "type": "mdx",
+        "permalink": "/SSO",
+        "source": "@site/src/pages/SSO.md"
+      },
+      {
+        "type": "mdx",
         "permalink": "/Webhooks",
         "source": "@site/src/pages/Webhooks.md"
       },

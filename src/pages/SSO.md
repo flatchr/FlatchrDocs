@@ -82,6 +82,8 @@ Une fois ces actions réalisées, il faudra nous communiquer les information sui
 - votre tenant ID AD (id de locataire Azure Active Directory)
 
 
+Vous pouvez trouver un pas à pas en image sur [ce guide](https://playbook.stakater.com/content/workshop/aad-in-openshift.html).
+
 :::
 
 </TabItem>

@@ -17,59 +17,79 @@ Lorsqu'un candidat est placé dans la colonne recruté dans Flatchr vous souhait
 
 :::
 
+<br/>
+
+## Comment activer les Webhooks dans l'interface Flatchr ? 
+
+Pour que l'application Webhook soit disponible dans la partie Marketplace, rapprochez vous de votre Customer Success Manager ou de [notre support](mailto:support@flatchr.io).
+
+<br/>
+
+## Comment paramétrer les Webhooks ? 
 
 
-### Candidat
-<details>
-  <summary> Nouveau candidat </summary>
-    This is the detailed content
-</details>
-<details>
-  <summary> Déplacement d'un candidat </summary>
-    This is the detailed content
-</details>
-<details>
-  <summary> Archivage d'un candidat </summary>
-    This is the detailed content
-</details>
+<br/>
 
-### Actions 
-<details>
-  <summary> Nouveau commentaire </summary>
-    This is the detailed content
-</details>
-<details>
-  <summary> Nouvelle tâche  </summary>
-    This is the detailed content
-</details>
+## Les différents évènements paramétrables
 
-### Messages
-<details>
-  <summary> Nouveau message envoyé </summary>
-    This is the detailed content
-</details>
-<details>
-  <summary> Nouveau message reçu </summary>
-    This is the detailed content
-</details>
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-### Membres
-<details>
-  <summary> Ajout d'un membre </summary>
-    This is the detailed content
-</details>
+<Tabs>
+<TabItem value="Candidats" label="Candidats" default>
+  <details>
+    <summary> Nouveau candidat </summary>
+      This is the detailed content
+  </details>
+  <details>
+    <summary> Déplacement d'un candidat </summary>
+      This is the detailed content
+  </details>
+  <details>
+    <summary> Archivage d'un candidat </summary>
+      This is the detailed content
+  </details>
+</TabItem>
+<TabItem value="Actions" label="Actions" default>
+  <details>
+    <summary> Nouveau commentaire </summary>
+      This is the detailed content
+  </details>
+  <details>
+    <summary> Nouvelle tâche  </summary>
+      This is the detailed content
+  </details>
+</TabItem>
+<TabItem value="Messages" label="Messages" default>
+  <details>
+    <summary> Nouveau message envoyé </summary>
+      This is the detailed content
+  </details>
+  <details>
+    <summary> Nouveau message reçu </summary>
+      This is the detailed content
+  </details>
+</TabItem>
+<TabItem value="Membres" label="Membres" default>
+  <details>
+    <summary> Ajout d'un membre </summary>
+      This is the detailed content
+  </details>
+</TabItem>
+<TabItem value="Offres" label="Offres" default>
+  <details>
+    <summary> Nouvelle offre </summary>
+      This is the detailed content
+  </details>
+  <details>
+    <summary> Mise à jour d'une offre </summary>
+      This is the detailed content
+  </details>
+  <details>
+    <summary> Archivage d'une offre </summary>
+      This is the detailed content
+  </details>
+</TabItem>
+</Tabs>
 
-### Offres
-<details>
-  <summary> Nouvelle offre </summary>
-    This is the detailed content
-</details>
-<details>
-  <summary> Mise à jour d'une offre </summary>
-    This is the detailed content
-</details>
-<details>
-  <summary> Archivage d'une offre </summary>
-    This is the detailed content
-</details>
 

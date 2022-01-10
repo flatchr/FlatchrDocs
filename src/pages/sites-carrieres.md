@@ -1,5 +1,8 @@
  # Intégration d'un iframe
  
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+</style>
 
 Le site [flatchr.io](https://www.flatchr.io/) permet l’intégration des annonces du client sur son site internet ou intranet sans nécessité de connaissance informatique et par simple copier-coller, grâce à l'utilisation d'un iframe.
 
@@ -21,12 +24,22 @@ Pour intégrer vos annonces à votre site internet, vous trouverez ci-dessous le
 
 Il vous suffit de remplacer `[slug]` par votre référence unique d'entreprise. 
 
+
+
 ```html title="Code de l'iframe"
 <iframe 
 src="https://careers.flatchr.io/company/[slug]?iframe=true" 
 width="100%" height="600px" frameborder="0" marginwidth="0" marginheight="0">
 </iframe>
 ```
+<center>
+  <a class="button button--primary" href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe" style={{'background-color':'#04AA6D','border-color':'#04AA6D','font-family':"'Source Sans Pro', sans-serif",'font-size':'16px'}}>
+    Testez votre Iframe avec   <strong><em>W3Schools-Try It Yourself</em></strong> <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-next-theme-IconExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg> 
+  </a>
+</center>
+
+<br/>
+
 
 :::info
 Pour plus d'informations sur les iframe vous pouvez vous référer à [cette documentation](https://www.w3schools.com/html/html_iframe.asp)
@@ -101,6 +114,14 @@ src="https://careers.flatchr.io/intranet/[slug]?iframe=true"
 width="100%" height="600px" frameborder="0" marginwidth="0" marginheight="0">
 </iframe>
 ```
+<center>
+  <a class="button button--primary" href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe" style={{'background-color':'#04AA6D','border-color':'#04AA6D','font-family':"'Source Sans Pro', sans-serif",'font-size':'16px'}}>
+    Testez votre Iframe avec   <strong><em>W3Schools-Try It Yourself</em></strong> <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-next-theme-IconExternalLink-styles-module"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg> 
+  </a>
+</center>
+
+<br/>
+
 
 :::info
 

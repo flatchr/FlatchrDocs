@@ -42,6 +42,32 @@
       },
       {
         "type": "category",
+        "label": "Use Cases",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Formulaire personnalisé",
+            "href": "/docs/Use Cases/Formulaire_personalise",
+            "docId": "Use Cases/Formulaire_personalise"
+          },
+          {
+            "type": "link",
+            "label": "Multicomptes",
+            "href": "/docs/Use Cases/Multicomptes",
+            "docId": "Use Cases/Multicomptes"
+          },
+          {
+            "type": "link",
+            "label": "Récupérer ses données pour les intégrer dans un outil de BI",
+            "href": "/docs/Use Cases/Statistiques",
+            "docId": "Use Cases/Statistiques"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Schemas",
         "collapsible": true,
         "collapsed": true,
@@ -143,32 +169,6 @@
                 "docId": "Schemas/Referentiels/metiers"
               }
             ]
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Use Cases",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Formulaire personnalisé",
-            "href": "/docs/Use Cases/Formulaire_personalise",
-            "docId": "Use Cases/Formulaire_personalise"
-          },
-          {
-            "type": "link",
-            "label": "Multicomptes",
-            "href": "/docs/Use Cases/Multicomptes",
-            "docId": "Use Cases/Multicomptes"
-          },
-          {
-            "type": "link",
-            "label": "Récupérer ses données pour les intégrer dans un outil de BI",
-            "href": "/docs/Use Cases/Statistiques",
-            "docId": "Use Cases/Statistiques"
           }
         ]
       }

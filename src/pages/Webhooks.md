@@ -35,6 +35,8 @@ Pour que l'application Webhook soit disponible dans la partie Marketplace, rappr
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+Retrouvez ci-dessous tout les évènements pour lesquels un Webhook est paramétrable : 
+
 <Tabs>
 <TabItem value="Candidats" label="Candidats" default>
   <details>

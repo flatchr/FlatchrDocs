@@ -62,8 +62,8 @@
                 "permalink": "/docs/QuickStart/Recuperer_un_candidat"
               },
               "next": {
-                "title": "activity",
-                "permalink": "/docs/Schemas/activity"
+                "title": "Formulaire personnalisé",
+                "permalink": "/docs/Use Cases/Formulaire_personalise"
               }
             },
             {
@@ -133,8 +133,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Créer un candidat",
-                "permalink": "/docs/QuickStart/Creer_un_candidat"
+                "title": "Récupérer ses données pour les intégrer dans un outil de BI",
+                "permalink": "/docs/Use Cases/Statistiques"
               },
               "next": {
                 "title": "address",
@@ -388,10 +388,6 @@
               "previous": {
                 "title": "education levels",
                 "permalink": "/docs/Schemas/Referentiels/education_levels"
-              },
-              "next": {
-                "title": "Formulaire personnalisé",
-                "permalink": "/docs/Use Cases/Formulaire_personalise"
               }
             },
             {
@@ -478,8 +474,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "metiers",
-                "permalink": "/docs/Schemas/Referentiels/metiers"
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
               },
               "next": {
                 "title": "Multicomptes",
@@ -526,6 +522,10 @@
               "previous": {
                 "title": "Multicomptes",
                 "permalink": "/docs/Use Cases/Multicomptes"
+              },
+              "next": {
+                "title": "activity",
+                "permalink": "/docs/Schemas/activity"
               }
             }
           ],
@@ -552,6 +552,26 @@
                   {
                     "type": "doc",
                     "id": "QuickStart/Creer_un_candidat"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Use Cases",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Use Cases/Formulaire_personalise"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Use Cases/Multicomptes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Use Cases/Statistiques"
                   }
                 ]
               },
@@ -628,26 +648,6 @@
                         "id": "Schemas/Referentiels/metiers"
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Use Cases",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Use Cases/Formulaire_personalise"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Use Cases/Multicomptes"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Use Cases/Statistiques"
                   }
                 ]
               }

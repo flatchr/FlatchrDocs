@@ -4,6 +4,10 @@ Il est possible de se connecter à [flatchr.io](https://www.flatchr.io/) grâce 
 
 <br/>
 
+![Illustration SSO](/img/rdv-internet-sso.png)
+
+<br/>
+
 ## Qu'est-ce que le SSO ? 
 
 

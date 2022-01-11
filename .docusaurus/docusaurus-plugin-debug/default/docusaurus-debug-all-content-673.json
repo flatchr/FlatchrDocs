@@ -62,8 +62,8 @@
                 "permalink": "/docs/QuickStart/Recuperer_un_candidat"
               },
               "next": {
-                "title": "Formulaire personnalisé",
-                "permalink": "/docs/Use Cases/Formulaire_personalise"
+                "title": "activity",
+                "permalink": "/docs/Schemas/activity"
               }
             },
             {
@@ -133,8 +133,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Récupérer ses données pour les intégrer dans un outil de BI",
-                "permalink": "/docs/Use Cases/Statistiques"
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
               },
               "next": {
                 "title": "address",
@@ -458,75 +458,6 @@
                 "title": "activities",
                 "permalink": "/docs/Schemas/Referentiels/activities"
               }
-            },
-            {
-              "unversionedId": "Use Cases/Formulaire_personalise",
-              "id": "Use Cases/Formulaire_personalise",
-              "title": "Formulaire personnalisé",
-              "description": "Créer son propre formulaire pour mettre les candidats dans Flatchr",
-              "source": "@site/docs/Use Cases/Formulaire_personalise.md",
-              "sourceDirName": "Use Cases",
-              "slug": "/Use Cases/Formulaire_personalise",
-              "permalink": "/docs/Use Cases/Formulaire_personalise",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Use Cases/Formulaire_personalise.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Créer un candidat",
-                "permalink": "/docs/QuickStart/Creer_un_candidat"
-              },
-              "next": {
-                "title": "Multicomptes",
-                "permalink": "/docs/Use Cases/Multicomptes"
-              }
-            },
-            {
-              "unversionedId": "Use Cases/Multicomptes",
-              "id": "Use Cases/Multicomptes",
-              "title": "Multicomptes",
-              "description": "",
-              "source": "@site/docs/Use Cases/Multicomptes.md",
-              "sourceDirName": "Use Cases",
-              "slug": "/Use Cases/Multicomptes",
-              "permalink": "/docs/Use Cases/Multicomptes",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Use Cases/Multicomptes.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Formulaire personnalisé",
-                "permalink": "/docs/Use Cases/Formulaire_personalise"
-              },
-              "next": {
-                "title": "Récupérer ses données pour les intégrer dans un outil de BI",
-                "permalink": "/docs/Use Cases/Statistiques"
-              }
-            },
-            {
-              "unversionedId": "Use Cases/Statistiques",
-              "id": "Use Cases/Statistiques",
-              "title": "Récupérer ses données pour les intégrer dans un outil de BI",
-              "description": "",
-              "source": "@site/docs/Use Cases/Statistiques.md",
-              "sourceDirName": "Use Cases",
-              "slug": "/Use Cases/Statistiques",
-              "permalink": "/docs/Use Cases/Statistiques",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Use Cases/Statistiques.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Multicomptes",
-                "permalink": "/docs/Use Cases/Multicomptes"
-              },
-              "next": {
-                "title": "activity",
-                "permalink": "/docs/Schemas/activity"
-              }
             }
           ],
           "sidebars": {
@@ -552,26 +483,6 @@
                   {
                     "type": "doc",
                     "id": "QuickStart/Creer_un_candidat"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Use Cases",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Use Cases/Formulaire_personalise"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Use Cases/Multicomptes"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Use Cases/Statistiques"
                   }
                 ]
               },
@@ -689,6 +600,21 @@
         "type": "mdx",
         "permalink": "/sites-carrieres",
         "source": "@site/src/pages/sites-carrieres.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/Use%20Cases/Formulaire_personalise",
+        "source": "@site/src/pages/Use Cases/Formulaire_personalise.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/Use%20Cases/Multicomptes",
+        "source": "@site/src/pages/Use Cases/Multicomptes.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/Use%20Cases/Statistiques",
+        "source": "@site/src/pages/Use Cases/Statistiques.md"
       }
     ]
   },

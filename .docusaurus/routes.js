@@ -54,13 +54,28 @@ export default [
     exact: true
   },
   {
+    path: '/Use%20Cases/Formulaire_personalise',
+    component: ComponentCreator('/Use%20Cases/Formulaire_personalise','df6'),
+    exact: true
+  },
+  {
+    path: '/Use%20Cases/Multicomptes',
+    component: ComponentCreator('/Use%20Cases/Multicomptes','85b'),
+    exact: true
+  },
+  {
+    path: '/Use%20Cases/Statistiques',
+    component: ComponentCreator('/Use%20Cases/Statistiques','9b3'),
+    exact: true
+  },
+  {
     path: '/Webhooks',
     component: ComponentCreator('/Webhooks','a42'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','3d6'),
+    component: ComponentCreator('/docs','3a3'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -173,24 +188,6 @@ export default [
       {
         path: '/docs/Schemas/vacancy',
         component: ComponentCreator('/docs/Schemas/vacancy','3e5'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/Use Cases/Formulaire_personalise',
-        component: ComponentCreator('/docs/Use Cases/Formulaire_personalise','686'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/Use Cases/Multicomptes',
-        component: ComponentCreator('/docs/Use Cases/Multicomptes','d0c'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/Use Cases/Statistiques',
-        component: ComponentCreator('/docs/Use Cases/Statistiques','b34'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

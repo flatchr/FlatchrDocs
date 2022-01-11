@@ -42,32 +42,6 @@
       },
       {
         "type": "category",
-        "label": "Use Cases",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Formulaire personnalisé",
-            "href": "/docs/Use Cases/Formulaire_personalise",
-            "docId": "Use Cases/Formulaire_personalise"
-          },
-          {
-            "type": "link",
-            "label": "Multicomptes",
-            "href": "/docs/Use Cases/Multicomptes",
-            "docId": "Use Cases/Multicomptes"
-          },
-          {
-            "type": "link",
-            "label": "Récupérer ses données pour les intégrer dans un outil de BI",
-            "href": "/docs/Use Cases/Statistiques",
-            "docId": "Use Cases/Statistiques"
-          }
-        ]
-      },
-      {
-        "type": "category",
         "label": "Schemas",
         "collapsible": true,
         "collapsed": true,
@@ -287,24 +261,6 @@
       "id": "Schemas/vacancy",
       "title": "vacancy",
       "description": "|Name|Type|Description|",
-      "sidebar": "tutorialSidebar"
-    },
-    "Use Cases/Formulaire_personalise": {
-      "id": "Use Cases/Formulaire_personalise",
-      "title": "Formulaire personnalisé",
-      "description": "Créer son propre formulaire pour mettre les candidats dans Flatchr",
-      "sidebar": "tutorialSidebar"
-    },
-    "Use Cases/Multicomptes": {
-      "id": "Use Cases/Multicomptes",
-      "title": "Multicomptes",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "Use Cases/Statistiques": {
-      "id": "Use Cases/Statistiques",
-      "title": "Récupérer ses données pour les intégrer dans un outil de BI",
-      "description": "",
       "sidebar": "tutorialSidebar"
     }
   }

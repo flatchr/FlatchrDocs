@@ -104,21 +104,6 @@
               "id": "Schemas/vacancy",
               "path": "/docs/Schemas/vacancy",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Use Cases/Formulaire_personalise",
-              "path": "/docs/Use Cases/Formulaire_personalise",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Use Cases/Multicomptes",
-              "path": "/docs/Use Cases/Multicomptes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Use Cases/Statistiques",
-              "path": "/docs/Use Cases/Statistiques",
-              "sidebar": "tutorialSidebar"
             }
           ]
         }

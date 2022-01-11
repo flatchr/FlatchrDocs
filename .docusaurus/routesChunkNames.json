@@ -33,11 +33,23 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---sso-605-4c7"
   },
+  "/Use%20Cases/Formulaire_personalise-df6": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---use-20-cases-formulaire-personalise-5-e-2-f51"
+  },
+  "/Use%20Cases/Multicomptes-85b": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---use-20-cases-multicomptes-086-a12"
+  },
+  "/Use%20Cases/Statistiques-9b3": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---use-20-cases-statistiques-429-cc6"
+  },
   "/Webhooks-a42": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---webhooksefe-4d6"
   },
-  "/docs-3d6": {
+  "/docs-3a3": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -116,18 +128,6 @@
   "/docs/Schemas/vacancy-3e5": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-vacancye-41-001"
-  },
-  "/docs/Use Cases/Formulaire_personalise-686": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-use-cases-formulaire-personalisee-8-e-d83"
-  },
-  "/docs/Use Cases/Multicomptes-d0c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-use-cases-multicomptesd-2-e-fb5"
-  },
-  "/docs/Use Cases/Statistiques-b34": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-use-cases-statistiquesf-2-e-a4f"
   },
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",

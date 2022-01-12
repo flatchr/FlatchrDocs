@@ -21,6 +21,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "QuickStart/Meta_informations_candidat",
+              "path": "/docs/QuickStart/Meta_informations_candidat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "QuickStart/Recuperer_les_annonces",
               "path": "/docs/QuickStart/Recuperer_les_annonces",
               "sidebar": "tutorialSidebar"
@@ -53,6 +58,11 @@
             {
               "id": "Schemas/hiddens",
               "path": "/docs/Schemas/hiddens",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/message",
+              "path": "/docs/Schemas/message",
               "sidebar": "tutorialSidebar"
             },
             {

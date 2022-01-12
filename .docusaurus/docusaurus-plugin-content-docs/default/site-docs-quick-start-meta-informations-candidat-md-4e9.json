@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Meta_informations_candidat",
+  "id": "QuickStart/Meta_informations_candidat",
+  "title": "Ajouter des meta informations",
+  "description": "Cette fonctionnalité est disponible uniquement pour nos clients ayant souscrit à l'option CVthèque Premium.",
+  "source": "@site/docs/QuickStart/Meta_informations_candidat.md",
+  "sourceDirName": "QuickStart",
+  "slug": "/QuickStart/Meta_informations_candidat",
+  "permalink": "/docs/QuickStart/Meta_informations_candidat",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/QuickStart/Meta_informations_candidat.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Créer un candidat",
+    "permalink": "/docs/QuickStart/Creer_un_candidat"
+  },
+  "next": {
+    "title": "activity",
+    "permalink": "/docs/Schemas/activity"
+  }
+}

@@ -37,6 +37,12 @@
             "label": "Créer un candidat",
             "href": "/docs/QuickStart/Creer_un_candidat",
             "docId": "QuickStart/Creer_un_candidat"
+          },
+          {
+            "type": "link",
+            "label": "Ajouter des meta informations",
+            "href": "/docs/QuickStart/Meta_informations_candidat",
+            "docId": "QuickStart/Meta_informations_candidat"
           }
         ]
       },
@@ -75,6 +81,12 @@
             "label": "hiddens",
             "href": "/docs/Schemas/hiddens",
             "docId": "Schemas/hiddens"
+          },
+          {
+            "type": "link",
+            "label": "message",
+            "href": "/docs/Schemas/message",
+            "docId": "Schemas/message"
           },
           {
             "type": "link",
@@ -161,6 +173,12 @@
       "description": "L'URL racine est ici https://carrers.flatchr.io",
       "sidebar": "tutorialSidebar"
     },
+    "QuickStart/Meta_informations_candidat": {
+      "id": "QuickStart/Meta_informations_candidat",
+      "title": "Ajouter des meta informations",
+      "description": "Cette fonctionnalité est disponible uniquement pour nos clients ayant souscrit à l'option CVthèque Premium.",
+      "sidebar": "tutorialSidebar"
+    },
     "QuickStart/Recuperer_les_annonces": {
       "id": "QuickStart/Recuperer_les_annonces",
       "title": "Récupérer les annonces",
@@ -201,6 +219,12 @@
       "id": "Schemas/hiddens",
       "title": "hiddens",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/message": {
+      "id": "Schemas/message",
+      "title": "message",
+      "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/options": {

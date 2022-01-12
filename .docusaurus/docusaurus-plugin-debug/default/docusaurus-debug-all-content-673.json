@@ -62,6 +62,32 @@
                 "permalink": "/docs/QuickStart/Recuperer_un_candidat"
               },
               "next": {
+                "title": "Ajouter des meta informations",
+                "permalink": "/docs/QuickStart/Meta_informations_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Meta_informations_candidat",
+              "id": "QuickStart/Meta_informations_candidat",
+              "title": "Ajouter des meta informations",
+              "description": "Cette fonctionnalité est disponible uniquement pour nos clients ayant souscrit à l'option CVthèque Premium.",
+              "source": "@site/docs/QuickStart/Meta_informations_candidat.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/Meta_informations_candidat",
+              "permalink": "/docs/QuickStart/Meta_informations_candidat",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/QuickStart/Meta_informations_candidat.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
+              },
+              "next": {
                 "title": "activity",
                 "permalink": "/docs/Schemas/activity"
               }
@@ -133,8 +159,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Créer un candidat",
-                "permalink": "/docs/QuickStart/Creer_un_candidat"
+                "title": "Ajouter des meta informations",
+                "permalink": "/docs/QuickStart/Meta_informations_candidat"
               },
               "next": {
                 "title": "address",
@@ -229,6 +255,29 @@
                 "permalink": "/docs/Schemas/company"
               },
               "next": {
+                "title": "message",
+                "permalink": "/docs/Schemas/message"
+              }
+            },
+            {
+              "unversionedId": "Schemas/message",
+              "id": "Schemas/message",
+              "title": "message",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/message.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/message",
+              "permalink": "/docs/Schemas/message",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/message.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "hiddens",
+                "permalink": "/docs/Schemas/hiddens"
+              },
+              "next": {
                 "title": "options",
                 "permalink": "/docs/Schemas/options"
               }
@@ -248,8 +297,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "hiddens",
-                "permalink": "/docs/Schemas/hiddens"
+                "title": "message",
+                "permalink": "/docs/Schemas/message"
               },
               "next": {
                 "title": "question",
@@ -483,6 +532,10 @@
                   {
                     "type": "doc",
                     "id": "QuickStart/Creer_un_candidat"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Meta_informations_candidat"
                   }
                 ]
               },
@@ -511,6 +564,10 @@
                   {
                     "type": "doc",
                     "id": "Schemas/hiddens"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/message"
                   },
                   {
                     "type": "doc",

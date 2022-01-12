@@ -75,7 +75,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','3a3'),
+    component: ComponentCreator('/docs','d6c'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -86,6 +86,12 @@ export default [
       {
         path: '/docs/QuickStart/Creer_un_candidat',
         component: ComponentCreator('/docs/QuickStart/Creer_un_candidat','8ba'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Meta_informations_candidat',
+        component: ComponentCreator('/docs/QuickStart/Meta_informations_candidat','03f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -128,6 +134,12 @@ export default [
       {
         path: '/docs/Schemas/hiddens',
         component: ComponentCreator('/docs/Schemas/hiddens','6ad'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/message',
+        component: ComponentCreator('/docs/Schemas/message','c41'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

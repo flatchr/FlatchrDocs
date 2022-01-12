@@ -16,11 +16,6 @@ POST /company/{companyID}/search/applicants
 ```
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
 
-:::tip companyID
-Afin d'utiliser l'API vous avez besoin de votre `companyID` qui est un identifiant alphanumérique sur 16 caractères. 
-Pour l'obtenir vous pouvez vous rapprocher du support flatchr ou aller le chercher en effectuant la requête [Récupérer les annonces](./Recuperer_les_annonces) (c'est le champs `id` dans la classe `company`)
-
-:::info
 
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|

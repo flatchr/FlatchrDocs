@@ -32,7 +32,8 @@ lastname|query|string||Nom|
 email|query|string||Mail du candidat|
 hired|query|boolean||Le candidat est il recruté ou non|
 colum|query|string||Nom de la colonne dans laquelle est le candidat|
-start|query|string||Date au format "JJ/MM/AA" pour rechercher les candidats créés à partir d'une date donnée"
+start|query|string||Date au format "MM/JJ/AA" pour rechercher les candidats créés à partir d'une date donnée"
+end|query|string||Date au format "MM/JJ/AA" pour rechercher les candidats créés avant une date donnée"
 company|query|string||Permet de rechercher sur plusieurs entreprises pour les multicomptes|
 
 ### Exemples de requête
@@ -72,13 +73,23 @@ curl -X POST https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/search/applicants
 ```
 
 </TabItem>
-<TabItem value="since" label="Depuis le 01/01/2022" >
+<TabItem value="since" label="Depuis le 25/12/2021" >
 
 ```jsx title="Requête cURL"
 curl -X POST https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/search/applicants
     -H "Authorization: Bearer {token}"
     -H 'Content-Type: application/json'
-    -d '{"start":"01/01/22"}'
+    -d '{"start":"12/25/21"}'
+```
+
+</TabItem>
+<TabItem value="between" label="Entre le 01/01/2022 et le 10/01/2022" >
+
+```jsx title="Requête cURL"
+curl -X POST https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/search/applicants
+    -H "Authorization: Bearer {token}"
+    -H 'Content-Type: application/json'
+    -d '{"start":"01/01/22", "end":"01/10/22"}'
 ```
 
 </TabItem>

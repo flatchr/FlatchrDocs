@@ -6,11 +6,11 @@ sidebar_position: 1
 
 ## Introduction
 
-### URL
+#### URL
 
 L'URL racine de l'API Flatchr est : https://api.flatchr.io.
 
-### Format
+#### Format
 L'API est au format REST et toutes les données entrantes ou sortantes sont au format JSON encodé en UTF-8.
 
 :::note
@@ -21,11 +21,11 @@ Il est de la responsabilité du client du web service de s’assurer que les car
 Les reponses retournées par l'API sont accompagnées des statuts du protocole HTTP reflétant l’état de l’exécution de la requête sur la plateforme flatchr.io.
 
 
-### Sécurité
+#### Sécurité
 Il est important de noter que les appels à l'API ne peuvent être effectués qu'en HTTPS et que chaque connexion est loggée avec l'adresse IP de l'appelant.
 
 :::caution Avant de commencer
-Avant toute mise en place, veuillez valider l’adéquation de ce service et votre mode de fonctionnement avec votre interlocuteur Flatchr.
+Avant toute mise en place, veuillez valider l’adéquation entre ce service et votre mode de fonctionnement avec votre interlocuteur Flatchr.
 
 [Conditions générales d'utilisation](https://flatchr.io/cgu)
 
@@ -33,9 +33,13 @@ Avant toute mise en place, veuillez valider l’adéquation de ce service et vot
 
 :::
 
+<br/>
+
 ## Identification
-:::info Important
-Votre `API_KEY` doit être générés dans votre espace Flatchr **Configuration > Clés**.
+
+### Token
+:::danger Important
+Votre `API_KEY` doit être générée dans votre espace Flatchr **Configuration > Clés**.
 :::
 
 
@@ -47,4 +51,27 @@ Le token OAuth doit être inclus dans toutes les requêtes :
 ` Authorization: Bearer API_KEY `
 2. Ou à travers un argument dans la requête `?token=API_KEY`
 
+<br/>
 
+### Slug
+
+Pour certaines requêtes vous aurez besoin de votre `slug`, c’est la référence unique de votre entreprise qui se trouve dans l’URL de votre site carrière.
+
+:::info Exemple
+**Exemple:** dans https://avivacuisines.flatchr.io, `avivacuisines` est la référence unique ou "slug")
+:::
+
+<br/>
+
+### Identifiant de l'entreprise
+
+Pour certaines requêtes vous aurez besoin de votre `clé entreprise`, c’est la clé unique qui définit votre entreprise dans nos données.  
+Elle se trouve dans l'onglet **Configuration > Clés**
+
+:::info Exemple
+
+![exemple clé d'entrpris](/img/screenshot_cle_entreprise.png)
+
+Ici la clé entreprise est donc `G6KzqPnNLyp31m0l`
+
+:::

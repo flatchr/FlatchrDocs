@@ -25,7 +25,7 @@ Pour l'obtenir vous pouvez vous rapprocher du support flatchr ou aller le cherch
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-companyId|path|string|<center>✔️</center>|Identifiant de l'entreprise
+companyId|path|string|<center>✔️</center>|[Identifiant de l'entreprise](../getting_started#identifiant-de-lentreprise) 
 ||||||
 firstname|query|string||Prénom|
 lastname|query|string||Nom|

@@ -22,14 +22,8 @@ GET /company/{slug}.json
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-slug|path|string|<center>✔️</center>|Slug de l'entreprise |
+slug|path|string|<center>✔️</center>|[Slug de l'entreprise](../getting_started#slug) |
 
-:::tip Slug
-Votre `slug` est la référence unique de votre entreprise qui se trouve dans l’URL de votre site carrière.
-
-**Exemple:** dans https://avivacuisines.flatchr.io, `avivacuisines` est la référence unique ou "slug").
-
-:::info
 
 ### Exemple de requête
 ```jsx title="Requête cURL pour Flatchr"

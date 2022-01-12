@@ -27,6 +27,14 @@ Pour que l'application Webhook soit disponible dans la partie Marketplace, rappr
 
 ## Comment paramétrer les Webhooks ? 
 
+Pour paramétrer un Webhook, rendez vous dans l'onglet `Administration > Marketplace` puis cliquer sur l'application **Webhooks**.  
+
+
+Il vous sera alors demandé de paramétrer certains éléments : 
+- l'**URL** vers laquelle les données seront envoyées 
+- l'**évènement** qui déclenchera l'envoi des données
+- l'**offre** concernée et la **colonne** concernée pourront vous être demandées selon l'évènement sélectionné
+
 
 <br/>
 

@@ -16,7 +16,7 @@ Il est possible de récupérer vos annonces au format JSON en utilisant la requ�
 ```jsx
 GET /company/{slug}.json
 ```
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/18861404-4f87a56b-e6a0-4c9a-86cc-9c9de3aded2f?action=collection%2Ffork&collection-url=entityId%3D18861404-4f87a56b-e6a0-4c9a-86cc-9c9de3aded2f%26entityType%3Dcollection%26workspaceId%3D9ab396af-18af-4f93-809c-cddd2fbd1422#?env%5BFlatchr%5D=W3sia2V5IjoiYXBpX3Rva2VuIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlLCJ0eXBlIjoic2VjcmV0In0seyJrZXkiOiJzbHVnIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlLCJ0eXBlIjoiZGVmYXVsdCJ9LHsia2V5IjoiY29tcGFueSIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImRlZmF1bHQifV0=)
 
 
 ### Paramètres

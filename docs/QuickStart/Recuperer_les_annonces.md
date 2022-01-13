@@ -5,7 +5,7 @@ sidebar_position: 1
 
 :::caution Important
 
-L'URL racine est ici https://carrers.flatchr.io
+L'URL racine est ici https://careers.flatchr.io
 
 :::
 

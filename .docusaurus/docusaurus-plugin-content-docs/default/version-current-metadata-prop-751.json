@@ -170,7 +170,7 @@
     "QuickStart/Creer_un_candidat": {
       "id": "QuickStart/Creer_un_candidat",
       "title": "Créer un candidat",
-      "description": "L'URL racine est ici https://carrers.flatchr.io",
+      "description": "L'URL racine est ici https://careers.flatchr.io",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Meta_informations_candidat": {
@@ -182,7 +182,7 @@
     "QuickStart/Recuperer_les_annonces": {
       "id": "QuickStart/Recuperer_les_annonces",
       "title": "Récupérer les annonces",
-      "description": "L'URL racine est ici https://carrers.flatchr.io",
+      "description": "L'URL racine est ici https://careers.flatchr.io",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Recuperer_un_candidat": {

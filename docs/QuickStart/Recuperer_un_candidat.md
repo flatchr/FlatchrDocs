@@ -14,7 +14,7 @@ Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.
 ```jsx
 POST /company/{companyID}/search/applicants
 ```
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/18861404-2bd60cea-6942-4809-83e7-e8869748aa62?action=collection%2Ffork&collection-url=entityId%3D18861404-2bd60cea-6942-4809-83e7-e8869748aa62%26entityType%3Dcollection%26workspaceId%3D9ab396af-18af-4f93-809c-cddd2fbd1422)
 
 
 ### Paramètres
@@ -26,7 +26,7 @@ firstname|query|string||Prénom|
 lastname|query|string||Nom|
 email|query|string||Mail du candidat|
 hired|query|boolean||Le candidat est il recruté ou non|
-colum|query|string||Nom de la colonne dans laquelle est le candidat|
+column|query|string||Nom de la colonne dans laquelle est le candidat|
 start|query|string||Date au format "MM/JJ/AA" pour rechercher les candidats créés à partir d'une date donnée"
 end|query|string||Date au format "MM/JJ/AA" pour rechercher les candidats créés avant une date donnée"
 company|query|string||Permet de rechercher sur plusieurs entreprises pour les multicomptes|

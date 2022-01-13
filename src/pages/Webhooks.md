@@ -48,55 +48,25 @@ Retrouvez ci-dessous tout les évènements pour lesquels un Webhook est paramét
 <Tabs>
 <TabItem value="Candidats" label="Candidats" default>
   <details>
-    <summary> Nouveau candidat </summary>
-      This is the detailed content
-  </details>
-  <details>
     <summary> Déplacement d'un candidat </summary>
       This is the detailed content
   </details>
-  <details>
-    <summary> Archivage d'un candidat </summary>
-      This is the detailed content
-  </details>
 </TabItem>
-<TabItem value="Actions" label="Actions" default>
-  <details>
-    <summary> Nouveau commentaire </summary>
-      This is the detailed content
-  </details>
-  <details>
-    <summary> Nouvelle tâche  </summary>
-      This is the detailed content
-  </details>
+<TabItem value="Actions" label="Actions" >
+  <center> 🐙 C'est pour bientôt 🐙 </center>
 </TabItem>
-<TabItem value="Messages" label="Messages" default>
+<TabItem value="Messages" label="Messages" >
   <details>
     <summary> Nouveau message envoyé </summary>
       This is the detailed content
   </details>
-  <details>
-    <summary> Nouveau message reçu </summary>
-      This is the detailed content
-  </details>
 </TabItem>
-<TabItem value="Membres" label="Membres" default>
-  <details>
-    <summary> Ajout d'un membre </summary>
-      This is the detailed content
-  </details>
+<TabItem value="Membres" label="Membres" >
+<center> 🐙 C'est pour bientôt 🐙 </center>
 </TabItem>
-<TabItem value="Offres" label="Offres" default>
+<TabItem value="Offres" label="Offres" >
   <details>
     <summary> Nouvelle offre </summary>
-      This is the detailed content
-  </details>
-  <details>
-    <summary> Mise à jour d'une offre </summary>
-      This is the detailed content
-  </details>
-  <details>
-    <summary> Archivage d'une offre </summary>
       This is the detailed content
   </details>
 </TabItem>

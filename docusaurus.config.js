@@ -62,7 +62,7 @@ const config = {
           {to: '/sites-carrieres', label: 'Sites Carrières', position: 'left'},
           {to: '/sso', label: 'SSO', position: 'left'},
           {to: '/Webhooks', label: 'Webhooks', position: 'left'},
-          {href: 'https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif', label: 'API Reference', position: 'right'},
+          {href: 'https://www.postman.com/flatchr/workspace/flatchr-public-api/overview', label: 'API Reference', position: 'right'},
           
         ],
       },
@@ -79,7 +79,7 @@ const config = {
               {to: '/sites-carrieres', label: 'Sites Carrières'},
               {to: '/sso', label: 'SSO'},
               {to: '/Webhooks', label: 'Webhooks'},
-              {href: 'https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif', label: 'API Reference'},
+              {href: 'https://www.postman.com/flatchr/workspace/flatchr-public-api/overview', label: 'API Reference'},
             ],
           },
           {

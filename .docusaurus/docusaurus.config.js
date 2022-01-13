@@ -56,7 +56,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif",
+          "href": "https://www.postman.com/flatchr/workspace/flatchr-public-api/overview",
           "label": "API Reference",
           "position": "right"
         }
@@ -86,7 +86,7 @@ export default {
               "label": "Webhooks"
             },
             {
-              "href": "https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif",
+              "href": "https://www.postman.com/flatchr/workspace/flatchr-public-api/overview",
               "label": "API Reference"
             }
           ]

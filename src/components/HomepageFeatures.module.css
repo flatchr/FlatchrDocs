@@ -1,3 +1,5 @@
+
+
 .features {
   display: flex;
   align-items: center;
@@ -9,3 +11,10 @@
   height: 200px;
   width: 200px;
 }
+
+.emoji {
+font-size: 100px;
+font-family: "Apple Color Emoji";
+
+}
+

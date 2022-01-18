@@ -36,6 +36,7 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Retrouvez la documentation technique de l'ATS flatchr.io">
+      <link href="//db.onlinewebfonts.com/c/5ab304ade0d4f62d027d12464ca69443?family=Apple+Color+Emoji" rel="stylesheet" type="text/css"/>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

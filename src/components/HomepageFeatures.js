@@ -5,7 +5,9 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Intégrez',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    emoji : <p className={styles.emoji}>&#x1F4BB;</p> ,
+    Svg: require('../../static/img/High_voltage.svg').default,
+    png : require('../../static/img/laptop.png').default,
     description: (
       <>
         votre site carrière Flatchr sur votre site internet ou intranet grâce à notre Iframe.
@@ -14,7 +16,9 @@ const FeatureList = [
   },
   {
     title: 'Connectez',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    emoji : <p className={styles.emoji}>&#x1F680;</p> ,
+    png : require('../../static/img/rocket.png').default,
+    Svg: require('../../static/img/Rocket.svg').default,
     description: (
       <>
         vos systèmes à Flatchr grâce à notre API REST. 
@@ -23,7 +27,9 @@ const FeatureList = [
   },
   {
     title: 'Synchronisez',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    emoji : <p className={styles.emoji}>&#x1F4EC;</p> ,
+    png : require('../../static/img/open_mailbox.png').default,
+    Svg: require('../../static/img/High_voltage.svg').default,
     description: (
       <>
         vos workflows grâce aux Webhooks Flatchr.
@@ -32,11 +38,12 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, emoji,png}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--4')}  style={{marginTop: 1 + 'em'}}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        {/* <Svg className={styles.featureSvg} alt={title} /> */}
+        <img src={png} style={{'max-width':50 +"%"}}/>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

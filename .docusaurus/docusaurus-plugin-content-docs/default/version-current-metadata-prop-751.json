@@ -78,6 +78,12 @@
           },
           {
             "type": "link",
+            "label": "data (drag_applicant)",
+            "href": "/docs/Schemas/data_drag_applicant",
+            "docId": "Schemas/data_drag_applicant"
+          },
+          {
+            "type": "link",
             "label": "hiddens",
             "href": "/docs/Schemas/hiddens",
             "docId": "Schemas/hiddens"
@@ -111,6 +117,12 @@
             "label": "tags",
             "href": "/docs/Schemas/tag",
             "docId": "Schemas/tag"
+          },
+          {
+            "type": "link",
+            "label": "user",
+            "href": "/docs/Schemas/user",
+            "docId": "Schemas/user"
           },
           {
             "type": "link",
@@ -215,6 +227,12 @@
       "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },
+    "Schemas/data_drag_applicant": {
+      "id": "Schemas/data_drag_applicant",
+      "title": "data (drag_applicant)",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
     "Schemas/hiddens": {
       "id": "Schemas/hiddens",
       "title": "hiddens",
@@ -278,6 +296,12 @@
     "Schemas/tag": {
       "id": "Schemas/tag",
       "title": "tags",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/user": {
+      "id": "Schemas/user",
+      "title": "user",
       "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },

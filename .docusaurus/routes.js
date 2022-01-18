@@ -75,7 +75,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','d6c'),
+    component: ComponentCreator('/docs','084'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -128,6 +128,12 @@ export default [
       {
         path: '/docs/Schemas/company',
         component: ComponentCreator('/docs/Schemas/company','f4a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/data_drag_applicant',
+        component: ComponentCreator('/docs/Schemas/data_drag_applicant','290'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -194,6 +200,12 @@ export default [
       {
         path: '/docs/Schemas/tag',
         component: ComponentCreator('/docs/Schemas/tag','ef3'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/user',
+        component: ComponentCreator('/docs/Schemas/user','d5a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

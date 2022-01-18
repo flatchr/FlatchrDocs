@@ -17,7 +17,7 @@
     "permalink": "/docs/Schemas/shield"
   },
   "next": {
-    "title": "vacancy",
-    "permalink": "/docs/Schemas/vacancy"
+    "title": "user",
+    "permalink": "/docs/Schemas/user"
   }
 }

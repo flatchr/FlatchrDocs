@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "tags",
-    "permalink": "/docs/Schemas/tag"
+    "title": "user",
+    "permalink": "/docs/Schemas/user"
   },
   "next": {
     "title": "activities",

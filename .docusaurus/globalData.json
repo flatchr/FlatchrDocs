@@ -56,6 +56,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Schemas/data_drag_applicant",
+              "path": "/docs/Schemas/data_drag_applicant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Schemas/hiddens",
               "path": "/docs/Schemas/hiddens",
               "sidebar": "tutorialSidebar"
@@ -108,6 +113,11 @@
             {
               "id": "Schemas/tag",
               "path": "/docs/Schemas/tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/user",
+              "path": "/docs/Schemas/user",
               "sidebar": "tutorialSidebar"
             },
             {

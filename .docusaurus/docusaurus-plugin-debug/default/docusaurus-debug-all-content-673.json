@@ -232,6 +232,29 @@
                 "permalink": "/docs/Schemas/answer"
               },
               "next": {
+                "title": "data (drag_applicant)",
+                "permalink": "/docs/Schemas/data_drag_applicant"
+              }
+            },
+            {
+              "unversionedId": "Schemas/data_drag_applicant",
+              "id": "Schemas/data_drag_applicant",
+              "title": "data (drag_applicant)",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/data_drag_applicant.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/data_drag_applicant",
+              "permalink": "/docs/Schemas/data_drag_applicant",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/data_drag_applicant.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "company",
+                "permalink": "/docs/Schemas/company"
+              },
+              "next": {
                 "title": "hiddens",
                 "permalink": "/docs/Schemas/hiddens"
               }
@@ -251,8 +274,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "company",
-                "permalink": "/docs/Schemas/company"
+                "title": "data (drag_applicant)",
+                "permalink": "/docs/Schemas/data_drag_applicant"
               },
               "next": {
                 "title": "message",
@@ -481,6 +504,29 @@
                 "permalink": "/docs/Schemas/shield"
               },
               "next": {
+                "title": "user",
+                "permalink": "/docs/Schemas/user"
+              }
+            },
+            {
+              "unversionedId": "Schemas/user",
+              "id": "Schemas/user",
+              "title": "user",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/user.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/user",
+              "permalink": "/docs/Schemas/user",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/user.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "tags",
+                "permalink": "/docs/Schemas/tag"
+              },
+              "next": {
                 "title": "vacancy",
                 "permalink": "/docs/Schemas/vacancy"
               }
@@ -500,8 +546,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "tags",
-                "permalink": "/docs/Schemas/tag"
+                "title": "user",
+                "permalink": "/docs/Schemas/user"
               },
               "next": {
                 "title": "activities",
@@ -563,6 +609,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Schemas/data_drag_applicant"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Schemas/hiddens"
                   },
                   {
@@ -584,6 +634,10 @@
                   {
                     "type": "doc",
                     "id": "Schemas/tag"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/user"
                   },
                   {
                     "type": "doc",

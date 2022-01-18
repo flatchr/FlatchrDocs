@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/user",
+  "id": "Schemas/user",
+  "title": "user",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/user.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/user",
+  "permalink": "/docs/Schemas/user",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/user.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tags",
+    "permalink": "/docs/Schemas/tag"
+  },
+  "next": {
+    "title": "vacancy",
+    "permalink": "/docs/Schemas/vacancy"
+  }
+}

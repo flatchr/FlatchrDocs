@@ -13,14 +13,14 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/workspace/docs/sidebars.js"
+          "sidebarPath": "/home/alexisc/docs/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
           "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/"
         },
         "theme": {
-          "customCss": "/workspace/docs/src/css/custom.css"
+          "customCss": "/home/alexisc/docs/src/css/custom.css"
         }
       }
     ]

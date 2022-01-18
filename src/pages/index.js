@@ -35,14 +35,13 @@ function HomepagePartner() {
   return (
     <header className={clsx('hero hero--dark shadow--tl"', styles.heroBannerPartner)}>
       <div className="container">
-        <p className="hero__subtitle" style={{marginBottom :0.2+'em'}}>Vous souhaitez vous intégrer avec Flatchr et apparaître dans notre <a href='https://www.flatchr.io/marketplace'>Marketplace </a> ? </p>
-        <div className={styles.buttons}>
-          <Link
+        <p className="hero__subtitle" style={{marginBottom :0.2+'em'}}>Vous souhaitez vous intégrer avec Flatchr et apparaître dans notre <a href='https://www.flatchr.io/marketplace'>Marketplace </a> ?  <Link
             className="button button--outline button--primary button--lg"
             to='/Partnership' style={{margin: 1 + '%', width:12 + "em"}}>
             Devenir Partenaire
-          </Link>
-        </div>
+          </Link></p>
+
+          
       </div>
     </header>
   );

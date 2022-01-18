@@ -12,9 +12,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/docs/sidebars.js",
-          "contentPath": "/workspace/docs/docs",
-          "contentPathLocalized": "/workspace/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/alexisc/docs/sidebars.js",
+          "contentPath": "/home/alexisc/docs/docs",
+          "contentPathLocalized": "/home/alexisc/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "getting_started",

@@ -35,9 +35,9 @@ function HomepagePartner() {
   return (
     <header className={clsx('hero hero--dark shadow--tl"', styles.heroBannerPartner)}>
       <div className="container">
-        <p className="hero__subtitle" style={{marginBottom :0.2+'em'}}>Vous souhaitez vous intégrer avec Flatchr et apparaître dans notre <a href='https://www.flatchr.io/marketplace'>Marketplace </a> ?  <Link
+        <p className="hero__subtitle" style={{'font-size':1.2 +'em',marginBottom:0 +'px'}}>Vous souhaitez vous intégrer avec Flatchr et apparaître dans notre <a href='https://www.flatchr.io/marketplace'>Marketplace </a> ?  <Link
             className="button button--outline button--primary button--lg"
-            to='/Partnership' style={{margin: 1 + '%', width:12 + "em"}}>
+            to='/Partnership' style={{margin: 1 + '%', width:12 + "em",padding:'O.5' +"em"}}>
             Devenir Partenaire
           </Link></p>
 

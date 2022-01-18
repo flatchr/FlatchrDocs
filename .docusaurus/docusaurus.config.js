@@ -13,8 +13,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/workspace/docs/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/"
+          "sidebarPath": "/workspace/docs/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,

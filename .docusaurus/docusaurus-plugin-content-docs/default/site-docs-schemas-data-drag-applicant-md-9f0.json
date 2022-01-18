@@ -17,7 +17,7 @@
     "permalink": "/docs/Schemas/company"
   },
   "next": {
-    "title": "hiddens",
-    "permalink": "/docs/Schemas/hiddens"
+    "title": "data (new_applicant)",
+    "permalink": "/docs/Schemas/data_new_applicant"
   }
 }

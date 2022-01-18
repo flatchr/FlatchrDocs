@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/data_new_vacancy",
+  "id": "Schemas/data_new_vacancy",
+  "title": "data (new_vacancy)",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/data_new_vacancy.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/data_new_vacancy",
+  "permalink": "/docs/Schemas/data_new_vacancy",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/data_new_vacancy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "data (new_message)",
+    "permalink": "/docs/Schemas/data_new_message"
+  },
+  "next": {
+    "title": "hiddens",
+    "permalink": "/docs/Schemas/hiddens"
+  }
+}

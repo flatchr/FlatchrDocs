@@ -76,6 +76,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Schemas/data_new_applicant",
+              "path": "/docs/Schemas/data_new_applicant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/data_new_message",
+              "path": "/docs/Schemas/data_new_message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/data_new_vacancy",
+              "path": "/docs/Schemas/data_new_vacancy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Schemas/hiddens",
               "path": "/docs/Schemas/hiddens",
               "sidebar": "tutorialSidebar"

@@ -47,6 +47,124 @@ Retrouvez ci-dessous tout les évènements pour lesquels un Webhook est paramét
 
 <Tabs>
 <TabItem value="Candidats" label="Candidats" default>
+<details>
+<summary>Nouveau candidat</summary>
+
+Un Webhook peut être créé pour envoyer une requête lorsqu'un nouveau candidat est créé.
+
+  <br/>
+
+|Name|Type|Description|
+|---|---|---|
+data|[data](/docs/Schemas/data_new_applicant)|Objet contenant les données|
+event|string|Evènement ayant déclenché l'envoi (ici : 'new_applicant')|
+company_id|integer|Identifiant en clair de l'entreprise|
+
+<details>
+<summary>Exemple</summary>
+
+```json
+{
+  data: {
+    applicant: {
+      candidate_id: 1648,
+      vacancy_id: '0LEZBvp5WWnMoVmg',
+      comment: '<p>Très bon candidat</p>',
+      column_id: 'a4JL2lpEQKpwBXKe',
+      updated_at: 1642168532,
+      created_at: 1642168532,
+      id: 'G6KzqPnNZ0n31m0l',
+      score: 0,
+      status: 1,
+      comments: null,
+      urls: null,
+      external_id: null,
+      view: false,
+      anonym: false,
+      duplicate: null,
+      reason_id: null,
+      column: [Object]
+    },
+    candidate: {
+      firstname: 'Paul',
+      lastname: 'Dubobateau',
+      email: 'dubobateau@mail.com',
+      urls: [Object],
+      phone: '+33654342334',
+      updated_at: 2022-01-14T13:55:31.919Z,
+      created_at: 2022-01-14T13:55:31.919Z,
+      id: 1648,
+      status: 1,
+      external_id: null,
+      summary: null,
+      contact_information: null,
+      comments: null,
+      user_id: null,
+      consent: true
+    },
+    vacancy: {
+      id: 1575,
+      company_id: 'Vw67MknKj2dJ1203',
+      title: 'Chirurgien',
+      description: '<p>Lancé en 2015 par deux entrepreneurs, Flatchr est l'une des pépites de la RH Tech !</p>\n' +
+        '<p>Concrètement, nous révolutionnons le recrutement avec le logiciel SaaS le plus simple et le plus puissant du marché.</p>\n' +
+        "<p>Avec le digital, recruter est devenu beaucoup plus compliqué qu'avant. Flatchr centralise et simplifie le process pour rendre le recrutement aussi simple que réserver un taxi.</p>\n",
+      experience: 1,
+      salary: '0',
+      status: 1,
+      contract_type_id: 1,
+      activity_id: 35,
+      external_id: null,
+      created_by: 'lVq5r6pYLD9AmMvP',
+      created_at: 2021-10-11T12:29:16.187Z,
+      updated_at: 2022-01-13T14:49:27.828Z,
+      mission: '<p>Gerer les differentes intervetions pour les patients</p>',
+      profile: "<p>Identifier la demande du patient et rechercher les informations complémentaires dans le dossier médical<br>Définir les orientations stratégiques d'une structure<br>Recenser les symptômes, les dysfonctionnements, cerner l'environnement de vie du patient et procéder à l'examen clinique<br>Déterminer les besoins thérapeutiques et réaliser les soins médicaux<br>Réaliser la prescription médicale, expliquer les modalités de traitement au patient et le conseiller sur l'hygiène de vie<br>Repérer les situations à risques (maltraitance, addiction, ...) et orienter le patient vers d'autres professionnels ou informer les services concernés (sociaux, judiciaires, ...)<br>Compléter les documents médico-administratifs (feuille de soins, déclaration de grossesse)<br>Actualiser le dossier médical du patient<br>Représenter une structure lors d'évènements (salons professionnels, ...)<br>Actualiser la documentation professionnelle et réglementaire<br>Participer à des groupes de travail</p>",
+      channel_id: 10,
+      metier_id: 122,
+      daxtra_index: true,
+      mensuality: 'y',
+      reference: 'chirurgien-2022',
+      published: false,
+      semantic: false,
+      slug: '0lezbvp5wwnmovmg-chirurgien',
+      slug_mail: 'dn4y5z',
+      driver_license: false,
+      education_level_id: 1,
+      start_date: null,
+      end_date: null,
+      apply_url: null,
+      updated_by: null,
+      language: 'fr_FR',
+      meta_tags: null,
+      meta_description: null,
+      meta_title: null,
+      options: null,
+      remote: false,
+      kanban: true,
+      note: '<p></p>',
+      currency: 'EUR',
+      partial: false,
+      handicap: false,
+      questions: [],
+      address: [Object]
+    },
+    column: 643,
+    cv: null,
+    user: {},
+    message: 'Un nouveau candidat a postulé sur votre offre <b>Chirurgien</b>',
+    applicant_id: 1860,
+    candidate_id: 1648,
+    column_id: 'a4JL2lpEQKpwBXKe',
+    vacancy_id: '0LEZBvp5WWnMoVmg',
+    company: { id: 'Vw67MknKj2dJ1203', name: 'Flatchr' }
+  },
+  event: 'new_applicant',
+  company_id: 59
+}
+```
+</details>
+</details>
   <details>
   <summary> Déplacement d'un candidat </summary>
   Un Webhook peut être créé pour envoyer une requête lorsqu'un candidat est déplacé sur une colonne définie. On peut donc paramétrer le Webhook pour qu'il transfère les informations d'un candidat recruté à un ATS. 
@@ -202,10 +320,144 @@ company_id|integer|Identifiant en clair de l'entreprise|
   <center> 🐙 C'est pour bientôt 🐙 </center>
 </TabItem>
 <TabItem value="Messages" label="Messages" >
-  <details>
-    <summary> Nouveau message envoyé </summary>
-      This is the detailed content
-  </details>
+<details>
+<summary> Nouveau message envoyé </summary>
+Un Webhook peut être créé pour envoyer une requête lorsque quelqu'un envoi un message.
+
+  <br/>
+
+|Name|Type|Description|
+|---|---|---|
+data|[data](/docs/Schemas/data_new_message)|Objet contenant les données|
+event|string|Evènement ayant déclenché l'envoi (ici : 'new_message')|
+company_id|integer|Identifiant en clair de l'entreprise|
+
+<details>
+<summary>Exemple</summary>
+
+
+```json
+{
+  data: {
+    company_id: 'Vw67MknKj2dJ1203',
+    user: {
+      email: 'anthony@flatchr.io',
+      status: 1,
+      id: 147,
+      firstname: 'Ludivine',
+      lastname: 'Lacroix',
+      phone: '+33 6 96 87 53 96',
+      company: 'Louis SAS',
+      language: 'fr_FR',
+      last_login: 2022-01-13T15:41:11.165Z,
+      created_at: 2016-10-17T22:26:50.076Z,
+      updated_at: 2022-01-13T15:41:11.166Z,
+      signature: '<p></p>\n' +
+        '<img src="https://flatchr-staging.s3.eu-west-1.amazonaws.com/trix-pictures/2021-05/662ba2db-6ce2-415e-871d-a6dde247a1bc-Capture%20d%E2%80%99e%CC%81cran%202021-05-09%20a%CC%80%2010.38.29.png.png?content-disposition=attachment" alt="undefined" style="height: auto;width: auto"/>\n' +
+        '<p></p>\n',
+      use_email: false,
+      timezone: 'Europe/Paris',
+      gmail_last_sync_id: null,
+      gmail_last_sync_date: null,
+      picture: [Object]
+    },
+    applicant: {
+      id: 1687,
+      vacancy_id: '0LEZBvp5WWnMoVmg',
+      candidate_id: 1490,
+      score: 0,
+      status: 1,
+      created_at: 2021-12-10T22:25:12.639Z,
+      updated_at: 2022-01-13T15:53:18.124Z,
+      comment: null,
+      column_id: '2zNDRr9BA8nYqQyE',
+      comments: null,
+      urls: null,
+      external_id: null,
+      view: true,
+      anonym: false,
+      duplicate: null,
+      reason_id: null,
+      vacancy: [Object]
+    },
+    candidate: {
+      id: 1490,
+      firstname: 'Hildegaard',
+      lastname: 'Riva',
+      email: 'hildegaard.riva@yopmail.com',
+      status: 1,
+      external_id: null,
+      created_at: 2021-12-10T22:25:12.596Z,
+      updated_at: 2021-12-10T22:27:54.998Z,
+      summary: null,
+      contact_information: null,
+      comments: null,
+      urls: [Object],
+      user_id: null,
+      phone: 'Kuwait City',
+      consent: true,
+      additionals: [Object]
+    },
+    vacancy: {
+      id: 1575,
+      company_id: 'Vw67MknKj2dJ1203',
+      title: 'Chirurgien',
+      description: '<p>Lancé en 2015 par deux entrepreneurs, Flatchr est l'une des pépites de la RH Tech !</p>\n' +
+        '<p>Concrètement, nous révolutionnons le recrutement avec le logiciel SaaS le plus simple et le plus puissant du marché.</p>\n' +
+        "<p>Avec le digital, recruter est devenu beaucoup plus compliqué qu'avant. Flatchr centralise et simplifie le process pour rendre le recrutement aussi simple que réserver un taxi.</p>\n",
+      experience: 1,
+      salary: '0',
+      status: 1,
+      contract_type_id: 1,
+      activity_id: 35,
+      external_id: null,
+      created_by: 'lVq5r6pYLD9AmMvP',
+      created_at: 2021-10-11T12:29:16.187Z,
+      updated_at: 2022-01-13T14:49:27.828Z,
+      mission: '<p>Refaire des boobs et des nez.</p>',
+      profile: "<p>Identifier la demande du patient et rechercher les informations complémentaires dans le dossier médical<br>Définir les orientations stratégiques d'une structure<br>Recenser les symptômes, les dysfonctionnements, cerner l'environnement de vie du patient et procéder à l'examen clinique<br>Déterminer les besoins thérapeutiques et réaliser les soins médicaux<br>Réaliser la prescription médicale, expliquer les modalités de traitement au patient et le conseiller sur l'hygiène de vie<br>Repérer les situations à risques (maltraitance, addiction, ...) et orienter le patient vers d'autres professionnels ou informer les services concernés (sociaux, judiciaires, ...)<br>Compléter les documents médico-administratifs (feuille de soins, déclaration de grossesse)<br>Actualiser le dossier médical du patient<br>Représenter une structure lors d'évènements (salons professionnels, ...)<br>Actualiser la documentation professionnelle et réglementaire<br>Participer à des groupes de travail</p>",
+      channel_id: 10,
+      metier_id: 122,
+      daxtra_index: true,
+      mensuality: 'y',
+      reference: 'chirurgien-2022',
+      published: false,
+      semantic: false,
+      slug: '0lezbvp5wwnmovmg-chirurgien',
+      slug_mail: 'dn4y5z',
+      driver_license: false,
+      education_level_id: 1,
+      start_date: null,
+      end_date: null,
+      apply_url: null,
+      updated_by: null,
+      language: 'fr_FR',
+      meta_tags: null,
+      meta_description: null,
+      meta_title: null,
+      options: null,
+      remote: false,
+      kanban: true,
+      note: '<p></p>',
+      currency: 'EUR',
+      partial: false,
+      handicap: false
+    },
+    text: '<p>Candidat sérieux et motivé</p><img src="https://flatchr-staging.s3.eu-west-1.amazonaws.com/trix-pictures/2021-05/662ba2db-6ce2-415e-871d-a6dde247a1bc-Capture%20d%E2%80%99e%CC%81cran%202021-05-09%20a%CC%80%2010.38.29.png.png?content-disposition=attachment" alt="undefined"><p></p>',
+    user_id: 'lVq5r6pYLD9AmMvP',
+    applicant_id: 1687,
+    candidate_id: 1490,
+    vacancy_id: '0LEZBvp5WWnMoVmg',
+    company: { id: 'Vw67MknKj2dJ1203', name: 'Flatchr' }
+  },
+  event: 'new_message',
+  company_id: 59
+}
+```
+
+</details>
+
+</details>
 </TabItem>
 <TabItem value="Membres" label="Membres" >
 <center> 🐙 C'est pour bientôt 🐙 </center>
@@ -213,7 +465,100 @@ company_id|integer|Identifiant en clair de l'entreprise|
 <TabItem value="Offres" label="Offres" >
   <details>
     <summary> Nouvelle offre </summary>
-      This is the detailed content
+Un Webhook peut être créé pour envoyer une requête lorsqu'une nouvelle offre est créee
+
+  <br/>
+
+|Name|Type|Description|
+|---|---|---|
+data|[data](/docs/Schemas/data_new_vacancy)|Objet contenant les données|
+event|string|Evènement ayant déclenché l'envoi (ici : 'new_vacancy')|
+company_id|integer|Identifiant en clair de l'entreprise|
+
+      
+<details>
+<summary>Exemple</summary>
+
+```json
+{
+  data: {
+    user: {
+      email: 'anthony@flatchr.io',
+      status: 1,
+      id: 147,
+      firstname: 'Ludivine',
+      lastname: 'Lacroix',
+      phone: '+33 6 96 87 53 96',
+      company: 'Louis SAS',
+      language: 'fr_FR',
+      last_login: 2022-01-13T15:41:11.165Z,
+      created_at: 2016-10-17T22:26:50.076Z,
+      updated_at: 2022-01-13T15:41:11.166Z,
+      signature: '<p></p>\n' +
+        '<img src="https://flatchr-staging.s3.eu-west-1.amazonaws.com/trix-pictures/2021-05/662ba2db-6ce2-415e-871d-a6dde247a1bc-Capture%20d%E2%80%99e%CC%81cran%202021-05-09%20a%CC%80%2010.38.29.png.png?content-disposition=attachment" alt="undefined" style="height: auto;width: auto"/>\n' +
+        '<p></p>\n',
+      use_email: false,
+      timezone: 'Europe/Paris',
+      gmail_last_sync_id: null,
+      gmail_last_sync_date: null,
+      picture: [Object]
+    },
+    vacancy: {
+      id: 1578,
+      company_id: 'Vw67MknKj2dJ1203',
+      title: 'Testeur de jeux video',
+      description: '<p>Notre boîte est super.</p>',
+      experience: 6,
+      salary: '0',
+      status: 1,
+      contract_type_id: 1,
+      activity_id: 35,
+      external_id: null,
+      created_by: 'lVq5r6pYLD9AmMvP',
+      created_at: 2022-01-13T15:58:38.120Z,
+      updated_at: 2022-01-13T15:58:38.150Z,
+      mission: '<p>Designer, coder, analyser et tester les systèmes pour les applications iOS<br>Introduire et présenter les usages et les fonctionnalités<br>S'occuper des mises à jour des softwares, des patches et des bugs<br>Développer des applications pour des projet avec deadlines tout en respectant les exigences commerciales<br>Communiquer avec une équipe de développeurs, designers, directeur de projets et autres membres du personnel pour mettre en place de nouvelles fonctionnalités<br>Bien organiser les projets, les brouillons, les dossiers, les codes afin de permettre aux autres membres de l'équipe de faire des changements/suggestions/corrections<br>Rester à jours sur les nouveaux langages de programmations, mise à jour OS, et autres informations qui pourraient affecter le développement.</p>',
+      profile: '<p>Expérience dans la publication d'application Iphone/Ipad<br>Expérience en Objective-C, bibliothèque externe, et gestion d'APIs <br>Très bonne connaissance des différents frameworks iOS (données, graphiques…) et des outils de programmation (Xcoe, Git, …)<br>Excellente capacité à comprendre et développer des algorithmes<br>Excellent communication écrite et verbale en [X] langue<br>[X] diplôme d'ingénieur ou d'un domaine similaire</p>',
+      channel_id: 5,
+      metier_id: 135,
+      daxtra_index: true,
+      mensuality: 'y',
+      reference: 'test-video-202201',
+      published: false,
+      semantic: false,
+      slug: 'vadyjo9m0lnkr0ry-testeur-de-jeux-video',
+      slug_mail: 'v01o0z',
+      driver_license: false,
+      education_level_id: 1,
+      start_date: null,
+      end_date: null,
+      apply_url: null,
+      updated_by: null,
+      language: 'fr_FR',
+      meta_tags: null,
+      meta_description: null,
+      meta_title: null,
+      options: [Object],
+      remote: false,
+      kanban: true,
+      note: '<p>Ceci est ma note interne</p>',
+      currency: 'EUR',
+      partial: false,
+      handicap: false,
+      questions: [],
+      address: [Object],
+      tags: []
+    },
+    message: '<b>Ludivine Lacroix</b> a ajouté une nouvelle offre <b>Testeur de jeux video</b>',
+    user_id: 'lVq5r6pYLD9AmMvP',
+    vacancy_id: 'vADYjo9m0LnkR0ry',
+    company: { id: 'Vw67MknKj2dJ1203', name: 'Flatchr' }
+  },
+  event: 'new_vacancy',
+  company_id: 59
+}
+```
+</details>
   </details>
 </TabItem>
 </Tabs>

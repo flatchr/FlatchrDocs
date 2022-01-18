@@ -75,7 +75,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','aa9'),
+    component: ComponentCreator('/docs','eee'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -152,6 +152,24 @@ export default [
       {
         path: '/docs/Schemas/data_drag_applicant',
         component: ComponentCreator('/docs/Schemas/data_drag_applicant','290'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/data_new_applicant',
+        component: ComponentCreator('/docs/Schemas/data_new_applicant','fc4'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/data_new_message',
+        component: ComponentCreator('/docs/Schemas/data_new_message','962'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/data_new_vacancy',
+        component: ComponentCreator('/docs/Schemas/data_new_vacancy','d96'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

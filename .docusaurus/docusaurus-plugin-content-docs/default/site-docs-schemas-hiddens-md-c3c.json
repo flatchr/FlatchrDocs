@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "data (drag_applicant)",
-    "permalink": "/docs/Schemas/data_drag_applicant"
+    "title": "data (new_vacancy)",
+    "permalink": "/docs/Schemas/data_new_vacancy"
   },
   "next": {
     "title": "message",

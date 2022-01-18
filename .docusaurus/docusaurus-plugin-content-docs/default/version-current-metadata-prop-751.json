@@ -102,6 +102,24 @@
           },
           {
             "type": "link",
+            "label": "data (new_applicant)",
+            "href": "/docs/Schemas/data_new_applicant",
+            "docId": "Schemas/data_new_applicant"
+          },
+          {
+            "type": "link",
+            "label": "data (new_message)",
+            "href": "/docs/Schemas/data_new_message",
+            "docId": "Schemas/data_new_message"
+          },
+          {
+            "type": "link",
+            "label": "data (new_vacancy)",
+            "href": "/docs/Schemas/data_new_vacancy",
+            "docId": "Schemas/data_new_vacancy"
+          },
+          {
+            "type": "link",
             "label": "hiddens",
             "href": "/docs/Schemas/hiddens",
             "docId": "Schemas/hiddens"
@@ -266,6 +284,24 @@
     "Schemas/data_drag_applicant": {
       "id": "Schemas/data_drag_applicant",
       "title": "data (drag_applicant)",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/data_new_applicant": {
+      "id": "Schemas/data_new_applicant",
+      "title": "data (new_applicant)",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/data_new_message": {
+      "id": "Schemas/data_new_message",
+      "title": "data (new_message)",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/data_new_vacancy": {
+      "id": "Schemas/data_new_vacancy",
+      "title": "data (new_vacancy)",
       "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },

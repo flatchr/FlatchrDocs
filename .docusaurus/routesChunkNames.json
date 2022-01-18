@@ -49,7 +49,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---webhooksefe-4d6"
   },
-  "/docs-aa9": {
+  "/docs-eee": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -104,6 +104,18 @@
   "/docs/Schemas/data_drag_applicant-290": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-data-drag-applicant-9-f-0-d75"
+  },
+  "/docs/Schemas/data_new_applicant-fc4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-data-new-applicant-3-b-8-200"
+  },
+  "/docs/Schemas/data_new_message-962": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-data-new-message-184-bc8"
+  },
+  "/docs/Schemas/data_new_vacancy-d96": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-data-new-vacancyf-73-118"
   },
   "/docs/Schemas/hiddens-6ad": {
     "component": "component---theme-doc-item-178-a40",

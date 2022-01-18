@@ -16,8 +16,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to='https://www.flatchr.io/'>
+            to='https://www.flatchr.io/' style={{margin: 1 + '%', width:12 + "em"}} >
             Découvrir Flatchr
+          </Link>
+          <Link
+            className="button button--info button--lg"
+            to='https://app.flatchr.io/' style={{margin: 1 + '%', width:12 + "em"}}>
+            Se connecter
           </Link>
         </div>
       </div>

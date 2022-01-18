@@ -825,6 +825,11 @@
     "default": [
       {
         "type": "mdx",
+        "permalink": "/Partnership",
+        "source": "@site/src/pages/Partnership.md"
+      },
+      {
+        "type": "mdx",
         "permalink": "/SSO",
         "source": "@site/src/pages/SSO.md"
       },

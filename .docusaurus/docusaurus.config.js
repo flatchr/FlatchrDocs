@@ -63,7 +63,6 @@ export default {
       "hideOnScroll": false
     },
     "footer": {
-      "style": "dark",
       "links": [
         {
           "title": "Documentation",
@@ -121,7 +120,8 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 Flatchr International "
+      "copyright": "Copyright © 2022 Flatchr International ",
+      "style": "light"
     },
     "prism": {
       "theme": {

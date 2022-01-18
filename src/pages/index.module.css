@@ -14,6 +14,21 @@
   background-position: center;
 }
 
+.heroBannerLight {
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(245 246 248 / 25%);
+}
+
+.heroBannerPartner {
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;

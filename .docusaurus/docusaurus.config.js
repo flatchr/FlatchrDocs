@@ -322,10 +322,14 @@ export default {
       "disableSwitch": false,
       "respectPrefersColorScheme": false,
       "switchConfig": {
-        "darkIcon": "🌜",
-        "darkIconStyle": {},
-        "lightIcon": "🌞",
-        "lightIconStyle": {}
+        "darkIcon": "🌙",
+        "darkIconStyle": {
+          "marginLeft": "2px"
+        },
+        "lightIcon": "☀️",
+        "lightIconStyle": {
+          "marginLeft": "1px"
+        }
       }
     },
     "docs": {

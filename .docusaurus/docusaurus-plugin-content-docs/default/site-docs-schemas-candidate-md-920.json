@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/candidate",
+  "id": "Schemas/candidate",
+  "title": "candidate",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/candidate.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/candidate",
+  "permalink": "/docs/Schemas/candidate",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/candidate.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "applicant",
+    "permalink": "/docs/Schemas/applicant"
+  },
+  "next": {
+    "title": "column",
+    "permalink": "/docs/Schemas/column"
+  }
+}

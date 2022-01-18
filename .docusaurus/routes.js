@@ -75,7 +75,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','084'),
+    component: ComponentCreator('/docs','aa9'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -122,6 +122,24 @@ export default [
       {
         path: '/docs/Schemas/answer',
         component: ComponentCreator('/docs/Schemas/answer','b32'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/applicant',
+        component: ComponentCreator('/docs/Schemas/applicant','578'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/candidate',
+        component: ComponentCreator('/docs/Schemas/candidate','9fc'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/column',
+        component: ComponentCreator('/docs/Schemas/column','85a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

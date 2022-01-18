@@ -209,6 +209,75 @@
                 "permalink": "/docs/Schemas/address"
               },
               "next": {
+                "title": "applicant",
+                "permalink": "/docs/Schemas/applicant"
+              }
+            },
+            {
+              "unversionedId": "Schemas/applicant",
+              "id": "Schemas/applicant",
+              "title": "applicant",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/applicant.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/applicant",
+              "permalink": "/docs/Schemas/applicant",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/applicant.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "answer",
+                "permalink": "/docs/Schemas/answer"
+              },
+              "next": {
+                "title": "candidate",
+                "permalink": "/docs/Schemas/candidate"
+              }
+            },
+            {
+              "unversionedId": "Schemas/candidate",
+              "id": "Schemas/candidate",
+              "title": "candidate",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/candidate.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/candidate",
+              "permalink": "/docs/Schemas/candidate",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/candidate.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "applicant",
+                "permalink": "/docs/Schemas/applicant"
+              },
+              "next": {
+                "title": "column",
+                "permalink": "/docs/Schemas/column"
+              }
+            },
+            {
+              "unversionedId": "Schemas/column",
+              "id": "Schemas/column",
+              "title": "column",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/column.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/column",
+              "permalink": "/docs/Schemas/column",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/column.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "candidate",
+                "permalink": "/docs/Schemas/candidate"
+              },
+              "next": {
                 "title": "company",
                 "permalink": "/docs/Schemas/company"
               }
@@ -228,8 +297,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "answer",
-                "permalink": "/docs/Schemas/answer"
+                "title": "column",
+                "permalink": "/docs/Schemas/column"
               },
               "next": {
                 "title": "data (drag_applicant)",
@@ -602,6 +671,18 @@
                   {
                     "type": "doc",
                     "id": "Schemas/answer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/applicant"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/candidate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/column"
                   },
                   {
                     "type": "doc",

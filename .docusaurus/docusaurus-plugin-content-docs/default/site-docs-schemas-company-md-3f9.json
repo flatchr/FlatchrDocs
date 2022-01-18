@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "answer",
-    "permalink": "/docs/Schemas/answer"
+    "title": "column",
+    "permalink": "/docs/Schemas/column"
   },
   "next": {
     "title": "data (drag_applicant)",

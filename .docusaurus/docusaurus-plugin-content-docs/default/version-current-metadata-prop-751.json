@@ -72,6 +72,24 @@
           },
           {
             "type": "link",
+            "label": "applicant",
+            "href": "/docs/Schemas/applicant",
+            "docId": "Schemas/applicant"
+          },
+          {
+            "type": "link",
+            "label": "candidate",
+            "href": "/docs/Schemas/candidate",
+            "docId": "Schemas/candidate"
+          },
+          {
+            "type": "link",
+            "label": "column",
+            "href": "/docs/Schemas/column",
+            "docId": "Schemas/column"
+          },
+          {
+            "type": "link",
             "label": "company",
             "href": "/docs/Schemas/company",
             "docId": "Schemas/company"
@@ -218,6 +236,24 @@
     "Schemas/answer": {
       "id": "Schemas/answer",
       "title": "answer",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/applicant": {
+      "id": "Schemas/applicant",
+      "title": "applicant",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/candidate": {
+      "id": "Schemas/candidate",
+      "title": "candidate",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/column": {
+      "id": "Schemas/column",
+      "title": "column",
       "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },

@@ -51,6 +51,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Schemas/applicant",
+              "path": "/docs/Schemas/applicant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/candidate",
+              "path": "/docs/Schemas/candidate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/column",
+              "path": "/docs/Schemas/column",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Schemas/company",
               "path": "/docs/Schemas/company",
               "sidebar": "tutorialSidebar"

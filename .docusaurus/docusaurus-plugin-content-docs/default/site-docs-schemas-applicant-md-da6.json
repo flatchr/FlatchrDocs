@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/applicant",
+  "id": "Schemas/applicant",
+  "title": "applicant",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/applicant.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/applicant",
+  "permalink": "/docs/Schemas/applicant",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/applicant.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "answer",
+    "permalink": "/docs/Schemas/answer"
+  },
+  "next": {
+    "title": "candidate",
+    "permalink": "/docs/Schemas/candidate"
+  }
+}

@@ -56,8 +56,9 @@ export default {
         },
         {
           "href": "https://www.postman.com/flatchr/workspace/flatchr-public-api/overview",
-          "label": "API Reference",
-          "position": "right"
+          "label": "Run in Postman",
+          "position": "right",
+          "className": "postman_navbar__link"
         }
       ],
       "hideOnScroll": false
@@ -85,7 +86,8 @@ export default {
             },
             {
               "href": "https://www.postman.com/flatchr/workspace/flatchr-public-api/overview",
-              "label": "API Reference"
+              "label": "Run in Postman",
+              "className": "postman_footer__link-item"
             }
           ]
         },

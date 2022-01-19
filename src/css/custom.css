@@ -101,4 +101,14 @@ table {
     background-color: #242526;
   }
  
-  
+  .postman_navbar__link:hover,
+    .postman_navbar__link--active {
+      color: #EF5B25;
+      text-decoration: none;
+    }
+
+    .postman_footer__link-item:hover,
+    .postman_footer__link-item--active {
+      color: #EF5B25;
+    }
+    .postman_footer__link-item { color: var(--ifm-footer-link-color); line-height: 2; }

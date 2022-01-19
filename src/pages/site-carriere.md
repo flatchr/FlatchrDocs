@@ -105,7 +105,7 @@ Les arguments doivent être rajoutés dans l'url et préfixé par le symbole **&
 ## Intranet
 :::info Important
 
-Dans votre espace flatchr **Administration** > **Avancée** vous devez indiquer l'adresse URL de votre site intranet dans la rubrique `Configuration Intranet` afin que votre iframe ne puisse s'afficher que dans votre espace intranet.
+Dans votre espace flatchr [**Administration** > **Avancée**](http://app.flatchr.io/#/board/settings/advanced) vous devez indiquer l'adresse URL de votre site intranet dans la rubrique `Configuration Intranet` afin que votre iframe ne puisse s'afficher que dans votre espace intranet.
 
 :::
 

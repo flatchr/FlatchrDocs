@@ -40,7 +40,7 @@ Avant toute mise en place, veuillez valider l’adéquation entre ce service et 
 
 ### Token
 :::danger Important
-Votre `API_KEY` doit être générée dans votre espace Flatchr **Configuration > Clés**.
+Votre `API_KEY` doit être générée dans votre espace Flatchr [**Configuration > Clés**](http://app.flatchr.io/#/board/settings/keys).
 :::
 
 
@@ -67,7 +67,7 @@ Pour certaines requêtes vous aurez besoin de votre `slug`, c’est la référen
 ### Identifiant de l'entreprise
 
 Pour certaines requêtes vous aurez besoin de votre `clé entreprise`, c’est la clé unique qui définit votre entreprise dans nos données.  
-Elle se trouve dans l'onglet **Configuration > Clés**
+Elle se trouve dans l'onglet [**Configuration > Clés**](http://app.flatchr.io/#/board/settings/keys)
 
 :::info Exemple
 

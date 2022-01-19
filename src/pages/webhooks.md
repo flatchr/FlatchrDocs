@@ -5,7 +5,7 @@ description: Tout savoir sur les webhooks Flatchr
 
 # Webhooks
 
-Flatchr dispose de plusieurs webhooks pouvant être configurés afin de communiquer avec des applications tierces lors du déclenchement de certains évènements.
+Flatchr dispose de plusieurs webhooks pouvant être configurés **gratuitement** afin de communiquer avec des applications tierces lors du déclenchement de certains évènements.
 
 ## Qu'est ce qu'un Webhook ? 
 
@@ -32,7 +32,7 @@ Pour que l'application Webhook soit disponible dans la partie Marketplace, rappr
 
 ## Comment paramétrer les Webhooks ? 
 
-Pour paramétrer un Webhook, rendez vous dans l'onglet `Administration > Marketplace` puis cliquer sur l'application **Webhooks**.  
+Pour paramétrer un Webhook, rendez vous dans l'onglet [`Administration > Marketplace`](http://app.flatchr.io/#/board/settings/api) puis cliquer sur l'application **Webhooks**.  
 
 
 Il vous sera alors demandé de paramétrer certains éléments : 

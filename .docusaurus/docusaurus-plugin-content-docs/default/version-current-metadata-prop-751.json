@@ -212,7 +212,7 @@
     "getting_started": {
       "id": "getting_started",
       "title": "Getting Started",
-      "description": "Introduction",
+      "description": "Comment se connecter à l'API Flatchr ?",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Creer_un_candidat": {

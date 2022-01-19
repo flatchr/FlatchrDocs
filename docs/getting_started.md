@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Comment se connecter à l'API Flatchr ? 
 ---
 
 # Getting Started

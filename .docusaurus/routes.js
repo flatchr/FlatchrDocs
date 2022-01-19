@@ -44,8 +44,8 @@ export default [
     exact: true
   },
   {
-    path: '/sites-carrieres',
-    component: ComponentCreator('/sites-carrieres','a2d'),
+    path: '/site-carriere',
+    component: ComponentCreator('/site-carriere','c1f'),
     exact: true
   },
   {
@@ -69,8 +69,8 @@ export default [
     exact: true
   },
   {
-    path: '/Webhooks',
-    component: ComponentCreator('/Webhooks','a42'),
+    path: '/webhooks',
+    component: ComponentCreator('/webhooks','736'),
     exact: true
   },
   {

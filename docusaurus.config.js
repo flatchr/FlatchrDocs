@@ -15,7 +15,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'flatchr.io', // Usually your GitHub org/user name.
-  projectName: 'api', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -58,9 +56,9 @@ const config = {
             position: 'left',
             label: 'API',
           },
-          {to: '/sites-carrieres', label: 'Sites Carrières', position: 'left'},
+          {to: '/site-carriere', label: 'Site Carrière', position: 'left'},
           {to: '/sso', label: 'SSO', position: 'left'},
-          {to: '/Webhooks', label: 'Webhooks', position: 'left'},
+          {to: '/webhooks', label: 'Webhooks', position: 'left'},
           {href: 'https://www.postman.com/flatchr/workspace/flatchr-public-api/overview', label: 'Run in Postman', position: 'right',className:'postman_navbar__link'},
           
         ],
@@ -74,9 +72,9 @@ const config = {
                 label: 'API',
                 to: '/docs/getting_started',
               },
-              {to: '/sites-carrieres', label: 'Sites Carrières'},
+              {to: '/site-carriere', label: 'Site Carrière'},
               {to: '/sso', label: 'SSO'},
-              {to: '/Webhooks', label: 'Webhooks'},
+              {to: '/webhooks', label: 'Webhooks'},
               {href: 'https://www.postman.com/flatchr/workspace/flatchr-public-api/overview', label: 'Run in Postman',className:'postman_footer__link-item'},
             ],
           },
@@ -103,7 +101,7 @@ const config = {
             items: [
 
               {
-                label: 'flatchr.io',
+                label: 'Flatchr.io',
                 href: 'https://www.flatchr.io/',
               },
               {

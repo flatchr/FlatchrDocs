@@ -1,4 +1,11 @@
+---
+title: SSO
+description: Tout savoir sur le SSO chez Flatchr
+---
+
+
 # SSO
+
 
 Il est possible de se connecter à [flatchr.io](https://www.flatchr.io/) grâce à la technologie SSO *(Single Sign On)*
 

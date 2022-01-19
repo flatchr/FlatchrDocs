@@ -20,7 +20,7 @@
               "unversionedId": "getting_started",
               "id": "getting_started",
               "title": "Getting Started",
-              "description": "Introduction",
+              "description": "Comment se connecter à l'API Flatchr ?",
               "source": "@site/docs/getting_started.md",
               "sourceDirName": ".",
               "slug": "/getting_started",
@@ -29,7 +29,8 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 1,
+                "description": "Comment se connecter à l'API Flatchr ?"
               },
               "sidebar": "tutorialSidebar",
               "next": {
@@ -829,19 +830,19 @@
         "source": "@site/src/pages/SSO.md"
       },
       {
-        "type": "mdx",
-        "permalink": "/Webhooks",
-        "source": "@site/src/pages/Webhooks.md"
-      },
-      {
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/sites-carrieres",
-        "source": "@site/src/pages/sites-carrieres.md"
+        "permalink": "/site-carriere",
+        "source": "@site/src/pages/site-carriere.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/webhooks",
+        "source": "@site/src/pages/webhooks.md"
       },
       {
         "type": "mdx",

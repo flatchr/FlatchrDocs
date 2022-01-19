@@ -7,7 +7,7 @@ export default {
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/logo.svg",
   "organizationName": "flatchr.io",
-  "projectName": "api",
+  "projectName": "docs",
   "presets": [
     [
       "classic",
@@ -16,8 +16,7 @@ export default {
           "sidebarPath": "/home/alexisc/docs/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "/home/alexisc/docs/src/css/custom.css"
@@ -40,8 +39,8 @@ export default {
           "label": "API"
         },
         {
-          "to": "/sites-carrieres",
-          "label": "Sites Carrières",
+          "to": "/site-carriere",
+          "label": "Site Carrière",
           "position": "left"
         },
         {
@@ -50,7 +49,7 @@ export default {
           "position": "left"
         },
         {
-          "to": "/Webhooks",
+          "to": "/webhooks",
           "label": "Webhooks",
           "position": "left"
         },
@@ -73,15 +72,15 @@ export default {
               "to": "/docs/getting_started"
             },
             {
-              "to": "/sites-carrieres",
-              "label": "Sites Carrières"
+              "to": "/site-carriere",
+              "label": "Site Carrière"
             },
             {
               "to": "/sso",
               "label": "SSO"
             },
             {
-              "to": "/Webhooks",
+              "to": "/webhooks",
               "label": "Webhooks"
             },
             {
@@ -112,7 +111,7 @@ export default {
           "title": "En savoir plus",
           "items": [
             {
-              "label": "flatchr.io",
+              "label": "Flatchr.io",
               "href": "https://www.flatchr.io/"
             },
             {

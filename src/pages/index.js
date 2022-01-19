@@ -55,7 +55,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title='Accueil'
       description="Retrouvez la documentation technique de l'ATS flatchr.io">
       <HomepageHeader />
       <main>

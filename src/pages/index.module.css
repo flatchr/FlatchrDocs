@@ -19,7 +19,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: rgb(245 246 248 / 25%);
+  background: linear-gradient(rgb(245 246 248 / 25%),white);
 }
 
 .heroBannerPartner {

@@ -116,3 +116,15 @@ table {
     .footer__col{
       margin-bottom: 1em;
     }
+
+    .button--primary:hover,
+    .button--primary:active,
+    .button--primary.button--active {
+      --ifm-button-border-color: var(--ifm-color-primary-light);
+      --ifm-button-background-color: var(--ifm-color-primary-light);
+
+      /* Has to be explicitly defined because .button--outline has quite high specificity. */
+      background-color: var(--ifm-color-primary-light);
+      /* Has to be explicitly defined because .button--outline has quite high specificity. */
+      border-color: var(--ifm-color-primary-light);
+    }

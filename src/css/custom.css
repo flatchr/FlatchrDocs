@@ -112,3 +112,7 @@ table {
       color: #EF5B25;
     }
     .postman_footer__link-item { color: var(--ifm-footer-link-color); line-height: 2; }
+
+    .footer__col{
+      margin-bottom: 1em;
+    }

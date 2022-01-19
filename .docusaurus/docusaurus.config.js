@@ -27,7 +27,7 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Flatchr",
+      "title": "Flatchr Docs",
       "logo": {
         "alt": "Logo Fl",
         "src": "img/logo.svg"

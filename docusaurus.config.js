@@ -45,7 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Flatchr',
+        title: 'Flatchr Docs',
         logo: {
           alt: 'Logo Fl',
           src: 'img/logo.svg',

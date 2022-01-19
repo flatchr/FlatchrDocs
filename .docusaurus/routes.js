@@ -44,11 +44,6 @@ export default [
     exact: true
   },
   {
-    path: '/Partnership',
-    component: ComponentCreator('/Partnership','99e'),
-    exact: true
-  },
-  {
     path: '/sites-carrieres',
     component: ComponentCreator('/sites-carrieres','a2d'),
     exact: true

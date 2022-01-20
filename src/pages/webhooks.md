@@ -24,6 +24,17 @@ Lorsqu'un candidat est placé dans la colonne recruté dans Flatchr vous souhait
 
 <br/>
 
+## Quelle est la différence entre les Webhooks et une API ? 
+
+Les Webhooks et l'API utilisent tous les deux des requêtes HTTP mais leur principe de fonctionnement est légèrement différent. En effet, avec une API on doit l'interroger régulièrement pour avoir les nouvelles données alors que les webhooks permettent au client de recevoir des informations sans avoir besoin d'interroger le serveur. 
+
+C'est pour cela que les webhooks sont très utilisés pour envoyer une information liée à un évènement comme un nouveau candidat ou un nouvel e-mail reçu. 
+
+![Illustration Webhooks/API](/img/schema_webhooks_api.png)
+
+
+<br/>
+
 ## Comment activer les Webhooks dans l'interface Flatchr ? 
 
 Pour que l'application Webhook soit disponible dans la partie Marketplace, rapprochez vous de votre Customer Success Manager ou de [notre support](mailto:support@flatchr.io).

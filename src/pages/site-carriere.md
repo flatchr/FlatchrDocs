@@ -47,7 +47,7 @@ width="100%" height="600px" frameborder="0" marginwidth="0" marginheight="0">
 
 
 :::info
-Pour plus d'informations sur les iframe vous pouvez vous référer à [cette documentation](https://www.w3schools.com/html/html_iframe.asp)
+Pour plus d'informations sur les iframe vous pouvez vous référer à [cette documentation](https://www.w3schools.com/html/html_iframe.asp).
 :::
 
 <br/>
@@ -130,7 +130,7 @@ width="100%" height="600px" frameborder="0" marginwidth="0" marginheight="0">
 
 :::info
 
-Pour plus d'informations sur les iframe vous pouvez vous référer à [cette documentation](https://www.w3schools.com/html/html_iframe.asp)
+Pour plus d'informations sur les iframe vous pouvez vous référer à [cette documentation](https://www.w3schools.com/html/html_iframe.asp).
 :::
 
 <br/>

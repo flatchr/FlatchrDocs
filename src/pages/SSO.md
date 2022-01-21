@@ -7,7 +7,7 @@ description: Tout savoir sur le SSO chez Flatchr
 # SSO
 
 
-Il est possible de se connecter à [flatchr.io](https://www.flatchr.io/) grâce à la technologie SSO *(Single Sign On)*
+Il est possible de se connecter à [flatchr.io](https://www.flatchr.io/) grâce à la technologie SSO *(Single Sign On)*.
 
 <br/>
 
@@ -23,7 +23,7 @@ En fait, c'est une clé unique que l'on va pouvoir utiliser pour accéder à de 
 
 > Vous l'avez tous déjà utilisé !  
 > Vous connaissez ce fameux bouton "Connexion avec Google" ou bien "Connexion avec Facebook" ?  
-> Ca, c'est du SSO.
+> Ça, c'est du SSO.
 
 <br/>
 

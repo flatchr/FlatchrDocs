@@ -9,13 +9,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Flatchr Docs',
   tagline: 'flatchr.io | Logiciel de recrutement',
-  url: 'https://www.flatchr.io/',
+  url: 'https://developers.flatchr.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
-  organizationName: 'flatchr.io', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'flatchr', // Usually your GitHub org/user name.
+  projectName: 'FlatchrDocs', // Usually your repo name.
 
   presets: [
     [
@@ -137,6 +137,7 @@ const config = {
 };
 
 module.exports =config,{
+
   presets: [
     [
       'redocusaurus',

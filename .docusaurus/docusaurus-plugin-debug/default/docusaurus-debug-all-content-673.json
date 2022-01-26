@@ -12,9 +12,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/alexisc/docs/sidebars.js",
-          "contentPath": "/home/alexisc/docs/docs",
-          "contentPathLocalized": "/home/alexisc/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/alexisc/Github-FlatchrDocs/FlatchrDocs/sidebars.js",
+          "contentPath": "/home/alexisc/Github-FlatchrDocs/FlatchrDocs/docs",
+          "contentPathLocalized": "/home/alexisc/Github-FlatchrDocs/FlatchrDocs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "getting_started",

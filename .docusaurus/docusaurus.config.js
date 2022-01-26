@@ -1,25 +1,25 @@
 export default {
   "title": "Flatchr Docs",
   "tagline": "flatchr.io | Logiciel de recrutement",
-  "url": "https://www.flatchr.io/",
+  "url": "https://developers.flatchr.io/",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/logo.svg",
-  "organizationName": "flatchr.io",
-  "projectName": "docs",
+  "organizationName": "flatchr",
+  "projectName": "FlatchrDocs",
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/alexisc/docs/sidebars.js"
+          "sidebarPath": "/home/alexisc/Github-FlatchrDocs/FlatchrDocs/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/home/alexisc/docs/src/css/custom.css"
+          "customCss": "/home/alexisc/Github-FlatchrDocs/FlatchrDocs/src/css/custom.css"
         }
       }
     ]

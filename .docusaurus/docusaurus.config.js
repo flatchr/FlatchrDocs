@@ -6,7 +6,7 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/logo.svg",
-  "organizationName": "alexiscolonnaflatchr",
+  "organizationName": "flatchr",
   "projectName": "FlatchrDocs",
   "trailingSlash": false,
   "presets": [
@@ -14,13 +14,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/alexisc/Github-FlatchrDocs/FlatchrDocs/sidebars.js"
+          "sidebarPath": "/home/alexisc/FlatchrDocsV0/FlatchrDocs/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/home/alexisc/Github-FlatchrDocs/FlatchrDocs/src/css/custom.css"
+          "customCss": "/home/alexisc/FlatchrDocsV0/FlatchrDocs/src/css/custom.css"
         }
       }
     ]

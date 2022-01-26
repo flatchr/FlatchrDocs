@@ -8,6 +8,11 @@ To work with:
 - Install dependencies `npm install`
 - Run the project with `npm run start`
 
+Before deployment : 
+
+- Build the project `npm run build`
+- Test the version to deploy `npm run serve`
+
 To deploy : 
 
 - Pray

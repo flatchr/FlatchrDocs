@@ -8,3 +8,7 @@ To work with:
 - Install dependencies `npm install`
 - Run the project with `npm run start`
 
+To deploy: 
+
+-Pray & Run : GIT_USER={Github_Username} USE_SSH=TRUE CURRENT_BRANCH=master npm run deploy
+

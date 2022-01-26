@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/answer",
+  "id": "Schemas/answer",
+  "title": "answer",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/answer.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/answer",
+  "permalink": "/docs/Schemas/answer",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "address",
+    "permalink": "/docs/Schemas/address"
+  },
+  "next": {
+    "title": "applicant",
+    "permalink": "/docs/Schemas/applicant"
+  }
+}

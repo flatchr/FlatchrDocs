@@ -1,0 +1,18 @@
+{
+  "unversionedId": "Schemas/Referentiels/metiers",
+  "id": "Schemas/Referentiels/metiers",
+  "title": "metiers",
+  "description": "Le référenciel des métiers peut être appelé avec la requête :",
+  "source": "@site/docs/Schemas/Referentiels/metiers.md",
+  "sourceDirName": "Schemas/Referentiels",
+  "slug": "/Schemas/Referentiels/metiers",
+  "permalink": "/docs/Schemas/Referentiels/metiers",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "education levels",
+    "permalink": "/docs/Schemas/Referentiels/education_levels"
+  }
+}

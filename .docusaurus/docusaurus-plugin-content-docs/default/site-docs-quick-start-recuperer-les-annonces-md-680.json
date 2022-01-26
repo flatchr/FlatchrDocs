@@ -1,0 +1,25 @@
+{
+  "unversionedId": "QuickStart/Recuperer_les_annonces",
+  "id": "QuickStart/Recuperer_les_annonces",
+  "title": "Récupérer les annonces",
+  "description": "L'URL racine est ici https://careers.flatchr.io",
+  "source": "@site/docs/QuickStart/Recuperer_les_annonces.md",
+  "sourceDirName": "QuickStart",
+  "slug": "/QuickStart/Recuperer_les_annonces",
+  "permalink": "/docs/QuickStart/Recuperer_les_annonces",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/getting_started"
+  },
+  "next": {
+    "title": "Rechercher un candidat",
+    "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/Referentiels/contract_type",
+  "id": "Schemas/Referentiels/contract_type",
+  "title": "contract type",
+  "description": "Le référenciel des types de contrat peut être appelé avec la requête :",
+  "source": "@site/docs/Schemas/Referentiels/contract_type.md",
+  "sourceDirName": "Schemas/Referentiels",
+  "slug": "/Schemas/Referentiels/contract_type",
+  "permalink": "/docs/Schemas/Referentiels/contract_type",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "channels",
+    "permalink": "/docs/Schemas/Referentiels/channels"
+  },
+  "next": {
+    "title": "education levels",
+    "permalink": "/docs/Schemas/Referentiels/education_levels"
+  }
+}

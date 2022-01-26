@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/hiddens",
+  "id": "Schemas/hiddens",
+  "title": "hiddens",
+  "description": "",
+  "source": "@site/docs/Schemas/hiddens.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/hiddens",
+  "permalink": "/docs/Schemas/hiddens",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "data (new_vacancy)",
+    "permalink": "/docs/Schemas/data_new_vacancy"
+  },
+  "next": {
+    "title": "message",
+    "permalink": "/docs/Schemas/message"
+  }
+}

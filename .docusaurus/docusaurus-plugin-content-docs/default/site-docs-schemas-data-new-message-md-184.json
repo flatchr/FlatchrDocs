@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/data_new_message",
+  "id": "Schemas/data_new_message",
+  "title": "data (new_message)",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/data_new_message.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/data_new_message",
+  "permalink": "/docs/Schemas/data_new_message",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "data (new_applicant)",
+    "permalink": "/docs/Schemas/data_new_applicant"
+  },
+  "next": {
+    "title": "data (new_vacancy)",
+    "permalink": "/docs/Schemas/data_new_vacancy"
+  }
+}

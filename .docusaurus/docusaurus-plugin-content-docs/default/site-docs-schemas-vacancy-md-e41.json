@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/vacancy",
+  "id": "Schemas/vacancy",
+  "title": "vacancy",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/vacancy.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/vacancy",
+  "permalink": "/docs/Schemas/vacancy",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "user",
+    "permalink": "/docs/Schemas/user"
+  },
+  "next": {
+    "title": "activities",
+    "permalink": "/docs/Schemas/Referentiels/activities"
+  }
+}

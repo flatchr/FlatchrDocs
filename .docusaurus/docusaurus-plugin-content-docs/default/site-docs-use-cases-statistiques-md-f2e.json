@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Use Cases/Statistiques",
+  "id": "Use Cases/Statistiques",
+  "title": "Récupérer ses données pour les intégrer dans un outil de BI",
+  "description": "",
+  "source": "@site/docs/Use Cases/Statistiques.md",
+  "sourceDirName": "Use Cases",
+  "slug": "/Use Cases/Statistiques",
+  "permalink": "/docs/Use Cases/Statistiques",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Use Cases/Statistiques.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multicomptes",
+    "permalink": "/docs/Use Cases/Multicomptes"
+  },
+  "next": {
+    "title": "activity",
+    "permalink": "/docs/Schemas/activity"
+  }
+}

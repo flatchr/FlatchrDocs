@@ -1,0 +1,51 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image:url(https://www.flatchr.io/hs-fs/hubfs/background-flatchr-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.heroBannerLight {
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#fdfdfd,var(--ifm-background-color));
+}
+
+html[data-theme='dark'] .heroBannerLight {
+  background: linear-gradient(var(--ifm-color-emphasis-100),var(--ifm-background-color));
+}
+
+
+.heroBannerPartner {
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+html[data-theme='dark'] .heroBannerPartner {
+  background: var(--ifm-color-info-contrast-background);
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: float;
+  align-items: center;
+  justify-content: center;
+}

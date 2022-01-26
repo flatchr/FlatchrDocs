@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/shield",
+  "id": "Schemas/shield",
+  "title": "shield",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/shield.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/shield",
+  "permalink": "/docs/Schemas/shield",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "question",
+    "permalink": "/docs/Schemas/question"
+  },
+  "next": {
+    "title": "tags",
+    "permalink": "/docs/Schemas/tag"
+  }
+}

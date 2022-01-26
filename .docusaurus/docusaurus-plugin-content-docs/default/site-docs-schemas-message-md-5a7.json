@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/message",
+  "id": "Schemas/message",
+  "title": "message",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/message.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/message",
+  "permalink": "/docs/Schemas/message",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "hiddens",
+    "permalink": "/docs/Schemas/hiddens"
+  },
+  "next": {
+    "title": "options",
+    "permalink": "/docs/Schemas/options"
+  }
+}

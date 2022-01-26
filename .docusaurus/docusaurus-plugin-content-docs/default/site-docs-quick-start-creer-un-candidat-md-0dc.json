@@ -1,0 +1,25 @@
+{
+  "unversionedId": "QuickStart/Creer_un_candidat",
+  "id": "QuickStart/Creer_un_candidat",
+  "title": "Créer un candidat",
+  "description": "L'URL racine est ici https://careers.flatchr.io",
+  "source": "@site/docs/QuickStart/Creer_un_candidat.md",
+  "sourceDirName": "QuickStart",
+  "slug": "/QuickStart/Creer_un_candidat",
+  "permalink": "/docs/QuickStart/Creer_un_candidat",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rechercher un candidat",
+    "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+  },
+  "next": {
+    "title": "Ajouter des meta informations",
+    "permalink": "/docs/QuickStart/Meta_informations_candidat"
+  }
+}

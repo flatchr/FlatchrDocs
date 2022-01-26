@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/column",
+  "id": "Schemas/column",
+  "title": "column",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/column.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/column",
+  "permalink": "/docs/Schemas/column",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "candidate",
+    "permalink": "/docs/Schemas/candidate"
+  },
+  "next": {
+    "title": "company",
+    "permalink": "/docs/Schemas/company"
+  }
+}

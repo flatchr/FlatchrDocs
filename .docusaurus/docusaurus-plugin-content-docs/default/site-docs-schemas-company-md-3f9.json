@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/company",
+  "id": "Schemas/company",
+  "title": "company",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/company.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/company",
+  "permalink": "/docs/Schemas/company",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "column",
+    "permalink": "/docs/Schemas/column"
+  },
+  "next": {
+    "title": "data (drag_applicant)",
+    "permalink": "/docs/Schemas/data_drag_applicant"
+  }
+}

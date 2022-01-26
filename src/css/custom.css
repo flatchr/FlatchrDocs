@@ -1,0 +1,130 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
+
+:root {
+  --ifm-color-primary: #00aeca;
+  --ifm-color-primary-dark: #009db6;
+  --ifm-color-primary-darker: #0094ac;
+  --ifm-color-primary-darkest: #007a8d;
+  --ifm-color-primary-light: #00bfde;
+  --ifm-color-primary-lighter: #00c8e8;
+  --ifm-color-primary-lightest: #08ddff;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+details[open] {
+  background-color: #ffffff;
+}
+
+table th {
+	border-bottom: 1px solid #e7e7e7;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+	text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(136, 135, 135);
+}
+
+table tr:last-child {
+	border-bottom: none;
+} 
+
+
+table td:first-child  {
+    font-weight: bold;
+}
+
+table tr:nth-child(2n) > td {
+	background-color: #f7f7f7;
+}
+
+table {
+  margin-bottom: 1em;
+  overflow: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  padding-left: 5%;
+}
+  table th, table td {
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.6;
+     }
+     table th code,  table td code {
+      white-space: nowrap; }
+   table th {
+    padding: 5px 10px;
+    vertical-align: bottom; }
+   table td {
+    padding: 10px; 
+    border : none;
+  }
+  table tr {
+    border-top: none;
+  }
+   table tr:nth-child(odd) > td {
+    background-color: white; 
+  }
+   table tr:nth-child(even) > td {
+    background-color: #fbfcfd;
+  }
+
+  html[data-theme='dark']  table tr:nth-child(odd) > td {
+    background-color: #18191a; 
+  }
+
+  html[data-theme='dark']  table tr:nth-child(even) > td {
+    background-color: #242526;
+  }
+ 
+  .postman_navbar__link:hover,
+    .postman_navbar__link--active {
+      color: #EF5B25;
+      text-decoration: none;
+    }
+
+    .postman_footer__link-item:hover,
+    .postman_footer__link-item--active {
+      color: #EF5B25;
+    }
+    .postman_footer__link-item { color: var(--ifm-footer-link-color); line-height: 2; }
+
+    .footer__col{
+      margin-bottom: 1em;
+    }
+
+    .button--primary:hover,
+    .button--primary:active,
+    .button--primary.button--active {
+      --ifm-button-border-color: var(--ifm-color-primary-light);
+      --ifm-button-background-color: var(--ifm-color-primary-light);
+
+      /* Has to be explicitly defined because .button--outline has quite high specificity. */
+      background-color: var(--ifm-color-primary-light);
+      /* Has to be explicitly defined because .button--outline has quite high specificity. */
+      border-color: var(--ifm-color-primary-light);
+    }

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/address",
+  "id": "Schemas/address",
+  "title": "address",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/address.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/address",
+  "permalink": "/docs/Schemas/address",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "activity",
+    "permalink": "/docs/Schemas/activity"
+  },
+  "next": {
+    "title": "answer",
+    "permalink": "/docs/Schemas/answer"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/options",
+  "id": "Schemas/options",
+  "title": "options",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/options.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/options",
+  "permalink": "/docs/Schemas/options",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "message",
+    "permalink": "/docs/Schemas/message"
+  },
+  "next": {
+    "title": "question",
+    "permalink": "/docs/Schemas/question"
+  }
+}

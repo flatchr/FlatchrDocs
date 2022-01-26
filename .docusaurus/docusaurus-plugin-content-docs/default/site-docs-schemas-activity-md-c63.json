@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/activity",
+  "id": "Schemas/activity",
+  "title": "activity",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/activity.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/activity",
+  "permalink": "/docs/Schemas/activity",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ajouter des meta informations",
+    "permalink": "/docs/QuickStart/Meta_informations_candidat"
+  },
+  "next": {
+    "title": "address",
+    "permalink": "/docs/Schemas/address"
+  }
+}

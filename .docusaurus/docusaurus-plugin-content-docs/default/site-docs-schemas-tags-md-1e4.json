@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/tags",
+  "id": "Schemas/tags",
+  "title": "tags",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/tags.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/tags",
+  "permalink": "/docs/Schemas/tags",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/tags.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "shields",
+    "permalink": "/docs/Schemas/shields"
+  },
+  "next": {
+    "title": "vacancy",
+    "permalink": "/docs/Schemas/vacancy"
+  }
+}

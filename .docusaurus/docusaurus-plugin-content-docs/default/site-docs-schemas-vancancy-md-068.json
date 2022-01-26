@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/vancancy",
+  "id": "Schemas/vancancy",
+  "title": "vacancy",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/vancancy.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/vancancy",
+  "permalink": "/docs/Schemas/vancancy",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/vancancy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tags",
+    "permalink": "/docs/Schemas/tags"
+  },
+  "next": {
+    "title": "Formulaire personnalisé",
+    "permalink": "/docs/Use Cases/Formulaire_personalise"
+  }
+}

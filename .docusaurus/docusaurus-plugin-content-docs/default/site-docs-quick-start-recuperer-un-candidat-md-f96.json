@@ -1,0 +1,25 @@
+{
+  "unversionedId": "QuickStart/Recuperer_un_candidat",
+  "id": "QuickStart/Recuperer_un_candidat",
+  "title": "Rechercher un candidat",
+  "description": "Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.",
+  "source": "@site/docs/QuickStart/Recuperer_un_candidat.md",
+  "sourceDirName": "QuickStart",
+  "slug": "/QuickStart/Recuperer_un_candidat",
+  "permalink": "/docs/QuickStart/Recuperer_un_candidat",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Récupérer les annonces",
+    "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+  },
+  "next": {
+    "title": "Créer un candidat",
+    "permalink": "/docs/QuickStart/Creer_un_candidat"
+  }
+}

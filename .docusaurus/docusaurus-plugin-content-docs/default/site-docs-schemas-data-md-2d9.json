@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Schemas/data",
+  "id": "Schemas/data",
+  "title": "data",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/data.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/data",
+  "permalink": "/docs/Schemas/data",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Schemas/data.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "company",
+    "permalink": "/docs/Schemas/company"
+  },
+  "next": {
+    "title": "hiddens",
+    "permalink": "/docs/Schemas/hiddens"
+  }
+}

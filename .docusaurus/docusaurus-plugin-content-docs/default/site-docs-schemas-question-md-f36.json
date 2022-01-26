@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/question",
+  "id": "Schemas/question",
+  "title": "question",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/question.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/question",
+  "permalink": "/docs/Schemas/question",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "options",
+    "permalink": "/docs/Schemas/options"
+  },
+  "next": {
+    "title": "shield",
+    "permalink": "/docs/Schemas/shield"
+  }
+}

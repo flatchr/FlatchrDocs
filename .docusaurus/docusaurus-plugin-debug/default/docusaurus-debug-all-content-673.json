@@ -1,0 +1,870 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/alexisc/docs/sidebars.js",
+          "contentPath": "/home/alexisc/docs/docs",
+          "contentPathLocalized": "/home/alexisc/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "getting_started",
+              "id": "getting_started",
+              "title": "Getting Started",
+              "description": "Comment se connecter à l'API Flatchr ?",
+              "source": "@site/docs/getting_started.md",
+              "sourceDirName": ".",
+              "slug": "/getting_started",
+              "permalink": "/docs/getting_started",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "description": "Comment se connecter à l'API Flatchr ?"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Récupérer les annonces",
+                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Creer_un_candidat",
+              "id": "QuickStart/Creer_un_candidat",
+              "title": "Créer un candidat",
+              "description": "L'URL racine est ici https://careers.flatchr.io",
+              "source": "@site/docs/QuickStart/Creer_un_candidat.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/Creer_un_candidat",
+              "permalink": "/docs/QuickStart/Creer_un_candidat",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Rechercher un candidat",
+                "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+              },
+              "next": {
+                "title": "Ajouter des meta informations",
+                "permalink": "/docs/QuickStart/Meta_informations_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Meta_informations_candidat",
+              "id": "QuickStart/Meta_informations_candidat",
+              "title": "Ajouter des meta informations",
+              "description": "Cette fonctionnalité est disponible uniquement pour nos clients ayant souscrit à l'option CVthèque Premium.",
+              "source": "@site/docs/QuickStart/Meta_informations_candidat.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/Meta_informations_candidat",
+              "permalink": "/docs/QuickStart/Meta_informations_candidat",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
+              },
+              "next": {
+                "title": "activity",
+                "permalink": "/docs/Schemas/activity"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Recuperer_les_annonces",
+              "id": "QuickStart/Recuperer_les_annonces",
+              "title": "Récupérer les annonces",
+              "description": "L'URL racine est ici https://careers.flatchr.io",
+              "source": "@site/docs/QuickStart/Recuperer_les_annonces.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/Recuperer_les_annonces",
+              "permalink": "/docs/QuickStart/Recuperer_les_annonces",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/getting_started"
+              },
+              "next": {
+                "title": "Rechercher un candidat",
+                "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Recuperer_un_candidat",
+              "id": "QuickStart/Recuperer_un_candidat",
+              "title": "Rechercher un candidat",
+              "description": "Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.",
+              "source": "@site/docs/QuickStart/Recuperer_un_candidat.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/Recuperer_un_candidat",
+              "permalink": "/docs/QuickStart/Recuperer_un_candidat",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Récupérer les annonces",
+                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+              },
+              "next": {
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Creer_un_candidat"
+              }
+            },
+            {
+              "unversionedId": "Schemas/activity",
+              "id": "Schemas/activity",
+              "title": "activity",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/activity.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/activity",
+              "permalink": "/docs/Schemas/activity",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ajouter des meta informations",
+                "permalink": "/docs/QuickStart/Meta_informations_candidat"
+              },
+              "next": {
+                "title": "address",
+                "permalink": "/docs/Schemas/address"
+              }
+            },
+            {
+              "unversionedId": "Schemas/address",
+              "id": "Schemas/address",
+              "title": "address",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/address.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/address",
+              "permalink": "/docs/Schemas/address",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "activity",
+                "permalink": "/docs/Schemas/activity"
+              },
+              "next": {
+                "title": "answer",
+                "permalink": "/docs/Schemas/answer"
+              }
+            },
+            {
+              "unversionedId": "Schemas/answer",
+              "id": "Schemas/answer",
+              "title": "answer",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/answer.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/answer",
+              "permalink": "/docs/Schemas/answer",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "address",
+                "permalink": "/docs/Schemas/address"
+              },
+              "next": {
+                "title": "applicant",
+                "permalink": "/docs/Schemas/applicant"
+              }
+            },
+            {
+              "unversionedId": "Schemas/applicant",
+              "id": "Schemas/applicant",
+              "title": "applicant",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/applicant.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/applicant",
+              "permalink": "/docs/Schemas/applicant",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "answer",
+                "permalink": "/docs/Schemas/answer"
+              },
+              "next": {
+                "title": "candidate",
+                "permalink": "/docs/Schemas/candidate"
+              }
+            },
+            {
+              "unversionedId": "Schemas/candidate",
+              "id": "Schemas/candidate",
+              "title": "candidate",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/candidate.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/candidate",
+              "permalink": "/docs/Schemas/candidate",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "applicant",
+                "permalink": "/docs/Schemas/applicant"
+              },
+              "next": {
+                "title": "column",
+                "permalink": "/docs/Schemas/column"
+              }
+            },
+            {
+              "unversionedId": "Schemas/column",
+              "id": "Schemas/column",
+              "title": "column",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/column.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/column",
+              "permalink": "/docs/Schemas/column",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "candidate",
+                "permalink": "/docs/Schemas/candidate"
+              },
+              "next": {
+                "title": "company",
+                "permalink": "/docs/Schemas/company"
+              }
+            },
+            {
+              "unversionedId": "Schemas/company",
+              "id": "Schemas/company",
+              "title": "company",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/company.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/company",
+              "permalink": "/docs/Schemas/company",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "column",
+                "permalink": "/docs/Schemas/column"
+              },
+              "next": {
+                "title": "data (drag_applicant)",
+                "permalink": "/docs/Schemas/data_drag_applicant"
+              }
+            },
+            {
+              "unversionedId": "Schemas/data_drag_applicant",
+              "id": "Schemas/data_drag_applicant",
+              "title": "data (drag_applicant)",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/data_drag_applicant.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/data_drag_applicant",
+              "permalink": "/docs/Schemas/data_drag_applicant",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "company",
+                "permalink": "/docs/Schemas/company"
+              },
+              "next": {
+                "title": "data (new_applicant)",
+                "permalink": "/docs/Schemas/data_new_applicant"
+              }
+            },
+            {
+              "unversionedId": "Schemas/data_new_applicant",
+              "id": "Schemas/data_new_applicant",
+              "title": "data (new_applicant)",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/data_new_applicant.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/data_new_applicant",
+              "permalink": "/docs/Schemas/data_new_applicant",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "data (drag_applicant)",
+                "permalink": "/docs/Schemas/data_drag_applicant"
+              },
+              "next": {
+                "title": "data (new_message)",
+                "permalink": "/docs/Schemas/data_new_message"
+              }
+            },
+            {
+              "unversionedId": "Schemas/data_new_message",
+              "id": "Schemas/data_new_message",
+              "title": "data (new_message)",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/data_new_message.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/data_new_message",
+              "permalink": "/docs/Schemas/data_new_message",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "data (new_applicant)",
+                "permalink": "/docs/Schemas/data_new_applicant"
+              },
+              "next": {
+                "title": "data (new_vacancy)",
+                "permalink": "/docs/Schemas/data_new_vacancy"
+              }
+            },
+            {
+              "unversionedId": "Schemas/data_new_vacancy",
+              "id": "Schemas/data_new_vacancy",
+              "title": "data (new_vacancy)",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/data_new_vacancy.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/data_new_vacancy",
+              "permalink": "/docs/Schemas/data_new_vacancy",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "data (new_message)",
+                "permalink": "/docs/Schemas/data_new_message"
+              },
+              "next": {
+                "title": "hiddens",
+                "permalink": "/docs/Schemas/hiddens"
+              }
+            },
+            {
+              "unversionedId": "Schemas/hiddens",
+              "id": "Schemas/hiddens",
+              "title": "hiddens",
+              "description": "",
+              "source": "@site/docs/Schemas/hiddens.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/hiddens",
+              "permalink": "/docs/Schemas/hiddens",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "data (new_vacancy)",
+                "permalink": "/docs/Schemas/data_new_vacancy"
+              },
+              "next": {
+                "title": "message",
+                "permalink": "/docs/Schemas/message"
+              }
+            },
+            {
+              "unversionedId": "Schemas/message",
+              "id": "Schemas/message",
+              "title": "message",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/message.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/message",
+              "permalink": "/docs/Schemas/message",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "hiddens",
+                "permalink": "/docs/Schemas/hiddens"
+              },
+              "next": {
+                "title": "options",
+                "permalink": "/docs/Schemas/options"
+              }
+            },
+            {
+              "unversionedId": "Schemas/options",
+              "id": "Schemas/options",
+              "title": "options",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/options.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/options",
+              "permalink": "/docs/Schemas/options",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "message",
+                "permalink": "/docs/Schemas/message"
+              },
+              "next": {
+                "title": "question",
+                "permalink": "/docs/Schemas/question"
+              }
+            },
+            {
+              "unversionedId": "Schemas/question",
+              "id": "Schemas/question",
+              "title": "question",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/question.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/question",
+              "permalink": "/docs/Schemas/question",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "options",
+                "permalink": "/docs/Schemas/options"
+              },
+              "next": {
+                "title": "shield",
+                "permalink": "/docs/Schemas/shield"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/activities",
+              "id": "Schemas/Referentiels/activities",
+              "title": "activities",
+              "description": "Le référenciel des secteurs d'activité peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/activities.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/activities",
+              "permalink": "/docs/Schemas/Referentiels/activities",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "vacancy",
+                "permalink": "/docs/Schemas/vacancy"
+              },
+              "next": {
+                "title": "channels",
+                "permalink": "/docs/Schemas/Referentiels/channels"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/channels",
+              "id": "Schemas/Referentiels/channels",
+              "title": "channels",
+              "description": "Le référenciel des filières peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/channels.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/channels",
+              "permalink": "/docs/Schemas/Referentiels/channels",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "activities",
+                "permalink": "/docs/Schemas/Referentiels/activities"
+              },
+              "next": {
+                "title": "contract type",
+                "permalink": "/docs/Schemas/Referentiels/contract_type"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/contract_type",
+              "id": "Schemas/Referentiels/contract_type",
+              "title": "contract type",
+              "description": "Le référenciel des types de contrat peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/contract_type.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/contract_type",
+              "permalink": "/docs/Schemas/Referentiels/contract_type",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "channels",
+                "permalink": "/docs/Schemas/Referentiels/channels"
+              },
+              "next": {
+                "title": "education levels",
+                "permalink": "/docs/Schemas/Referentiels/education_levels"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/education_levels",
+              "id": "Schemas/Referentiels/education_levels",
+              "title": "education levels",
+              "description": "Le référenciel des niveaux d'éducation peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/education_levels.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/education_levels",
+              "permalink": "/docs/Schemas/Referentiels/education_levels",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "contract type",
+                "permalink": "/docs/Schemas/Referentiels/contract_type"
+              },
+              "next": {
+                "title": "metiers",
+                "permalink": "/docs/Schemas/Referentiels/metiers"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/metiers",
+              "id": "Schemas/Referentiels/metiers",
+              "title": "metiers",
+              "description": "Le référenciel des métiers peut être appelé avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/metiers.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/metiers",
+              "permalink": "/docs/Schemas/Referentiels/metiers",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "education levels",
+                "permalink": "/docs/Schemas/Referentiels/education_levels"
+              }
+            },
+            {
+              "unversionedId": "Schemas/shield",
+              "id": "Schemas/shield",
+              "title": "shield",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/shield.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/shield",
+              "permalink": "/docs/Schemas/shield",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "question",
+                "permalink": "/docs/Schemas/question"
+              },
+              "next": {
+                "title": "tags",
+                "permalink": "/docs/Schemas/tag"
+              }
+            },
+            {
+              "unversionedId": "Schemas/tag",
+              "id": "Schemas/tag",
+              "title": "tags",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/tag.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/tag",
+              "permalink": "/docs/Schemas/tag",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "shield",
+                "permalink": "/docs/Schemas/shield"
+              },
+              "next": {
+                "title": "user",
+                "permalink": "/docs/Schemas/user"
+              }
+            },
+            {
+              "unversionedId": "Schemas/user",
+              "id": "Schemas/user",
+              "title": "user",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/user.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/user",
+              "permalink": "/docs/Schemas/user",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "tags",
+                "permalink": "/docs/Schemas/tag"
+              },
+              "next": {
+                "title": "vacancy",
+                "permalink": "/docs/Schemas/vacancy"
+              }
+            },
+            {
+              "unversionedId": "Schemas/vacancy",
+              "id": "Schemas/vacancy",
+              "title": "vacancy",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/vacancy.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/vacancy",
+              "permalink": "/docs/Schemas/vacancy",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "user",
+                "permalink": "/docs/Schemas/user"
+              },
+              "next": {
+                "title": "activities",
+                "permalink": "/docs/Schemas/Referentiels/activities"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "getting_started"
+              },
+              {
+                "type": "category",
+                "label": "QuickStart",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Recuperer_les_annonces"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Recuperer_un_candidat"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Creer_un_candidat"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "QuickStart/Meta_informations_candidat"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Schemas",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Schemas/activity"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/address"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/answer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/applicant"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/candidate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/column"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/company"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/data_drag_applicant"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/data_new_applicant"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/data_new_message"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/data_new_vacancy"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/hiddens"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/message"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/options"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/question"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/shield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/tag"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/user"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/vacancy"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Referentiels",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/activities"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/channels"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/contract_type"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/education_levels"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/metiers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "getting_started",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/SSO",
+        "source": "@site/src/pages/SSO.md"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/site-carriere",
+        "source": "@site/src/pages/site-carriere.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/webhooks",
+        "source": "@site/src/pages/webhooks.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/Use%20Cases/Formulaire_personalise",
+        "source": "@site/src/pages/Use Cases/Formulaire_personalise.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/Use%20Cases/Multicomptes",
+        "source": "@site/src/pages/Use Cases/Multicomptes.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/Use%20Cases/Statistiques",
+        "source": "@site/src/pages/Use Cases/Statistiques.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting_started",
+          "docs": [
+            {
+              "id": "getting_started",
+              "path": "/docs/getting_started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Creer_un_candidat",
+              "path": "/docs/QuickStart/Creer_un_candidat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Meta_informations_candidat",
+              "path": "/docs/QuickStart/Meta_informations_candidat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Recuperer_les_annonces",
+              "path": "/docs/QuickStart/Recuperer_les_annonces",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Recuperer_un_candidat",
+              "path": "/docs/QuickStart/Recuperer_un_candidat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/activity",
+              "path": "/docs/Schemas/activity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/address",
+              "path": "/docs/Schemas/address",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/answer",
+              "path": "/docs/Schemas/answer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/applicant",
+              "path": "/docs/Schemas/applicant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/candidate",
+              "path": "/docs/Schemas/candidate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/column",
+              "path": "/docs/Schemas/column",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/company",
+              "path": "/docs/Schemas/company",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/data_drag_applicant",
+              "path": "/docs/Schemas/data_drag_applicant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/data_new_applicant",
+              "path": "/docs/Schemas/data_new_applicant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/data_new_message",
+              "path": "/docs/Schemas/data_new_message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/data_new_vacancy",
+              "path": "/docs/Schemas/data_new_vacancy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/hiddens",
+              "path": "/docs/Schemas/hiddens",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/message",
+              "path": "/docs/Schemas/message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/options",
+              "path": "/docs/Schemas/options",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/question",
+              "path": "/docs/Schemas/question",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/activities",
+              "path": "/docs/Schemas/Referentiels/activities",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/channels",
+              "path": "/docs/Schemas/Referentiels/channels",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/contract_type",
+              "path": "/docs/Schemas/Referentiels/contract_type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/education_levels",
+              "path": "/docs/Schemas/Referentiels/education_levels",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/metiers",
+              "path": "/docs/Schemas/Referentiels/metiers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/shield",
+              "path": "/docs/Schemas/shield",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/tag",
+              "path": "/docs/Schemas/tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/user",
+              "path": "/docs/Schemas/user",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/vacancy",
+              "path": "/docs/Schemas/vacancy",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

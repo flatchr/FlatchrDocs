@@ -6,8 +6,9 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/logo.svg",
-  "organizationName": "flatchr",
+  "organizationName": "alexiscolonnaflatchr",
   "projectName": "FlatchrDocs",
+  "trailingSlash": false,
   "presets": [
     [
       "classic",

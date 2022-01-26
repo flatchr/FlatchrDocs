@@ -12,7 +12,7 @@ Flatchr dispose de plusieurs webhooks pouvant être configurés **gratuitement**
 Pour faire simple, les webhooks *(ou rappel web / HTTP callbacks)* permettent de déclencher une action suite à un événement. Ils sont généralement utilisés pour faire communiquer des systèmes.  
 C’est la façon la plus simple de recevoir une alerte lorsque quelque chose se produit dans un autre système.  
 
-Flatchr vous permet de paramétrer des webhooks sortant permettant de prévenir une autre application qu'une action à eu lien dans l'ATS.
+Flatchr vous permet de paramétrer des webhooks sortants permettant de prévenir une autre application qu'une action à eu lien dans l'ATS.
 
 
 :::info Exemple

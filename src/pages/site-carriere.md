@@ -16,7 +16,8 @@ Si vous voulez récupérer vos annonces au format JSON, vous pouvez le faire gr�
 <br/>
 
 :::caution Important
-Pour paramétrer l'iframe, il faut récupérer votre `slug`, c’est la référence unique de votre entreprise qui se trouve dans l’URL de votre site carrière
+Pour paramétrer l'iframe, il faut récupérer votre `slug`, c’est la référence unique de votre entreprise qui se trouve dans l’URL de votre site carrière.
+Il est aussi disponible dans [**Administration > Avancée** ](http://app.flatchr.io/#/board/settings/advanced) > **Configuration sous-domaine**
 
 **Exemple:** dans https://avivacuisines.flatchr.io, `avivacuisines` est la référence unique ou "slug").
 :::info

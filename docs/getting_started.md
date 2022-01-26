@@ -57,6 +57,7 @@ Le token OAuth doit être inclus dans toutes les requêtes :
 ### Slug
 
 Pour certaines requêtes vous aurez besoin de votre `slug`, c’est la référence unique de votre entreprise qui se trouve dans l’URL de votre site carrière.
+Il est aussi disponible dans [**Administration > Avancée** ](http://app.flatchr.io/#/board/settings/advanced) > **Configuration sous-domaine**
 
 :::info Exemple
 **Exemple:** dans https://avivacuisines.flatchr.io, `avivacuisines` est la référence unique ou "slug")

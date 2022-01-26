@@ -112,6 +112,18 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
+D'autres exemples sont disponibles sur [Gitlab](https://gitlab.com/flatchr/example) : 
+
+<center>
+  <a class="button button--outline button--secondary" href="https://gitlab.com/flatchr/example/-/blob/master/post_node.js" style={{height: 5 + 'em', width:10 + "em"}}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/128px-Node.js_logo.svg.png"/>
+  </a>
+  <a class="button button--outline button--secondary" href="https://gitlab.com/flatchr/example/-/blob/master/post_php.php"style={{height: 5 + 'em', width:10 + "em"}}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/128px-PHP-logo.svg.png"/>
+  </a>
+</center>
+
+
 ## Réponse
 |Name|Type|Description|
 |---|---|---|

@@ -14,7 +14,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
-  organizationName: 'alexiscolonnaflatchr', // Usually your GitHub org/user name.
+  organizationName: 'flatchr', // Usually your GitHub org/user name.
   projectName: 'FlatchrDocs', // Usually your repo name.
   trailingSlash: false,
 

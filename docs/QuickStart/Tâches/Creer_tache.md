@@ -21,7 +21,7 @@ POST /company/{companyID}/task
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-companyId|path|string|<center>✔️</center>|[Identifiant de l'entreprise](../getting_started#identifiant-de-lentreprise) 
+companyId|path|string|<center>✔️</center>|[Identifiant de l'entreprise](/docs/getting_started#identifiant-de-lentreprise) 
 description|query|string|<center>✔️</center>|Description de la tâche|
 date|query|timestamp|<center>✔️</center>|Date de la tâche|
 email|query|boolean||True pour envoyer des notification par email

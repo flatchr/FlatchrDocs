@@ -21,7 +21,7 @@ GET /company/{companyID}/tasks
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-companyId|path|string|<center>✔️</center>|[Identifiant de l'entreprise](../getting_started#identifiant-de-lentreprise) 
+companyId|path|string|<center>✔️</center>|[Identifiant de l'entreprise](/docs/getting_started#identifiant-de-lentreprise) 
 
 
 ### Exemples de requête

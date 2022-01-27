@@ -21,7 +21,7 @@ PUT /company/{companyID}/task/{taskID}
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-companyID|path|string|<center>✔️</center>|[Identifiant de l'entreprise](../getting_started#identifiant-de-lentreprise)
+companyID|path|string|<center>✔️</center>|[Identifiant de l'entreprise](/docs/getting_started#identifiant-de-lentreprise)
 taskID|path|string|<center>✔️</center>|Identifiant de la tâche
 done|path|boolean|<center>✔️</center>|Mettre la valeur à true pour marquer une tâche comme effectuée
 

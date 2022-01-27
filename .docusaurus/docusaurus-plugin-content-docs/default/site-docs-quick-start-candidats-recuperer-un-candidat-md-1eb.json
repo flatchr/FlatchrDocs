@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Candidats/Recuperer_un_candidat",
+  "id": "QuickStart/Candidats/Recuperer_un_candidat",
+  "title": "Rechercher un candidat",
+  "description": "Comment rechercher un candidat grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Candidats/Recuperer_un_candidat.md",
+  "sourceDirName": "QuickStart/Candidats",
+  "slug": "/QuickStart/Candidats/Recuperer_un_candidat",
+  "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "description": "Comment rechercher un candidat grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Récupérer les annonces",
+    "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
+  },
+  "next": {
+    "title": "Créer un candidat",
+    "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
+  }
+}

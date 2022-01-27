@@ -51,7 +51,7 @@ Pour activer le SSO sur votre compte flatchr rapprochez vous de votre Customer S
 
 Afin de faciliter le traitement de vos demandes indiquez nous les informations suivantes : 
 - **Quel système utilisez vous ?** *(SAML 2.0, OpenID, Enterprise Provider)*
-- **Combien d'utilisateurs / connexion simultannées prévoyez vous ?**  *(Un user est un utilisateur se connectant au moins 1 fois dans le mois)*
+- **Combien d'utilisateurs / connexion simultanées prévoyez vous ?**  *(Un user est un utilisateur se connectant au moins 1 fois dans le mois)*
 - **Quel Enterprise Identity Provider utilisez-vous ?**
 - **Utilisez vous un système pour gérer les connexions ?**  *(MA Active Directory, OneLogin, Google Apps, Okta ...)*
 

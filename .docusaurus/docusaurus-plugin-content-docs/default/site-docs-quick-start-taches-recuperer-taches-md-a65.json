@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Tâches/Recuperer_tâches",
+  "id": "QuickStart/Tâches/Recuperer_tâches",
+  "title": "Récupérer les tâches",
+  "description": "Comment récupérer les tâches grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Tâches/Recuperer_tâches.md",
+  "sourceDirName": "QuickStart/Tâches",
+  "slug": "/QuickStart/Tâches/Recuperer_tâches",
+  "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Comment récupérer les tâches grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ajouter des meta informations",
+    "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+  },
+  "next": {
+    "title": "Créer une tâche",
+    "permalink": "/docs/QuickStart/Tâches/Creer_tache"
+  }
+}

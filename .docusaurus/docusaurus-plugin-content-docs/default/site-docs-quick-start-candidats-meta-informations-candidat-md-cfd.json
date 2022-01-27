@@ -1,12 +1,12 @@
 {
-  "unversionedId": "QuickStart/Meta_informations_candidat",
-  "id": "QuickStart/Meta_informations_candidat",
+  "unversionedId": "QuickStart/Candidats/Meta_informations_candidat",
+  "id": "QuickStart/Candidats/Meta_informations_candidat",
   "title": "Ajouter des meta informations",
   "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr",
-  "source": "@site/docs/QuickStart/Meta_informations_candidat.md",
-  "sourceDirName": "QuickStart",
-  "slug": "/QuickStart/Meta_informations_candidat",
-  "permalink": "/docs/QuickStart/Meta_informations_candidat",
+  "source": "@site/docs/QuickStart/Candidats/Meta_informations_candidat.md",
+  "sourceDirName": "QuickStart/Candidats",
+  "slug": "/QuickStart/Candidats/Meta_informations_candidat",
+  "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Rechercher un candidat",
-    "permalink": "/docs/QuickStart/Recuperer_un_candidat"
-  },
-  "next": {
     "title": "Créer un candidat",
     "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
+  },
+  "next": {
+    "title": "Récupérer les tâches",
+    "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
   }
 }

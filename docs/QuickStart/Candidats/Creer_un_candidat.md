@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: Comment créer un candidat grâce à l'API Flatchr
 ---
 # Créer un candidat
 
@@ -50,7 +51,7 @@ urls | query | object ||	Lien réseaux sociaux {facebook: string, linkedin: stri
 legalNewsletterPartners	| query | boolean	||	Opt-in newsletter |
 similarities | query |	boolean	||	Retourne offres similaires |
 response_text | query |string	||	Texte de retour |
-answers | query | [[answer](/docs/Schemas/answer)] ||	Réponses aux questions/tags |
+answers | query | [[answer](../../Schemas/answer)] ||	Réponses aux questions/tags |
 
 <br/>
 

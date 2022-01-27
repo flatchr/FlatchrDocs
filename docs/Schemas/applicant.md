@@ -2,7 +2,7 @@
 
 |Name|Type|Description|
 |---|---|---|
-id|integer|Id en clair|
+id|integer|Id encodé |
 vacancy_id|string|Id encodé de l'annonce|
 candidate_id|integer|Id en clair du candidat|
 score|integer|Score du postulant|

@@ -2,7 +2,7 @@
   "unversionedId": "QuickStart/Creer_un_candidat",
   "id": "QuickStart/Creer_un_candidat",
   "title": "Créer un candidat",
-  "description": "L'URL racine est ici https://careers.flatchr.io",
+  "description": "Comment créer un candidat grâce à l'API Flatchr",
   "source": "@site/docs/QuickStart/Creer_un_candidat.md",
   "sourceDirName": "QuickStart",
   "slug": "/QuickStart/Creer_un_candidat",
@@ -11,7 +11,8 @@
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 3
+    "sidebar_position": 3,
+    "description": "Comment créer un candidat grâce à l'API Flatchr"
   },
   "sidebar": "tutorialSidebar",
   "previous": {

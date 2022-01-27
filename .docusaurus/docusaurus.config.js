@@ -14,13 +14,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/alexisc/FlatchrDocsV0/FlatchrDocs/sidebars.js"
+          "sidebarPath": "/home/alexisc/FlatchrDocs/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/home/alexisc/FlatchrDocsV0/FlatchrDocs/src/css/custom.css"
+          "customCss": "/home/alexisc/FlatchrDocs/src/css/custom.css"
         }
       }
     ]

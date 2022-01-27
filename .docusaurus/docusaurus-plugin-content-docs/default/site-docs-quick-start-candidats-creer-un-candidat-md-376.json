@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Candidats/Creer_un_candidat",
+  "id": "QuickStart/Candidats/Creer_un_candidat",
+  "title": "Créer un candidat",
+  "description": "Comment créer un candidat grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Candidats/Creer_un_candidat.md",
+  "sourceDirName": "QuickStart/Candidats",
+  "slug": "/QuickStart/Candidats/Creer_un_candidat",
+  "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "description": "Comment créer un candidat grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rechercher un candidat",
+    "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
+  },
+  "next": {
+    "title": "Ajouter des meta informations",
+    "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+  }
+}

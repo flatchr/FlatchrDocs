@@ -1,0 +1,25 @@
+{
+  "unversionedId": "QuickStart/Recuperer_tâches",
+  "id": "QuickStart/Recuperer_tâches",
+  "title": "Récupérer les tâches",
+  "description": "Vous pouvez récupérer les tâches crées dans l'application grâce à l'API.",
+  "source": "@site/docs/QuickStart/Recuperer_tâches.md",
+  "sourceDirName": "QuickStart",
+  "slug": "/QuickStart/Recuperer_tâches",
+  "permalink": "/docs/QuickStart/Recuperer_tâches",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ajouter des meta informations",
+    "permalink": "/docs/QuickStart/Meta_informations_candidat"
+  },
+  "next": {
+    "title": "activity",
+    "permalink": "/docs/Schemas/activity"
+  }
+}

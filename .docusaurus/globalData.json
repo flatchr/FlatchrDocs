@@ -16,23 +16,38 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "QuickStart/Creer_un_candidat",
-              "path": "/docs/QuickStart/Creer_un_candidat",
+              "id": "QuickStart/Annonces/Recuperer_les_annonces",
+              "path": "/docs/QuickStart/Annonces/Recuperer_les_annonces",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "QuickStart/Meta_informations_candidat",
-              "path": "/docs/QuickStart/Meta_informations_candidat",
+              "id": "QuickStart/Candidats/Creer_un_candidat",
+              "path": "/docs/QuickStart/Candidats/Creer_un_candidat",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "QuickStart/Recuperer_les_annonces",
-              "path": "/docs/QuickStart/Recuperer_les_annonces",
+              "id": "QuickStart/Candidats/Meta_informations_candidat",
+              "path": "/docs/QuickStart/Candidats/Meta_informations_candidat",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "QuickStart/Recuperer_un_candidat",
-              "path": "/docs/QuickStart/Recuperer_un_candidat",
+              "id": "QuickStart/Candidats/Recuperer_un_candidat",
+              "path": "/docs/QuickStart/Candidats/Recuperer_un_candidat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Tâches/Creer_tache",
+              "path": "/docs/QuickStart/Tâches/Creer_tache",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Tâches/Marquer_tache_done",
+              "path": "/docs/QuickStart/Tâches/Marquer_tache_done",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Tâches/Recuperer_tâches",
+              "path": "/docs/QuickStart/Tâches/Recuperer_tâches",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -133,6 +148,11 @@
             {
               "id": "Schemas/Referentiels/metiers",
               "path": "/docs/Schemas/Referentiels/metiers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/users",
+              "path": "/docs/Schemas/Referentiels/users",
               "sidebar": "tutorialSidebar"
             },
             {

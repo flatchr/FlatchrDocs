@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr
 ---
 
 
@@ -27,7 +28,7 @@ POST /company/{companyID}/search/candidate
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-companyId|path|string|<center>✔️</center>|[Identifiant de l'entreprise](../getting_started#identifiant-de-lentreprise) 
+companyId|path|string|<center>✔️</center>|[Identifiant de l'entreprise]('../../getting_started#identifiant-de-lentreprise) 
 ||||||
 app_name|query|string||Nom de l'application insérant les données *(par exemple si utilisé par une application de parsing de CVs)*|
 reference|query|string|<center>✔️</center>|Mail du candidat à updater|
@@ -52,7 +53,7 @@ curl -X POST https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/search/applicants
 |Name|Type|Description|
 |---|---|---|
 statuscode|string|Statut HTTP|
-message|[message](../schemas/message)|Message|
+message|[message](../../schemas/message)|Message|
 
 ### Exemple de réponse
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Comment rechercher un candidat grâce à l'API Flatchr
 ---
 
 
@@ -30,6 +31,7 @@ column|query|string||Nom de la colonne dans laquelle est le candidat|
 start|query|string||Date au format "MM/JJ/AA" pour rechercher les candidats créés à partir d'une date donnée"
 end|query|string||Date au format "MM/JJ/AA" pour rechercher les candidats créés avant une date donnée"
 company|query|string||Permet de rechercher sur plusieurs entreprises pour les multicomptes|
+vacancy|query|string||Identifiant encrypté de l'offre ([vacancy](../Schemas/vacancy).id)
 
 ### Exemples de requête
 

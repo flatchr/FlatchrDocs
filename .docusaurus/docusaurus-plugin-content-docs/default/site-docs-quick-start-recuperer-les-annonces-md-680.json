@@ -2,7 +2,7 @@
   "unversionedId": "QuickStart/Recuperer_les_annonces",
   "id": "QuickStart/Recuperer_les_annonces",
   "title": "Récupérer les annonces",
-  "description": "L'URL racine est ici https://careers.flatchr.io",
+  "description": "Comment récupérer les annonces grâce à l'API Flatchr",
   "source": "@site/docs/QuickStart/Recuperer_les_annonces.md",
   "sourceDirName": "QuickStart",
   "slug": "/QuickStart/Recuperer_les_annonces",
@@ -11,7 +11,8 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 1,
+    "description": "Comment récupérer les annonces grâce à l'API Flatchr"
   },
   "sidebar": "tutorialSidebar",
   "previous": {

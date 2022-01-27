@@ -43,6 +43,32 @@
             "label": "Ajouter des meta informations",
             "href": "/docs/QuickStart/Meta_informations_candidat",
             "docId": "QuickStart/Meta_informations_candidat"
+          },
+          {
+            "type": "category",
+            "label": "Tâches",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Récupérer les tâches",
+                "href": "/docs/QuickStart/Tâches/Recuperer_tâches",
+                "docId": "QuickStart/Tâches/Recuperer_tâches"
+              },
+              {
+                "type": "link",
+                "label": "Créer une tâche",
+                "href": "/docs/QuickStart/Tâches/Creer_tache",
+                "docId": "QuickStart/Tâches/Creer_tache"
+              },
+              {
+                "type": "link",
+                "label": "Fermer une tâche",
+                "href": "/docs/QuickStart/Tâches/Marquer_tache_done",
+                "docId": "QuickStart/Tâches/Marquer_tache_done"
+              }
+            ]
           }
         ]
       },
@@ -201,6 +227,12 @@
                 "label": "metiers",
                 "href": "/docs/Schemas/Referentiels/metiers",
                 "docId": "Schemas/Referentiels/metiers"
+              },
+              {
+                "type": "link",
+                "label": "members",
+                "href": "/docs/Schemas/Referentiels/users",
+                "docId": "Schemas/Referentiels/users"
               }
             ]
           }
@@ -218,25 +250,43 @@
     "QuickStart/Creer_un_candidat": {
       "id": "QuickStart/Creer_un_candidat",
       "title": "Créer un candidat",
-      "description": "L'URL racine est ici https://careers.flatchr.io",
+      "description": "Comment créer un candidat grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Meta_informations_candidat": {
       "id": "QuickStart/Meta_informations_candidat",
       "title": "Ajouter des meta informations",
-      "description": "Cette fonctionnalité est disponible uniquement pour nos clients ayant souscrit à l'option CVthèque Premium.",
+      "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Recuperer_les_annonces": {
       "id": "QuickStart/Recuperer_les_annonces",
       "title": "Récupérer les annonces",
-      "description": "L'URL racine est ici https://careers.flatchr.io",
+      "description": "Comment récupérer les annonces grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Recuperer_un_candidat": {
       "id": "QuickStart/Recuperer_un_candidat",
       "title": "Rechercher un candidat",
-      "description": "Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.",
+      "description": "Comment rechercher un candidat grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Tâches/Creer_tache": {
+      "id": "QuickStart/Tâches/Creer_tache",
+      "title": "Créer une tâche",
+      "description": "Comment créer une tâche grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Tâches/Marquer_tache_done": {
+      "id": "QuickStart/Tâches/Marquer_tache_done",
+      "title": "Fermer une tâche",
+      "description": "Comment marquer une tâche comme terminée grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Tâches/Recuperer_tâches": {
+      "id": "QuickStart/Tâches/Recuperer_tâches",
+      "title": "Récupérer les tâches",
+      "description": "Comment récupérer les tâches grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/activity": {
@@ -357,6 +407,12 @@
       "id": "Schemas/Referentiels/metiers",
       "title": "metiers",
       "description": "Le référenciel des métiers peut être appelé avec la requête :",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/Referentiels/users": {
+      "id": "Schemas/Referentiels/users",
+      "title": "members",
+      "description": "La liste des utilisateurs peut être récupérée avec la requête :",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/shield": {

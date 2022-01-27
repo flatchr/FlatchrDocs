@@ -1,0 +1,18 @@
+{
+  "unversionedId": "Schemas/Referentiels/users",
+  "id": "Schemas/Referentiels/users",
+  "title": "members",
+  "description": "La liste des utilisateurs peut être récupérée avec la requête :",
+  "source": "@site/docs/Schemas/Referentiels/users.md",
+  "sourceDirName": "Schemas/Referentiels",
+  "slug": "/Schemas/Referentiels/users",
+  "permalink": "/docs/Schemas/Referentiels/users",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "metiers",
+    "permalink": "/docs/Schemas/Referentiels/metiers"
+  }
+}

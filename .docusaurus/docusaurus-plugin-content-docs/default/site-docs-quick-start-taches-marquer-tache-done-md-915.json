@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Tâches/Marquer_tache_done",
+  "id": "QuickStart/Tâches/Marquer_tache_done",
+  "title": "Fermer une tâche",
+  "description": "Comment marquer une tâche comme terminée grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Tâches/Marquer_tache_done.md",
+  "sourceDirName": "QuickStart/Tâches",
+  "slug": "/QuickStart/Tâches/Marquer_tache_done",
+  "permalink": "/docs/QuickStart/Tâches/Marquer_tache_done",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "description": "Comment marquer une tâche comme terminée grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Créer une tâche",
+    "permalink": "/docs/QuickStart/Tâches/Creer_tache"
+  },
+  "next": {
+    "title": "activity",
+    "permalink": "/docs/Schemas/activity"
+  }
+}

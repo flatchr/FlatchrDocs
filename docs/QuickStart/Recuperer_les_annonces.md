@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Comment récupérer les annonces grâce à l'API Flatchr
 ---
 # Récupérer les annonces
 

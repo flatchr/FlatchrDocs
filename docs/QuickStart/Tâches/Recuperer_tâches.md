@@ -1,5 +1,6 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
+description: Comment récupérer les tâches grâce à l'API Flatchr
 ---
 
 
@@ -40,7 +41,7 @@ curl -X GET https://api.flatchr.io/company/Wy3EOp2NP3p1KMq8/tasks
 id|string|Identifiant de la tâche|
 description|string|Description de la tâche|
 value|[string]|Sur quel élement(s) porte la tâche : member pour un utilisateur et applicant pour un candidat|
-type|string|Type (toujour égal à "task"|
+type|string|Type (toujours égal à "task")|
 date|timestamp|Date de la tâche|
 done|boolean|Est ce que la tâche a été faite ?|
 

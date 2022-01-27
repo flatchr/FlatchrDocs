@@ -14,5 +14,9 @@
   "previous": {
     "title": "education levels",
     "permalink": "/docs/Schemas/Referentiels/education_levels"
+  },
+  "next": {
+    "title": "members",
+    "permalink": "/docs/Schemas/Referentiels/users"
   }
 }

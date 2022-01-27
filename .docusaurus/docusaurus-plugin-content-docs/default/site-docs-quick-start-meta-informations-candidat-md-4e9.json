@@ -2,7 +2,7 @@
   "unversionedId": "QuickStart/Meta_informations_candidat",
   "id": "QuickStart/Meta_informations_candidat",
   "title": "Ajouter des meta informations",
-  "description": "Cette fonctionnalité est disponible uniquement pour nos clients ayant souscrit à l'option CVthèque Premium.",
+  "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr",
   "source": "@site/docs/QuickStart/Meta_informations_candidat.md",
   "sourceDirName": "QuickStart",
   "slug": "/QuickStart/Meta_informations_candidat",
@@ -11,7 +11,8 @@
   "version": "current",
   "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 4,
+    "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -19,7 +20,7 @@
     "permalink": "/docs/QuickStart/Creer_un_candidat"
   },
   "next": {
-    "title": "activity",
-    "permalink": "/docs/Schemas/activity"
+    "title": "Récupérer les tâches",
+    "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
   }
 }

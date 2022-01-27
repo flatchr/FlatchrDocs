@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Tâches/Creer_tache",
+  "id": "QuickStart/Tâches/Creer_tache",
+  "title": "Créer une tâche",
+  "description": "Comment créer une tâche grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Tâches/Creer_tache.md",
+  "sourceDirName": "QuickStart/Tâches",
+  "slug": "/QuickStart/Tâches/Creer_tache",
+  "permalink": "/docs/QuickStart/Tâches/Creer_tache",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "description": "Comment créer une tâche grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Récupérer les tâches",
+    "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
+  },
+  "next": {
+    "title": "Fermer une tâche",
+    "permalink": "/docs/QuickStart/Tâches/Marquer_tache_done"
+  }
+}

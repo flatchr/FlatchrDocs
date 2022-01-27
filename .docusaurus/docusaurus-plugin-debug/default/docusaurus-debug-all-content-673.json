@@ -12,9 +12,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/alexisc/FlatchrDocsV0/FlatchrDocs/sidebars.js",
-          "contentPath": "/home/alexisc/FlatchrDocsV0/FlatchrDocs/docs",
-          "contentPathLocalized": "/home/alexisc/FlatchrDocsV0/FlatchrDocs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/alexisc/FlatchrDocs/sidebars.js",
+          "contentPath": "/home/alexisc/FlatchrDocs/docs",
+          "contentPathLocalized": "/home/alexisc/FlatchrDocs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "getting_started",
@@ -42,7 +42,7 @@
               "unversionedId": "QuickStart/Creer_un_candidat",
               "id": "QuickStart/Creer_un_candidat",
               "title": "Créer un candidat",
-              "description": "L'URL racine est ici https://careers.flatchr.io",
+              "description": "Comment créer un candidat grâce à l'API Flatchr",
               "source": "@site/docs/QuickStart/Creer_un_candidat.md",
               "sourceDirName": "QuickStart",
               "slug": "/QuickStart/Creer_un_candidat",
@@ -51,7 +51,8 @@
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 3,
+                "description": "Comment créer un candidat grâce à l'API Flatchr"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -67,7 +68,7 @@
               "unversionedId": "QuickStart/Meta_informations_candidat",
               "id": "QuickStart/Meta_informations_candidat",
               "title": "Ajouter des meta informations",
-              "description": "Cette fonctionnalité est disponible uniquement pour nos clients ayant souscrit à l'option CVthèque Premium.",
+              "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr",
               "source": "@site/docs/QuickStart/Meta_informations_candidat.md",
               "sourceDirName": "QuickStart",
               "slug": "/QuickStart/Meta_informations_candidat",
@@ -76,7 +77,8 @@
               "version": "current",
               "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar_position": 4,
+                "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -84,15 +86,15 @@
                 "permalink": "/docs/QuickStart/Creer_un_candidat"
               },
               "next": {
-                "title": "activity",
-                "permalink": "/docs/Schemas/activity"
+                "title": "Récupérer les tâches",
+                "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
               }
             },
             {
               "unversionedId": "QuickStart/Recuperer_les_annonces",
               "id": "QuickStart/Recuperer_les_annonces",
               "title": "Récupérer les annonces",
-              "description": "L'URL racine est ici https://careers.flatchr.io",
+              "description": "Comment récupérer les annonces grâce à l'API Flatchr",
               "source": "@site/docs/QuickStart/Recuperer_les_annonces.md",
               "sourceDirName": "QuickStart",
               "slug": "/QuickStart/Recuperer_les_annonces",
@@ -101,7 +103,8 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 1,
+                "description": "Comment récupérer les annonces grâce à l'API Flatchr"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -117,7 +120,7 @@
               "unversionedId": "QuickStart/Recuperer_un_candidat",
               "id": "QuickStart/Recuperer_un_candidat",
               "title": "Rechercher un candidat",
-              "description": "Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.",
+              "description": "Comment rechercher un candidat grâce à l'API Flatchr",
               "source": "@site/docs/QuickStart/Recuperer_un_candidat.md",
               "sourceDirName": "QuickStart",
               "slug": "/QuickStart/Recuperer_un_candidat",
@@ -126,7 +129,8 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 2,
+                "description": "Comment rechercher un candidat grâce à l'API Flatchr"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -136,6 +140,84 @@
               "next": {
                 "title": "Créer un candidat",
                 "permalink": "/docs/QuickStart/Creer_un_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Tâches/Creer_tache",
+              "id": "QuickStart/Tâches/Creer_tache",
+              "title": "Créer une tâche",
+              "description": "Comment créer une tâche grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Tâches/Creer_tache.md",
+              "sourceDirName": "QuickStart/Tâches",
+              "slug": "/QuickStart/Tâches/Creer_tache",
+              "permalink": "/docs/QuickStart/Tâches/Creer_tache",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "description": "Comment créer une tâche grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Récupérer les tâches",
+                "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
+              },
+              "next": {
+                "title": "Fermer une tâche",
+                "permalink": "/docs/QuickStart/Tâches/Marquer_tache_done"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Tâches/Marquer_tache_done",
+              "id": "QuickStart/Tâches/Marquer_tache_done",
+              "title": "Fermer une tâche",
+              "description": "Comment marquer une tâche comme terminée grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Tâches/Marquer_tache_done.md",
+              "sourceDirName": "QuickStart/Tâches",
+              "slug": "/QuickStart/Tâches/Marquer_tache_done",
+              "permalink": "/docs/QuickStart/Tâches/Marquer_tache_done",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "description": "Comment marquer une tâche comme terminée grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Créer une tâche",
+                "permalink": "/docs/QuickStart/Tâches/Creer_tache"
+              },
+              "next": {
+                "title": "activity",
+                "permalink": "/docs/Schemas/activity"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Tâches/Recuperer_tâches",
+              "id": "QuickStart/Tâches/Recuperer_tâches",
+              "title": "Récupérer les tâches",
+              "description": "Comment récupérer les tâches grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Tâches/Recuperer_tâches.md",
+              "sourceDirName": "QuickStart/Tâches",
+              "slug": "/QuickStart/Tâches/Recuperer_tâches",
+              "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "description": "Comment récupérer les tâches grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ajouter des meta informations",
+                "permalink": "/docs/QuickStart/Meta_informations_candidat"
+              },
+              "next": {
+                "title": "Créer une tâche",
+                "permalink": "/docs/QuickStart/Tâches/Creer_tache"
               }
             },
             {
@@ -152,8 +234,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Ajouter des meta informations",
-                "permalink": "/docs/QuickStart/Meta_informations_candidat"
+                "title": "Fermer une tâche",
+                "permalink": "/docs/QuickStart/Tâches/Marquer_tache_done"
               },
               "next": {
                 "title": "address",
@@ -572,6 +654,28 @@
               "previous": {
                 "title": "education levels",
                 "permalink": "/docs/Schemas/Referentiels/education_levels"
+              },
+              "next": {
+                "title": "members",
+                "permalink": "/docs/Schemas/Referentiels/users"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/users",
+              "id": "Schemas/Referentiels/users",
+              "title": "members",
+              "description": "La liste des utilisateurs peut être récupérée avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/users.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/users",
+              "permalink": "/docs/Schemas/Referentiels/users",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "metiers",
+                "permalink": "/docs/Schemas/Referentiels/metiers"
               }
             },
             {
@@ -690,6 +794,26 @@
                   {
                     "type": "doc",
                     "id": "QuickStart/Meta_informations_candidat"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Tâches",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Tâches/Recuperer_tâches"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Tâches/Creer_tache"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Tâches/Marquer_tache_done"
+                      }
+                    ]
                   }
                 ]
               },
@@ -800,6 +924,10 @@
                       {
                         "type": "doc",
                         "id": "Schemas/Referentiels/metiers"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/users"
                       }
                     ]
                   }

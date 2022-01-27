@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: Comment créer un candidat grâce à l'API Flatchr
 ---
 # Créer un candidat
 

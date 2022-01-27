@@ -36,6 +36,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "QuickStart/Tâches/Creer_tache",
+              "path": "/docs/QuickStart/Tâches/Creer_tache",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Tâches/Marquer_tache_done",
+              "path": "/docs/QuickStart/Tâches/Marquer_tache_done",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Tâches/Recuperer_tâches",
+              "path": "/docs/QuickStart/Tâches/Recuperer_tâches",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Schemas/activity",
               "path": "/docs/Schemas/activity",
               "sidebar": "tutorialSidebar"
@@ -133,6 +148,11 @@
             {
               "id": "Schemas/Referentiels/metiers",
               "path": "/docs/Schemas/Referentiels/metiers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/users",
+              "path": "/docs/Schemas/Referentiels/users",
               "sidebar": "tutorialSidebar"
             },
             {

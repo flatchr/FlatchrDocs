@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Récupérer les annonces",
-    "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
+    "title": "Rechercher un candidat",
+    "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
   }
 }

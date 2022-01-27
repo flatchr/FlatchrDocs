@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Ajouter des meta informations",
-    "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+    "title": "Récupérer les annonces",
+    "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
   },
   "next": {
     "title": "Créer une tâche",

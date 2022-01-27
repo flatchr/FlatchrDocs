@@ -18,31 +18,47 @@
         "type": "category",
         "label": "QuickStart",
         "collapsible": true,
-        "collapsed": true,
+        "collapsed": false,
         "items": [
           {
-            "type": "link",
-            "label": "Récupérer les annonces",
-            "href": "/docs/QuickStart/Recuperer_les_annonces",
-            "docId": "QuickStart/Recuperer_les_annonces"
+            "type": "category",
+            "label": "Annonces",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Récupérer les annonces",
+                "href": "/docs/QuickStart/Annonces/Recuperer_les_annonces",
+                "docId": "QuickStart/Annonces/Recuperer_les_annonces"
+              }
+            ]
           },
           {
-            "type": "link",
-            "label": "Rechercher un candidat",
-            "href": "/docs/QuickStart/Recuperer_un_candidat",
-            "docId": "QuickStart/Recuperer_un_candidat"
-          },
-          {
-            "type": "link",
-            "label": "Créer un candidat",
-            "href": "/docs/QuickStart/Creer_un_candidat",
-            "docId": "QuickStart/Creer_un_candidat"
-          },
-          {
-            "type": "link",
-            "label": "Ajouter des meta informations",
-            "href": "/docs/QuickStart/Meta_informations_candidat",
-            "docId": "QuickStart/Meta_informations_candidat"
+            "type": "category",
+            "label": "Candidats",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Rechercher un candidat",
+                "href": "/docs/QuickStart/Candidats/Recuperer_un_candidat",
+                "docId": "QuickStart/Candidats/Recuperer_un_candidat"
+              },
+              {
+                "type": "link",
+                "label": "Créer un candidat",
+                "href": "/docs/QuickStart/Candidats/Creer_un_candidat",
+                "docId": "QuickStart/Candidats/Creer_un_candidat"
+              },
+              {
+                "type": "link",
+                "label": "Ajouter des meta informations",
+                "href": "/docs/QuickStart/Candidats/Meta_informations_candidat",
+                "docId": "QuickStart/Candidats/Meta_informations_candidat"
+              }
+            ]
           },
           {
             "type": "category",
@@ -247,26 +263,26 @@
       "description": "Comment se connecter à l'API Flatchr ?",
       "sidebar": "tutorialSidebar"
     },
-    "QuickStart/Creer_un_candidat": {
-      "id": "QuickStart/Creer_un_candidat",
-      "title": "Créer un candidat",
-      "description": "Comment créer un candidat grâce à l'API Flatchr",
-      "sidebar": "tutorialSidebar"
-    },
-    "QuickStart/Meta_informations_candidat": {
-      "id": "QuickStart/Meta_informations_candidat",
-      "title": "Ajouter des meta informations",
-      "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr",
-      "sidebar": "tutorialSidebar"
-    },
-    "QuickStart/Recuperer_les_annonces": {
-      "id": "QuickStart/Recuperer_les_annonces",
+    "QuickStart/Annonces/Recuperer_les_annonces": {
+      "id": "QuickStart/Annonces/Recuperer_les_annonces",
       "title": "Récupérer les annonces",
       "description": "Comment récupérer les annonces grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
-    "QuickStart/Recuperer_un_candidat": {
-      "id": "QuickStart/Recuperer_un_candidat",
+    "QuickStart/Candidats/Creer_un_candidat": {
+      "id": "QuickStart/Candidats/Creer_un_candidat",
+      "title": "Créer un candidat",
+      "description": "Comment créer un candidat grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Candidats/Meta_informations_candidat": {
+      "id": "QuickStart/Candidats/Meta_informations_candidat",
+      "title": "Ajouter des meta informations",
+      "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Candidats/Recuperer_un_candidat": {
+      "id": "QuickStart/Candidats/Recuperer_un_candidat",
       "title": "Rechercher un candidat",
       "description": "Comment rechercher un candidat grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"

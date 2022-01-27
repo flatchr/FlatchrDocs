@@ -23,7 +23,7 @@ GET /company/{slug}.json
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-slug|path|string|<center>✔️</center>|[Slug de l'entreprise](../getting_started#slug) |
+slug|path|string|<center>✔️</center>|[Slug de l'entreprise](../../getting_started#slug) |
 
 
 ### Exemple de requête
@@ -40,7 +40,7 @@ offer_id|integer|Identifiant offre jobboards|
 external_id|||
 published|boolean|L'annonce est elle publiée ou non|
 created_at|timestamp|Date de création de la diffusion|
-vacancy|[vacancy](/docs/Schemas/vacancy)||
+vacancy|[vacancy](../../Schemas/vacancy)||
 vacancy_id|string|Identifiant de l'annonce|
 
 

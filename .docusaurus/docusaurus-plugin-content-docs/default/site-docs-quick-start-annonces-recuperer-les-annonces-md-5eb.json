@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Annonces/Recuperer_les_annonces",
+  "id": "QuickStart/Annonces/Recuperer_les_annonces",
+  "title": "Récupérer les annonces",
+  "description": "Comment récupérer les annonces grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Annonces/Recuperer_les_annonces.md",
+  "sourceDirName": "QuickStart/Annonces",
+  "slug": "/QuickStart/Annonces/Recuperer_les_annonces",
+  "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Comment récupérer les annonces grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/getting_started"
+  },
+  "next": {
+    "title": "Rechercher un candidat",
+    "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
+  }
+}

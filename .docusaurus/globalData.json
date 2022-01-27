@@ -16,23 +16,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "QuickStart/Creer_un_candidat",
-              "path": "/docs/QuickStart/Creer_un_candidat",
+              "id": "QuickStart/Annonces/Recuperer_les_annonces",
+              "path": "/docs/QuickStart/Annonces/Recuperer_les_annonces",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "QuickStart/Meta_informations_candidat",
-              "path": "/docs/QuickStart/Meta_informations_candidat",
+              "id": "QuickStart/Candidats/Creer_un_candidat",
+              "path": "/docs/QuickStart/Candidats/Creer_un_candidat",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "QuickStart/Recuperer_les_annonces",
-              "path": "/docs/QuickStart/Recuperer_les_annonces",
+              "id": "QuickStart/Candidats/Meta_informations_candidat",
+              "path": "/docs/QuickStart/Candidats/Meta_informations_candidat",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "QuickStart/Recuperer_un_candidat",
-              "path": "/docs/QuickStart/Recuperer_un_candidat",
+              "id": "QuickStart/Candidats/Recuperer_un_candidat",
+              "path": "/docs/QuickStart/Candidats/Recuperer_un_candidat",
               "sidebar": "tutorialSidebar"
             },
             {

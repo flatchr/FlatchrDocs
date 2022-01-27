@@ -35,70 +35,18 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Récupérer les annonces",
-                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+                "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
               }
             },
             {
-              "unversionedId": "QuickStart/Creer_un_candidat",
-              "id": "QuickStart/Creer_un_candidat",
-              "title": "Créer un candidat",
-              "description": "Comment créer un candidat grâce à l'API Flatchr",
-              "source": "@site/docs/QuickStart/Creer_un_candidat.md",
-              "sourceDirName": "QuickStart",
-              "slug": "/QuickStart/Creer_un_candidat",
-              "permalink": "/docs/QuickStart/Creer_un_candidat",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3,
-                "description": "Comment créer un candidat grâce à l'API Flatchr"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Rechercher un candidat",
-                "permalink": "/docs/QuickStart/Recuperer_un_candidat"
-              },
-              "next": {
-                "title": "Ajouter des meta informations",
-                "permalink": "/docs/QuickStart/Meta_informations_candidat"
-              }
-            },
-            {
-              "unversionedId": "QuickStart/Meta_informations_candidat",
-              "id": "QuickStart/Meta_informations_candidat",
-              "title": "Ajouter des meta informations",
-              "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr",
-              "source": "@site/docs/QuickStart/Meta_informations_candidat.md",
-              "sourceDirName": "QuickStart",
-              "slug": "/QuickStart/Meta_informations_candidat",
-              "permalink": "/docs/QuickStart/Meta_informations_candidat",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4,
-                "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Créer un candidat",
-                "permalink": "/docs/QuickStart/Creer_un_candidat"
-              },
-              "next": {
-                "title": "Récupérer les tâches",
-                "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
-              }
-            },
-            {
-              "unversionedId": "QuickStart/Recuperer_les_annonces",
-              "id": "QuickStart/Recuperer_les_annonces",
+              "unversionedId": "QuickStart/Annonces/Recuperer_les_annonces",
+              "id": "QuickStart/Annonces/Recuperer_les_annonces",
               "title": "Récupérer les annonces",
               "description": "Comment récupérer les annonces grâce à l'API Flatchr",
-              "source": "@site/docs/QuickStart/Recuperer_les_annonces.md",
-              "sourceDirName": "QuickStart",
-              "slug": "/QuickStart/Recuperer_les_annonces",
-              "permalink": "/docs/QuickStart/Recuperer_les_annonces",
+              "source": "@site/docs/QuickStart/Annonces/Recuperer_les_annonces.md",
+              "sourceDirName": "QuickStart/Annonces",
+              "slug": "/QuickStart/Annonces/Recuperer_les_annonces",
+              "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -113,18 +61,70 @@
               },
               "next": {
                 "title": "Rechercher un candidat",
-                "permalink": "/docs/QuickStart/Recuperer_un_candidat"
+                "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
               }
             },
             {
-              "unversionedId": "QuickStart/Recuperer_un_candidat",
-              "id": "QuickStart/Recuperer_un_candidat",
+              "unversionedId": "QuickStart/Candidats/Creer_un_candidat",
+              "id": "QuickStart/Candidats/Creer_un_candidat",
+              "title": "Créer un candidat",
+              "description": "Comment créer un candidat grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Candidats/Creer_un_candidat.md",
+              "sourceDirName": "QuickStart/Candidats",
+              "slug": "/QuickStart/Candidats/Creer_un_candidat",
+              "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "description": "Comment créer un candidat grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Rechercher un candidat",
+                "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
+              },
+              "next": {
+                "title": "Ajouter des meta informations",
+                "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Candidats/Meta_informations_candidat",
+              "id": "QuickStart/Candidats/Meta_informations_candidat",
+              "title": "Ajouter des meta informations",
+              "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Candidats/Meta_informations_candidat.md",
+              "sourceDirName": "QuickStart/Candidats",
+              "slug": "/QuickStart/Candidats/Meta_informations_candidat",
+              "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
+              },
+              "next": {
+                "title": "Récupérer les tâches",
+                "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Candidats/Recuperer_un_candidat",
+              "id": "QuickStart/Candidats/Recuperer_un_candidat",
               "title": "Rechercher un candidat",
               "description": "Comment rechercher un candidat grâce à l'API Flatchr",
-              "source": "@site/docs/QuickStart/Recuperer_un_candidat.md",
-              "sourceDirName": "QuickStart",
-              "slug": "/QuickStart/Recuperer_un_candidat",
-              "permalink": "/docs/QuickStart/Recuperer_un_candidat",
+              "source": "@site/docs/QuickStart/Candidats/Recuperer_un_candidat.md",
+              "sourceDirName": "QuickStart/Candidats",
+              "slug": "/QuickStart/Candidats/Recuperer_un_candidat",
+              "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -135,11 +135,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Récupérer les annonces",
-                "permalink": "/docs/QuickStart/Recuperer_les_annonces"
+                "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
               },
               "next": {
                 "title": "Créer un candidat",
-                "permalink": "/docs/QuickStart/Creer_un_candidat"
+                "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
               }
             },
             {
@@ -213,7 +213,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Ajouter des meta informations",
-                "permalink": "/docs/QuickStart/Meta_informations_candidat"
+                "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
               },
               "next": {
                 "title": "Créer une tâche",
@@ -777,23 +777,39 @@
                 "type": "category",
                 "label": "QuickStart",
                 "collapsible": true,
-                "collapsed": true,
+                "collapsed": false,
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "QuickStart/Recuperer_les_annonces"
+                    "type": "category",
+                    "label": "Annonces",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Annonces/Recuperer_les_annonces"
+                      }
+                    ]
                   },
                   {
-                    "type": "doc",
-                    "id": "QuickStart/Recuperer_un_candidat"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "QuickStart/Creer_un_candidat"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "QuickStart/Meta_informations_candidat"
+                    "type": "category",
+                    "label": "Candidats",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Candidats/Recuperer_un_candidat"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Candidats/Creer_un_candidat"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Candidats/Meta_informations_candidat"
+                      }
+                    ]
                   },
                   {
                     "type": "category",

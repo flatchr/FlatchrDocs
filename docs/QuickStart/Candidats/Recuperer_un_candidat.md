@@ -21,7 +21,7 @@ POST /company/{companyID}/search/applicants
 ### Paramètres
 |Paramètre|In|Type|Obligatoire|Description|
 |---|---|---|---|---|
-companyId|path|string|<center>✔️</center>|[Identifiant de l'entreprise](../getting_started#identifiant-de-lentreprise) 
+companyId|path|string|<center>✔️</center>|[Identifiant de l'entreprise](../../getting_started#identifiant-de-lentreprise) 
 ||||||
 firstname|query|string||Prénom|
 lastname|query|string||Nom|
@@ -31,7 +31,7 @@ column|query|string||Nom de la colonne dans laquelle est le candidat|
 start|query|string||Date au format "MM/JJ/AA" pour rechercher les candidats créés à partir d'une date donnée"
 end|query|string||Date au format "MM/JJ/AA" pour rechercher les candidats créés avant une date donnée"
 company|query|string||Permet de rechercher sur plusieurs entreprises pour les multicomptes|
-vacancy|query|string||Identifiant encrypté de l'offre ([vacancy](../Schemas/vacancy).id)
+vacancy|query|string||Identifiant encrypté de l'offre ([vacancy](../../Schemas/vacancy).id)
 
 ### Exemples de requête
 

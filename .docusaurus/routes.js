@@ -75,7 +75,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','d88'),
+    component: ComponentCreator('/docs','f7c'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -84,26 +84,26 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/QuickStart/Creer_un_candidat',
-        component: ComponentCreator('/docs/QuickStart/Creer_un_candidat','8ba'),
+        path: '/docs/QuickStart/Annonces/Recuperer_les_annonces',
+        component: ComponentCreator('/docs/QuickStart/Annonces/Recuperer_les_annonces','0ad'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/QuickStart/Meta_informations_candidat',
-        component: ComponentCreator('/docs/QuickStart/Meta_informations_candidat','03f'),
+        path: '/docs/QuickStart/Candidats/Creer_un_candidat',
+        component: ComponentCreator('/docs/QuickStart/Candidats/Creer_un_candidat','399'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/QuickStart/Recuperer_les_annonces',
-        component: ComponentCreator('/docs/QuickStart/Recuperer_les_annonces','f1b'),
+        path: '/docs/QuickStart/Candidats/Meta_informations_candidat',
+        component: ComponentCreator('/docs/QuickStart/Candidats/Meta_informations_candidat','6d9'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/QuickStart/Recuperer_un_candidat',
-        component: ComponentCreator('/docs/QuickStart/Recuperer_un_candidat','cf7'),
+        path: '/docs/QuickStart/Candidats/Recuperer_un_candidat',
+        component: ComponentCreator('/docs/QuickStart/Candidats/Recuperer_un_candidat','bd2'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

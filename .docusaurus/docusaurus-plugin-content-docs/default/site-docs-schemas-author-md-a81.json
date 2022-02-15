@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/author",
+  "id": "Schemas/author",
+  "title": "author",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/author.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/author",
+  "permalink": "/docs/Schemas/author",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "applicant",
+    "permalink": "/docs/Schemas/applicant"
+  },
+  "next": {
+    "title": "candidate",
+    "permalink": "/docs/Schemas/candidate"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Commentaires/Recuperer_commentaires",
+  "id": "QuickStart/Commentaires/Recuperer_commentaires",
+  "title": "Récupérer les commentaires",
+  "description": "Comment récupérer les commentaires grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Commentaires/Recuperer_commentaires.md",
+  "sourceDirName": "QuickStart/Commentaires",
+  "slug": "/QuickStart/Commentaires/Recuperer_commentaires",
+  "permalink": "/docs/QuickStart/Commentaires/Recuperer_commentaires",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Comment récupérer les commentaires grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ajouter des meta informations",
+    "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+  },
+  "next": {
+    "title": "Créer un commentaire",
+    "permalink": "/docs/QuickStart/Commentaires/Creer_commentaire"
+  }
+}

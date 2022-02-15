@@ -36,6 +36,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "QuickStart/Commentaires/Creer_commentaire",
+              "path": "/docs/QuickStart/Commentaires/Creer_commentaire",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Commentaires/Recuperer_commentaires",
+              "path": "/docs/QuickStart/Commentaires/Recuperer_commentaires",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Commentaires/Supprimer_commentaire",
+              "path": "/docs/QuickStart/Commentaires/Supprimer_commentaire",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/login",
+              "path": "/docs/QuickStart/login",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "QuickStart/Tâches/Creer_tache",
               "path": "/docs/QuickStart/Tâches/Creer_tache",
               "sidebar": "tutorialSidebar"
@@ -68,6 +88,11 @@
             {
               "id": "Schemas/applicant",
               "path": "/docs/Schemas/applicant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/author",
+              "path": "/docs/Schemas/author",
               "sidebar": "tutorialSidebar"
             },
             {

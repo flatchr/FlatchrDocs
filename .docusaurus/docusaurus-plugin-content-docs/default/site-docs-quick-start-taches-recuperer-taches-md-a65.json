@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Récupérer les annonces",
-    "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
+    "title": "Supprimer un commentaire",
+    "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire"
   },
   "next": {
     "title": "Créer une tâche",

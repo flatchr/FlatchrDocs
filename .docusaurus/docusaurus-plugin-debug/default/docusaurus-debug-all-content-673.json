@@ -34,8 +34,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Récupérer les annonces",
-                "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
+                "title": "Login",
+                "permalink": "/docs/QuickStart/login"
               }
             },
             {
@@ -56,8 +56,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/getting_started"
+                "title": "Login",
+                "permalink": "/docs/QuickStart/login"
               },
               "next": {
                 "title": "Rechercher un candidat",
@@ -112,8 +112,8 @@
                 "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
               },
               "next": {
-                "title": "Récupérer les tâches",
-                "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
+                "title": "Récupérer les commentaires",
+                "permalink": "/docs/QuickStart/Commentaires/Recuperer_commentaires"
               }
             },
             {
@@ -140,6 +140,110 @@
               "next": {
                 "title": "Créer un candidat",
                 "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Commentaires/Creer_commentaire",
+              "id": "QuickStart/Commentaires/Creer_commentaire",
+              "title": "Créer un commentaire",
+              "description": "Comment créer un commentaire grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Commentaires/Creer_commentaire.md",
+              "sourceDirName": "QuickStart/Commentaires",
+              "slug": "/QuickStart/Commentaires/Creer_commentaire",
+              "permalink": "/docs/QuickStart/Commentaires/Creer_commentaire",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "description": "Comment créer un commentaire grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Récupérer les commentaires",
+                "permalink": "/docs/QuickStart/Commentaires/Recuperer_commentaires"
+              },
+              "next": {
+                "title": "Supprimer un commentaire",
+                "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Commentaires/Recuperer_commentaires",
+              "id": "QuickStart/Commentaires/Recuperer_commentaires",
+              "title": "Récupérer les commentaires",
+              "description": "Comment récupérer les commentaires grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Commentaires/Recuperer_commentaires.md",
+              "sourceDirName": "QuickStart/Commentaires",
+              "slug": "/QuickStart/Commentaires/Recuperer_commentaires",
+              "permalink": "/docs/QuickStart/Commentaires/Recuperer_commentaires",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "description": "Comment récupérer les commentaires grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ajouter des meta informations",
+                "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+              },
+              "next": {
+                "title": "Créer un commentaire",
+                "permalink": "/docs/QuickStart/Commentaires/Creer_commentaire"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Commentaires/Supprimer_commentaire",
+              "id": "QuickStart/Commentaires/Supprimer_commentaire",
+              "title": "Supprimer un commentaire",
+              "description": "Comment supprimer un commentaire grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Commentaires/Supprimer_commentaire.md",
+              "sourceDirName": "QuickStart/Commentaires",
+              "slug": "/QuickStart/Commentaires/Supprimer_commentaire",
+              "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "description": "Comment supprimer un commentaire grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Créer un commentaire",
+                "permalink": "/docs/QuickStart/Commentaires/Creer_commentaire"
+              },
+              "next": {
+                "title": "Récupérer les tâches",
+                "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/login",
+              "id": "QuickStart/login",
+              "title": "Login",
+              "description": "Comment récupérer un token utilisateur",
+              "source": "@site/docs/QuickStart/login.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/login",
+              "permalink": "/docs/QuickStart/login",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "description": "Comment récupérer un token utilisateur"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/getting_started"
+              },
+              "next": {
+                "title": "Récupérer les annonces",
+                "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
               }
             },
             {
@@ -212,8 +316,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Ajouter des meta informations",
-                "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+                "title": "Supprimer un commentaire",
+                "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire"
               },
               "next": {
                 "title": "Créer une tâche",
@@ -304,6 +408,28 @@
                 "permalink": "/docs/Schemas/answer"
               },
               "next": {
+                "title": "author",
+                "permalink": "/docs/Schemas/author"
+              }
+            },
+            {
+              "unversionedId": "Schemas/author",
+              "id": "Schemas/author",
+              "title": "author",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/author.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/author",
+              "permalink": "/docs/Schemas/author",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "applicant",
+                "permalink": "/docs/Schemas/applicant"
+              },
+              "next": {
                 "title": "candidate",
                 "permalink": "/docs/Schemas/candidate"
               }
@@ -322,8 +448,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "applicant",
-                "permalink": "/docs/Schemas/applicant"
+                "title": "author",
+                "permalink": "/docs/Schemas/author"
               },
               "next": {
                 "title": "column",
@@ -780,6 +906,10 @@
                 "collapsed": false,
                 "items": [
                   {
+                    "type": "doc",
+                    "id": "QuickStart/login"
+                  },
+                  {
                     "type": "category",
                     "label": "Annonces",
                     "collapsible": true,
@@ -808,6 +938,26 @@
                       {
                         "type": "doc",
                         "id": "QuickStart/Candidats/Meta_informations_candidat"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Commentaires",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Commentaires/Recuperer_commentaires"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Commentaires/Creer_commentaire"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Commentaires/Supprimer_commentaire"
                       }
                     ]
                   },
@@ -854,6 +1004,10 @@
                   {
                     "type": "doc",
                     "id": "Schemas/applicant"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/author"
                   },
                   {
                     "type": "doc",

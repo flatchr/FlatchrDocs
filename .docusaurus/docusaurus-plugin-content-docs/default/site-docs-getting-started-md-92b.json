@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Rechercher un candidat",
-    "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
+    "title": "Login",
+    "permalink": "/docs/QuickStart/login"
   }
 }

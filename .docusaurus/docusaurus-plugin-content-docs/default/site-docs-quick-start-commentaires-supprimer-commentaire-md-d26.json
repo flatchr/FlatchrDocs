@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Commentaires/Supprimer_commentaire",
+  "id": "QuickStart/Commentaires/Supprimer_commentaire",
+  "title": "Supprimer un commentaire",
+  "description": "Comment supprimer un commentaire grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Commentaires/Supprimer_commentaire.md",
+  "sourceDirName": "QuickStart/Commentaires",
+  "slug": "/QuickStart/Commentaires/Supprimer_commentaire",
+  "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "description": "Comment supprimer un commentaire grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Créer un commentaire",
+    "permalink": "/docs/QuickStart/Commentaires/Creer_commentaire"
+  },
+  "next": {
+    "title": "Récupérer les tâches",
+    "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
+  }
+}

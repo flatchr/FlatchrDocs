@@ -21,6 +21,26 @@
         "collapsed": false,
         "items": [
           {
+            "type": "link",
+            "label": "Login",
+            "href": "/docs/QuickStart/login",
+            "docId": "QuickStart/login"
+          },
+          {
+            "type": "category",
+            "label": "Annonces",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Récupérer les annonces",
+                "href": "/docs/QuickStart/Annonces/Recuperer_les_annonces",
+                "docId": "QuickStart/Annonces/Recuperer_les_annonces"
+              }
+            ]
+          },
+          {
             "type": "category",
             "label": "Candidats",
             "collapsible": true,
@@ -48,15 +68,27 @@
           },
           {
             "type": "category",
-            "label": "Annonces",
+            "label": "Commentaires",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "link",
-                "label": "Récupérer les annonces",
-                "href": "/docs/QuickStart/Annonces/Recuperer_les_annonces",
-                "docId": "QuickStart/Annonces/Recuperer_les_annonces"
+                "label": "Récupérer les commentaires",
+                "href": "/docs/QuickStart/Commentaires/Recuperer_commentaires",
+                "docId": "QuickStart/Commentaires/Recuperer_commentaires"
+              },
+              {
+                "type": "link",
+                "label": "Créer un commentaire",
+                "href": "/docs/QuickStart/Commentaires/Creer_commentaire",
+                "docId": "QuickStart/Commentaires/Creer_commentaire"
+              },
+              {
+                "type": "link",
+                "label": "Supprimer un commentaire",
+                "href": "/docs/QuickStart/Commentaires/Supprimer_commentaire",
+                "docId": "QuickStart/Commentaires/Supprimer_commentaire"
               }
             ]
           },
@@ -117,6 +149,12 @@
             "label": "applicant",
             "href": "/docs/Schemas/applicant",
             "docId": "Schemas/applicant"
+          },
+          {
+            "type": "link",
+            "label": "author",
+            "href": "/docs/Schemas/author",
+            "docId": "Schemas/author"
           },
           {
             "type": "link",
@@ -287,6 +325,30 @@
       "description": "Comment rechercher un candidat grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
+    "QuickStart/Commentaires/Creer_commentaire": {
+      "id": "QuickStart/Commentaires/Creer_commentaire",
+      "title": "Créer un commentaire",
+      "description": "Comment créer un commentaire grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Commentaires/Recuperer_commentaires": {
+      "id": "QuickStart/Commentaires/Recuperer_commentaires",
+      "title": "Récupérer les commentaires",
+      "description": "Comment récupérer les commentaires grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Commentaires/Supprimer_commentaire": {
+      "id": "QuickStart/Commentaires/Supprimer_commentaire",
+      "title": "Supprimer un commentaire",
+      "description": "Comment supprimer un commentaire grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/login": {
+      "id": "QuickStart/login",
+      "title": "Login",
+      "description": "Comment récupérer un token utilisateur",
+      "sidebar": "tutorialSidebar"
+    },
     "QuickStart/Tâches/Creer_tache": {
       "id": "QuickStart/Tâches/Creer_tache",
       "title": "Créer une tâche",
@@ -326,6 +388,12 @@
     "Schemas/applicant": {
       "id": "Schemas/applicant",
       "title": "applicant",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/author": {
+      "id": "Schemas/author",
+      "title": "author",
       "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },

@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Getting Started",
-    "permalink": "/docs/getting_started"
+    "title": "Récupérer les annonces",
+    "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
   },
   "next": {
     "title": "Créer un candidat",

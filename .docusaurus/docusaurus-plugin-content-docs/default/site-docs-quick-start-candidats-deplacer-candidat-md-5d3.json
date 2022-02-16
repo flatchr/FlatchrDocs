@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Candidats/Deplacer_candidat",
+  "id": "QuickStart/Candidats/Deplacer_candidat",
+  "title": "Déplacer un candidat de colonne",
+  "description": "Comment changer un candidat grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Candidats/Deplacer_candidat.md",
+  "sourceDirName": "QuickStart/Candidats",
+  "slug": "/QuickStart/Candidats/Deplacer_candidat",
+  "permalink": "/docs/QuickStart/Candidats/Deplacer_candidat",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "description": "Comment changer un candidat grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Créer un candidat",
+    "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
+  },
+  "next": {
+    "title": "Archiver un candidat",
+    "permalink": "/docs/QuickStart/Candidats/Archiver_candidat"
+  }
+}

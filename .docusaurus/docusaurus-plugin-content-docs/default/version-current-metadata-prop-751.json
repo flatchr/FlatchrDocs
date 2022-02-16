@@ -60,6 +60,18 @@
               },
               {
                 "type": "link",
+                "label": "Déplacer un candidat de colonne",
+                "href": "/docs/QuickStart/Candidats/Deplacer_candidat",
+                "docId": "QuickStart/Candidats/Deplacer_candidat"
+              },
+              {
+                "type": "link",
+                "label": "Archiver un candidat",
+                "href": "/docs/QuickStart/Candidats/Archiver_candidat",
+                "docId": "QuickStart/Candidats/Archiver_candidat"
+              },
+              {
+                "type": "link",
                 "label": "Ajouter des meta informations",
                 "href": "/docs/QuickStart/Candidats/Meta_informations_candidat",
                 "docId": "QuickStart/Candidats/Meta_informations_candidat"
@@ -89,6 +101,52 @@
                 "label": "Supprimer un commentaire",
                 "href": "/docs/QuickStart/Commentaires/Supprimer_commentaire",
                 "docId": "QuickStart/Commentaires/Supprimer_commentaire"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Messages",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Récupérer les messages",
+                "href": "/docs/QuickStart/Messages/Recuperer_messages",
+                "docId": "QuickStart/Messages/Recuperer_messages"
+              },
+              {
+                "type": "link",
+                "label": "Créer un message",
+                "href": "/docs/QuickStart/Messages/Créer_un_message",
+                "docId": "QuickStart/Messages/Créer_un_message"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Tags",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Récupérer les tags",
+                "href": "/docs/QuickStart/Tags/Recuperer_tags",
+                "docId": "QuickStart/Tags/Recuperer_tags"
+              },
+              {
+                "type": "link",
+                "label": "Remplir un tag candidat",
+                "href": "/docs/QuickStart/Tags/Ajouter_tag",
+                "docId": "QuickStart/Tags/Ajouter_tag"
+              },
+              {
+                "type": "link",
+                "label": "Afficher les tags candidats",
+                "href": "/docs/QuickStart/Tags/Afficher_tags_candidats",
+                "docId": "QuickStart/Tags/Afficher_tags_candidats"
               }
             ]
           },
@@ -152,6 +210,18 @@
           },
           {
             "type": "link",
+            "label": "applies",
+            "href": "/docs/Schemas/applies",
+            "docId": "Schemas/applies"
+          },
+          {
+            "type": "link",
+            "label": "attachment",
+            "href": "/docs/Schemas/attachment",
+            "docId": "Schemas/attachment"
+          },
+          {
+            "type": "link",
             "label": "author",
             "href": "/docs/Schemas/author",
             "docId": "Schemas/author"
@@ -203,6 +273,12 @@
             "label": "hiddens",
             "href": "/docs/Schemas/hiddens",
             "docId": "Schemas/hiddens"
+          },
+          {
+            "type": "link",
+            "label": "mail",
+            "href": "/docs/Schemas/mail",
+            "docId": "Schemas/mail"
           },
           {
             "type": "link",
@@ -266,6 +342,12 @@
               },
               {
                 "type": "link",
+                "label": "columns",
+                "href": "/docs/Schemas/Referentiels/columns",
+                "docId": "Schemas/Referentiels/columns"
+              },
+              {
+                "type": "link",
                 "label": "contract type",
                 "href": "/docs/Schemas/Referentiels/contract_type",
                 "docId": "Schemas/Referentiels/contract_type"
@@ -307,10 +389,22 @@
       "description": "Comment récupérer les annonces grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
+    "QuickStart/Candidats/Archiver_candidat": {
+      "id": "QuickStart/Candidats/Archiver_candidat",
+      "title": "Archiver un candidat",
+      "description": "Comment archiver un candidat grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
     "QuickStart/Candidats/Creer_un_candidat": {
       "id": "QuickStart/Candidats/Creer_un_candidat",
       "title": "Créer un candidat",
       "description": "Comment créer un candidat grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Candidats/Deplacer_candidat": {
+      "id": "QuickStart/Candidats/Deplacer_candidat",
+      "title": "Déplacer un candidat de colonne",
+      "description": "Comment changer un candidat grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Candidats/Meta_informations_candidat": {
@@ -349,6 +443,18 @@
       "description": "Comment récupérer un token utilisateur",
       "sidebar": "tutorialSidebar"
     },
+    "QuickStart/Messages/Créer_un_message": {
+      "id": "QuickStart/Messages/Créer_un_message",
+      "title": "Créer un message",
+      "description": "Comment créer un mail grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Messages/Recuperer_messages": {
+      "id": "QuickStart/Messages/Recuperer_messages",
+      "title": "Récupérer les messages",
+      "description": "Comment récupérer les messages grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
     "QuickStart/Tâches/Creer_tache": {
       "id": "QuickStart/Tâches/Creer_tache",
       "title": "Créer une tâche",
@@ -365,6 +471,24 @@
       "id": "QuickStart/Tâches/Recuperer_tâches",
       "title": "Récupérer les tâches",
       "description": "Comment récupérer les tâches grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Tags/Afficher_tags_candidats": {
+      "id": "QuickStart/Tags/Afficher_tags_candidats",
+      "title": "Afficher les tags candidats",
+      "description": "Comment récupérer les tags d'un candidat grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Tags/Ajouter_tag": {
+      "id": "QuickStart/Tags/Ajouter_tag",
+      "title": "Remplir un tag candidat",
+      "description": "Comment remplir un tag candidat grâce à l'API Flatchr",
+      "sidebar": "tutorialSidebar"
+    },
+    "QuickStart/Tags/Recuperer_tags": {
+      "id": "QuickStart/Tags/Recuperer_tags",
+      "title": "Récupérer les tags",
+      "description": "Comment récupérer les tags grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/activity": {
@@ -388,6 +512,18 @@
     "Schemas/applicant": {
       "id": "Schemas/applicant",
       "title": "applicant",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/applies": {
+      "id": "Schemas/applies",
+      "title": "applies",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/attachment": {
+      "id": "Schemas/attachment",
+      "title": "attachment",
       "description": "|Name|Type|Description|",
       "sidebar": "tutorialSidebar"
     },
@@ -445,6 +581,12 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
+    "Schemas/mail": {
+      "id": "Schemas/mail",
+      "title": "mail",
+      "description": "|Name|Type|Description|",
+      "sidebar": "tutorialSidebar"
+    },
     "Schemas/message": {
       "id": "Schemas/message",
       "title": "message",
@@ -473,6 +615,12 @@
       "id": "Schemas/Referentiels/channels",
       "title": "channels",
       "description": "Le référenciel des filières peut être appelé avec la requête :",
+      "sidebar": "tutorialSidebar"
+    },
+    "Schemas/Referentiels/columns": {
+      "id": "Schemas/Referentiels/columns",
+      "title": "columns",
+      "description": "Le référenciel des colonnes peut être récupéré avec la requête :",
       "sidebar": "tutorialSidebar"
     },
     "Schemas/Referentiels/contract_type": {

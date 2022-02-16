@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Tags/Recuperer_tags",
+  "id": "QuickStart/Tags/Recuperer_tags",
+  "title": "Récupérer les tags",
+  "description": "Comment récupérer les tags grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Tags/Recuperer_tags.md",
+  "sourceDirName": "QuickStart/Tags",
+  "slug": "/QuickStart/Tags/Recuperer_tags",
+  "permalink": "/docs/QuickStart/Tags/Recuperer_tags",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Comment récupérer les tags grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Créer un message",
+    "permalink": "/docs/QuickStart/Messages/Créer_un_message"
+  },
+  "next": {
+    "title": "Remplir un tag candidat",
+    "permalink": "/docs/QuickStart/Tags/Ajouter_tag"
+  }
+}

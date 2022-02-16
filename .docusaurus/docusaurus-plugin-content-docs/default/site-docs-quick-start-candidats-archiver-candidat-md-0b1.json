@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Candidats/Archiver_candidat",
+  "id": "QuickStart/Candidats/Archiver_candidat",
+  "title": "Archiver un candidat",
+  "description": "Comment archiver un candidat grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Candidats/Archiver_candidat.md",
+  "sourceDirName": "QuickStart/Candidats",
+  "slug": "/QuickStart/Candidats/Archiver_candidat",
+  "permalink": "/docs/QuickStart/Candidats/Archiver_candidat",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "description": "Comment archiver un candidat grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Déplacer un candidat de colonne",
+    "permalink": "/docs/QuickStart/Candidats/Deplacer_candidat"
+  },
+  "next": {
+    "title": "Ajouter des meta informations",
+    "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+  }
+}

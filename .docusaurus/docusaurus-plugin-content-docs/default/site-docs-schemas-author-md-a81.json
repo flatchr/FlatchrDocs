@@ -12,8 +12,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "applicant",
-    "permalink": "/docs/Schemas/applicant"
+    "title": "attachment",
+    "permalink": "/docs/Schemas/attachment"
   },
   "next": {
     "title": "candidate",

@@ -9,15 +9,15 @@
   "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 4,
+    "sidebar_position": 6,
     "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Créer un candidat",
-    "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
+    "title": "Archiver un candidat",
+    "permalink": "/docs/QuickStart/Candidats/Archiver_candidat"
   },
   "next": {
     "title": "Récupérer les commentaires",

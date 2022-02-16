@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/mail",
+  "id": "Schemas/mail",
+  "title": "mail",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/mail.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/mail",
+  "permalink": "/docs/Schemas/mail",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "hiddens",
+    "permalink": "/docs/Schemas/hiddens"
+  },
+  "next": {
+    "title": "message",
+    "permalink": "/docs/Schemas/message"
+  }
+}

@@ -21,8 +21,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "QuickStart/Candidats/Archiver_candidat",
+              "path": "/docs/QuickStart/Candidats/Archiver_candidat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "QuickStart/Candidats/Creer_un_candidat",
               "path": "/docs/QuickStart/Candidats/Creer_un_candidat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Candidats/Deplacer_candidat",
+              "path": "/docs/QuickStart/Candidats/Deplacer_candidat",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -56,6 +66,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "QuickStart/Messages/Créer_un_message",
+              "path": "/docs/QuickStart/Messages/Créer_un_message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Messages/Recuperer_messages",
+              "path": "/docs/QuickStart/Messages/Recuperer_messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "QuickStart/Tâches/Creer_tache",
               "path": "/docs/QuickStart/Tâches/Creer_tache",
               "sidebar": "tutorialSidebar"
@@ -68,6 +88,21 @@
             {
               "id": "QuickStart/Tâches/Recuperer_tâches",
               "path": "/docs/QuickStart/Tâches/Recuperer_tâches",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Tags/Afficher_tags_candidats",
+              "path": "/docs/QuickStart/Tags/Afficher_tags_candidats",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Tags/Ajouter_tag",
+              "path": "/docs/QuickStart/Tags/Ajouter_tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "QuickStart/Tags/Recuperer_tags",
+              "path": "/docs/QuickStart/Tags/Recuperer_tags",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -88,6 +123,16 @@
             {
               "id": "Schemas/applicant",
               "path": "/docs/Schemas/applicant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/applies",
+              "path": "/docs/Schemas/applies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/attachment",
+              "path": "/docs/Schemas/attachment",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -136,6 +181,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Schemas/mail",
+              "path": "/docs/Schemas/mail",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Schemas/message",
               "path": "/docs/Schemas/message",
               "sidebar": "tutorialSidebar"
@@ -158,6 +208,11 @@
             {
               "id": "Schemas/Referentiels/channels",
               "path": "/docs/Schemas/Referentiels/channels",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Schemas/Referentiels/columns",
+              "path": "/docs/Schemas/Referentiels/columns",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Messages/Créer_un_message",
+  "id": "QuickStart/Messages/Créer_un_message",
+  "title": "Créer un message",
+  "description": "Comment créer un mail grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Messages/Créer_un_message.md",
+  "sourceDirName": "QuickStart/Messages",
+  "slug": "/QuickStart/Messages/Créer_un_message",
+  "permalink": "/docs/QuickStart/Messages/Créer_un_message",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "description": "Comment créer un mail grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Récupérer les messages",
+    "permalink": "/docs/QuickStart/Messages/Recuperer_messages"
+  },
+  "next": {
+    "title": "Récupérer les tags",
+    "permalink": "/docs/QuickStart/Tags/Recuperer_tags"
+  }
+}

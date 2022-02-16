@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Supprimer un commentaire",
-    "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire"
+    "title": "Afficher les tags candidats",
+    "permalink": "/docs/QuickStart/Tags/Afficher_tags_candidats"
   },
   "next": {
     "title": "Créer une tâche",

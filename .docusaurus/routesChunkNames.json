@@ -49,7 +49,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---webhooks-6-db-4b3"
   },
-  "/docs-bd9": {
+  "/docs-4c9": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -61,9 +61,17 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quick-start-annonces-recuperer-les-annonces-5-eb-886"
   },
+  "/docs/QuickStart/Candidats/Archiver_candidat-efb": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-candidats-archiver-candidat-0-b-1-88c"
+  },
   "/docs/QuickStart/Candidats/Creer_un_candidat-399": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quick-start-candidats-creer-un-candidat-376-32f"
+  },
+  "/docs/QuickStart/Candidats/Deplacer_candidat-ebf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-candidats-deplacer-candidat-5-d-3-371"
   },
   "/docs/QuickStart/Candidats/Meta_informations_candidat-6d9": {
     "component": "component---theme-doc-item-178-a40",
@@ -89,6 +97,14 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quick-start-login-323-a97"
   },
+  "/docs/QuickStart/Messages/Créer_un_message-31a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-messages-creer-un-message-3-a-6-36f"
+  },
+  "/docs/QuickStart/Messages/Recuperer_messages-d40": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-messages-recuperer-messagesa-94-621"
+  },
   "/docs/QuickStart/Tâches/Creer_tache-ec4": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quick-start-taches-creer-tache-0-f-7-36a"
@@ -100,6 +116,18 @@
   "/docs/QuickStart/Tâches/Recuperer_tâches-707": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quick-start-taches-recuperer-tachesa-65-a87"
+  },
+  "/docs/QuickStart/Tags/Afficher_tags_candidats-8d0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-tags-afficher-tags-candidats-354-aa5"
+  },
+  "/docs/QuickStart/Tags/Ajouter_tag-b52": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-tags-ajouter-tag-7-b-9-f83"
+  },
+  "/docs/QuickStart/Tags/Recuperer_tags-bb0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-tags-recuperer-tagsab-6-10c"
   },
   "/docs/Schemas/activity-eed": {
     "component": "component---theme-doc-item-178-a40",
@@ -116,6 +144,14 @@
   "/docs/Schemas/applicant-578": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-applicantda-6-20d"
+  },
+  "/docs/Schemas/applies-cd4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-applies-765-ce0"
+  },
+  "/docs/Schemas/attachment-bac": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-attachmente-16-392"
   },
   "/docs/Schemas/author-2a6": {
     "component": "component---theme-doc-item-178-a40",
@@ -153,6 +189,10 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-hiddensc-3-c-0ca"
   },
+  "/docs/Schemas/mail-9b3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-mail-8-ce-c0a"
+  },
   "/docs/Schemas/message-c41": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-message-5-a-7-c22"
@@ -172,6 +212,10 @@
   "/docs/Schemas/Referentiels/channels-4c8": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-schemas-referentiels-channelsccf-4a1"
+  },
+  "/docs/Schemas/Referentiels/columns-ee7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-schemas-referentiels-columns-34-e-99d"
   },
   "/docs/Schemas/Referentiels/contract_type-44d": {
     "component": "component---theme-doc-item-178-a40",

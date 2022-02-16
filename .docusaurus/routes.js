@@ -75,7 +75,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','bd9'),
+    component: ComponentCreator('/docs','4c9'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -90,8 +90,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/QuickStart/Candidats/Archiver_candidat',
+        component: ComponentCreator('/docs/QuickStart/Candidats/Archiver_candidat','efb'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/QuickStart/Candidats/Creer_un_candidat',
         component: ComponentCreator('/docs/QuickStart/Candidats/Creer_un_candidat','399'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Candidats/Deplacer_candidat',
+        component: ComponentCreator('/docs/QuickStart/Candidats/Deplacer_candidat','ebf'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -132,6 +144,18 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/QuickStart/Messages/Créer_un_message',
+        component: ComponentCreator('/docs/QuickStart/Messages/Créer_un_message','31a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Messages/Recuperer_messages',
+        component: ComponentCreator('/docs/QuickStart/Messages/Recuperer_messages','d40'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/QuickStart/Tâches/Creer_tache',
         component: ComponentCreator('/docs/QuickStart/Tâches/Creer_tache','ec4'),
         exact: true,
@@ -146,6 +170,24 @@ export default [
       {
         path: '/docs/QuickStart/Tâches/Recuperer_tâches',
         component: ComponentCreator('/docs/QuickStart/Tâches/Recuperer_tâches','707'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Tags/Afficher_tags_candidats',
+        component: ComponentCreator('/docs/QuickStart/Tags/Afficher_tags_candidats','8d0'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Tags/Ajouter_tag',
+        component: ComponentCreator('/docs/QuickStart/Tags/Ajouter_tag','b52'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Tags/Recuperer_tags',
+        component: ComponentCreator('/docs/QuickStart/Tags/Recuperer_tags','bb0'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -170,6 +212,18 @@ export default [
       {
         path: '/docs/Schemas/applicant',
         component: ComponentCreator('/docs/Schemas/applicant','578'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/applies',
+        component: ComponentCreator('/docs/Schemas/applies','cd4'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/attachment',
+        component: ComponentCreator('/docs/Schemas/attachment','bac'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -228,6 +282,12 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/Schemas/mail',
+        component: ComponentCreator('/docs/Schemas/mail','9b3'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/Schemas/message',
         component: ComponentCreator('/docs/Schemas/message','c41'),
         exact: true,
@@ -254,6 +314,12 @@ export default [
       {
         path: '/docs/Schemas/Referentiels/channels',
         component: ComponentCreator('/docs/Schemas/Referentiels/channels','4c8'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/Referentiels/columns',
+        component: ComponentCreator('/docs/Schemas/Referentiels/columns','ee7'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

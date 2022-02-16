@@ -30,7 +30,7 @@ password||string|<center>✔️</center>|Le mot de passe du compte
 
 
 ```jsx title="Requête cURL"
-curl -X POST 'api.demo.flatchr.io/user/login' 
+curl -X POST 'api.flatchr.io/user/login' 
     -H 'Content-Type: application/json' 
     -d '{"email":"test@flatchr.io",
         "password":"#Poulpe45"}'

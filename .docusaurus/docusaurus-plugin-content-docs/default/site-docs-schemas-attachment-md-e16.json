@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/attachment",
+  "id": "Schemas/attachment",
+  "title": "attachment",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/attachment.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/attachment",
+  "permalink": "/docs/Schemas/attachment",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "applies",
+    "permalink": "/docs/Schemas/applies"
+  },
+  "next": {
+    "title": "author",
+    "permalink": "/docs/Schemas/author"
+  }
+}

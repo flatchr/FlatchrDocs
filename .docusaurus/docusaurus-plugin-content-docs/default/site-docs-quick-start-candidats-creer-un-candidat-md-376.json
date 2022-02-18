@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Rechercher un candidat",
+    "title": "Récupérer les informations d'un candidat",
     "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
   },
   "next": {

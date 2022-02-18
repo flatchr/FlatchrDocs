@@ -33,6 +33,10 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---sso-605-4c7"
   },
+  "/Use%20Cases/Cr%C3%A9er_un_message-de6": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---use-20-cases-cr-c-3-a-9-er-un-message-697-b62"
+  },
   "/Use%20Cases/Formulaire_personalise-df6": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---use-20-cases-formulaire-personalise-5-e-2-f51"
@@ -49,7 +53,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---webhooks-6-db-4b3"
   },
-  "/docs-4c9": {
+  "/docs-5dd": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -96,10 +100,6 @@
   "/docs/QuickStart/login-051": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quick-start-login-323-a97"
-  },
-  "/docs/QuickStart/Messages/Créer_un_message-31a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-quick-start-messages-creer-un-message-3-a-6-36f"
   },
   "/docs/QuickStart/Messages/Recuperer_messages-d40": {
     "component": "component---theme-doc-item-178-a40",

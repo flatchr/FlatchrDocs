@@ -4,7 +4,7 @@ description: Comment récupérer les tags d'un candidat grâce à l'API Flatchr
 ---
 
 
-# Afficher les tags candidats
+# Afficher les tags candidat
 
 Vous pouvez récupérer les tags d'un candidat crées dans l'application grâce à l'API.
 

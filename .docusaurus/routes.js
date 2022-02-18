@@ -54,6 +54,11 @@ export default [
     exact: true
   },
   {
+    path: '/Use%20Cases/Cr%C3%A9er_un_message',
+    component: ComponentCreator('/Use%20Cases/Cr%C3%A9er_un_message','de6'),
+    exact: true
+  },
+  {
     path: '/Use%20Cases/Formulaire_personalise',
     component: ComponentCreator('/Use%20Cases/Formulaire_personalise','df6'),
     exact: true
@@ -75,7 +80,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','4c9'),
+    component: ComponentCreator('/docs','5dd'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -140,12 +145,6 @@ export default [
       {
         path: '/docs/QuickStart/login',
         component: ComponentCreator('/docs/QuickStart/login','051'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/QuickStart/Messages/Créer_un_message',
-        component: ComponentCreator('/docs/QuickStart/Messages/Créer_un_message','31a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -48,7 +48,7 @@
             "items": [
               {
                 "type": "link",
-                "label": "Rechercher un candidat",
+                "label": "Récupérer les informations d'un candidat",
                 "href": "/docs/QuickStart/Candidats/Recuperer_un_candidat",
                 "docId": "QuickStart/Candidats/Recuperer_un_candidat"
               },
@@ -115,12 +115,6 @@
                 "label": "Récupérer les messages",
                 "href": "/docs/QuickStart/Messages/Recuperer_messages",
                 "docId": "QuickStart/Messages/Recuperer_messages"
-              },
-              {
-                "type": "link",
-                "label": "Créer un message",
-                "href": "/docs/QuickStart/Messages/Créer_un_message",
-                "docId": "QuickStart/Messages/Créer_un_message"
               }
             ]
           },
@@ -144,7 +138,7 @@
               },
               {
                 "type": "link",
-                "label": "Afficher les tags candidats",
+                "label": "Afficher les tags candidat",
                 "href": "/docs/QuickStart/Tags/Afficher_tags_candidats",
                 "docId": "QuickStart/Tags/Afficher_tags_candidats"
               }
@@ -415,8 +409,8 @@
     },
     "QuickStart/Candidats/Recuperer_un_candidat": {
       "id": "QuickStart/Candidats/Recuperer_un_candidat",
-      "title": "Rechercher un candidat",
-      "description": "Comment rechercher un candidat grâce à l'API Flatchr",
+      "title": "Récupérer les informations d'un candidat",
+      "description": "Comment récupérer les informations d'un candidat grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Commentaires/Creer_commentaire": {
@@ -441,12 +435,6 @@
       "id": "QuickStart/login",
       "title": "Login",
       "description": "Comment récupérer un token utilisateur",
-      "sidebar": "tutorialSidebar"
-    },
-    "QuickStart/Messages/Créer_un_message": {
-      "id": "QuickStart/Messages/Créer_un_message",
-      "title": "Créer un message",
-      "description": "Comment créer un mail grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },
     "QuickStart/Messages/Recuperer_messages": {
@@ -475,7 +463,7 @@
     },
     "QuickStart/Tags/Afficher_tags_candidats": {
       "id": "QuickStart/Tags/Afficher_tags_candidats",
-      "title": "Afficher les tags candidats",
+      "title": "Afficher les tags candidat",
       "description": "Comment récupérer les tags d'un candidat grâce à l'API Flatchr",
       "sidebar": "tutorialSidebar"
     },

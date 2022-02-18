@@ -1,12 +1,12 @@
 ---
 sidebar_position: 2
-description: Comment rechercher un candidat grâce à l'API Flatchr
+description: Comment récupérer les informations d'un candidat grâce à l'API Flatchr
 ---
 
 
-# Rechercher un candidat
+# Récupérer les informations d'un candidat
 
-Vous pouvez rechercher un ou plusieurs candidat grâce à l'API.
+Vous pouvez récupérer les informations d' un ou plusieurs candidat grâce à l'API.
 
 
 ## Requête

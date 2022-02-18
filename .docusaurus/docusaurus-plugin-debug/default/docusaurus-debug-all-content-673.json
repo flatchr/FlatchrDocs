@@ -60,7 +60,7 @@
                 "permalink": "/docs/QuickStart/login"
               },
               "next": {
-                "title": "Rechercher un candidat",
+                "title": "Récupérer les informations d'un candidat",
                 "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
               }
             },
@@ -108,7 +108,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Rechercher un candidat",
+                "title": "Récupérer les informations d'un candidat",
                 "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
               },
               "next": {
@@ -171,8 +171,8 @@
             {
               "unversionedId": "QuickStart/Candidats/Recuperer_un_candidat",
               "id": "QuickStart/Candidats/Recuperer_un_candidat",
-              "title": "Rechercher un candidat",
-              "description": "Comment rechercher un candidat grâce à l'API Flatchr",
+              "title": "Récupérer les informations d'un candidat",
+              "description": "Comment récupérer les informations d'un candidat grâce à l'API Flatchr",
               "source": "@site/docs/QuickStart/Candidats/Recuperer_un_candidat.md",
               "sourceDirName": "QuickStart/Candidats",
               "slug": "/QuickStart/Candidats/Recuperer_un_candidat",
@@ -182,7 +182,7 @@
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2,
-                "description": "Comment rechercher un candidat grâce à l'API Flatchr"
+                "description": "Comment récupérer les informations d'un candidat grâce à l'API Flatchr"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -299,32 +299,6 @@
               }
             },
             {
-              "unversionedId": "QuickStart/Messages/Créer_un_message",
-              "id": "QuickStart/Messages/Créer_un_message",
-              "title": "Créer un message",
-              "description": "Comment créer un mail grâce à l'API Flatchr",
-              "source": "@site/docs/QuickStart/Messages/Créer_un_message.md",
-              "sourceDirName": "QuickStart/Messages",
-              "slug": "/QuickStart/Messages/Créer_un_message",
-              "permalink": "/docs/QuickStart/Messages/Créer_un_message",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2,
-                "description": "Comment créer un mail grâce à l'API Flatchr"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Récupérer les messages",
-                "permalink": "/docs/QuickStart/Messages/Recuperer_messages"
-              },
-              "next": {
-                "title": "Récupérer les tags",
-                "permalink": "/docs/QuickStart/Tags/Recuperer_tags"
-              }
-            },
-            {
               "unversionedId": "QuickStart/Messages/Recuperer_messages",
               "id": "QuickStart/Messages/Recuperer_messages",
               "title": "Récupérer les messages",
@@ -346,8 +320,8 @@
                 "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire"
               },
               "next": {
-                "title": "Créer un message",
-                "permalink": "/docs/QuickStart/Messages/Créer_un_message"
+                "title": "Récupérer les tags",
+                "permalink": "/docs/QuickStart/Tags/Recuperer_tags"
               }
             },
             {
@@ -420,7 +394,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Afficher les tags candidats",
+                "title": "Afficher les tags candidat",
                 "permalink": "/docs/QuickStart/Tags/Afficher_tags_candidats"
               },
               "next": {
@@ -431,7 +405,7 @@
             {
               "unversionedId": "QuickStart/Tags/Afficher_tags_candidats",
               "id": "QuickStart/Tags/Afficher_tags_candidats",
-              "title": "Afficher les tags candidats",
+              "title": "Afficher les tags candidat",
               "description": "Comment récupérer les tags d'un candidat grâce à l'API Flatchr",
               "source": "@site/docs/QuickStart/Tags/Afficher_tags_candidats.md",
               "sourceDirName": "QuickStart/Tags",
@@ -476,7 +450,7 @@
                 "permalink": "/docs/QuickStart/Tags/Recuperer_tags"
               },
               "next": {
-                "title": "Afficher les tags candidats",
+                "title": "Afficher les tags candidat",
                 "permalink": "/docs/QuickStart/Tags/Afficher_tags_candidats"
               }
             },
@@ -498,8 +472,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Créer un message",
-                "permalink": "/docs/QuickStart/Messages/Créer_un_message"
+                "title": "Récupérer les messages",
+                "permalink": "/docs/QuickStart/Messages/Recuperer_messages"
               },
               "next": {
                 "title": "Remplir un tag candidat",
@@ -1248,10 +1222,6 @@
                       {
                         "type": "doc",
                         "id": "QuickStart/Messages/Recuperer_messages"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "QuickStart/Messages/Créer_un_message"
                       }
                     ]
                   },
@@ -1471,6 +1441,11 @@
         "type": "mdx",
         "permalink": "/webhooks",
         "source": "@site/src/pages/webhooks.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/Use%20Cases/Cr%C3%A9er_un_message",
+        "source": "@site/src/pages/Use Cases/Créer_un_message.md"
       },
       {
         "type": "mdx",

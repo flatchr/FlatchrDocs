@@ -1,7 +1,7 @@
 {
   "unversionedId": "QuickStart/Tags/Afficher_tags_candidats",
   "id": "QuickStart/Tags/Afficher_tags_candidats",
-  "title": "Afficher les tags candidats",
+  "title": "Afficher les tags candidat",
   "description": "Comment récupérer les tags d'un candidat grâce à l'API Flatchr",
   "source": "@site/docs/QuickStart/Tags/Afficher_tags_candidats.md",
   "sourceDirName": "QuickStart/Tags",

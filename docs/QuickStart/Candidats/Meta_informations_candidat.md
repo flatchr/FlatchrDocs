@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 description: Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr
 ---
 

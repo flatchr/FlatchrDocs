@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Tags/Ajouter_tag",
+  "id": "QuickStart/Tags/Ajouter_tag",
+  "title": "Remplir un tag candidat",
+  "description": "Comment remplir un tag candidat grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Tags/Ajouter_tag.md",
+  "sourceDirName": "QuickStart/Tags",
+  "slug": "/QuickStart/Tags/Ajouter_tag",
+  "permalink": "/docs/QuickStart/Tags/Ajouter_tag",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "description": "Comment remplir un tag candidat grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Récupérer les tags",
+    "permalink": "/docs/QuickStart/Tags/Recuperer_tags"
+  },
+  "next": {
+    "title": "Afficher les tags candidat",
+    "permalink": "/docs/QuickStart/Tags/Afficher_tags_candidats"
+  }
+}

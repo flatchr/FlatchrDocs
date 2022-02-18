@@ -4,6 +4,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','3d6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','914'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','c28'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','244'),
+    exact: true
+  },
+  {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
     exact: true
@@ -16,6 +51,11 @@ export default [
   {
     path: '/SSO',
     component: ComponentCreator('/SSO','fb0'),
+    exact: true
+  },
+  {
+    path: '/Use%20Cases/Cr%C3%A9er_un_message',
+    component: ComponentCreator('/Use%20Cases/Cr%C3%A9er_un_message','de6'),
     exact: true
   },
   {
@@ -40,7 +80,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','f7c'),
+    component: ComponentCreator('/docs','5dd'),
     routes: [
       {
         path: '/docs/getting_started',
@@ -55,8 +95,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/QuickStart/Candidats/Archiver_candidat',
+        component: ComponentCreator('/docs/QuickStart/Candidats/Archiver_candidat','efb'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/QuickStart/Candidats/Creer_un_candidat',
         component: ComponentCreator('/docs/QuickStart/Candidats/Creer_un_candidat','399'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Candidats/Deplacer_candidat',
+        component: ComponentCreator('/docs/QuickStart/Candidats/Deplacer_candidat','ebf'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -69,6 +121,36 @@ export default [
       {
         path: '/docs/QuickStart/Candidats/Recuperer_un_candidat',
         component: ComponentCreator('/docs/QuickStart/Candidats/Recuperer_un_candidat','bd2'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Commentaires/Creer_commentaire',
+        component: ComponentCreator('/docs/QuickStart/Commentaires/Creer_commentaire','ebf'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Commentaires/Recuperer_commentaires',
+        component: ComponentCreator('/docs/QuickStart/Commentaires/Recuperer_commentaires','42f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Commentaires/Supprimer_commentaire',
+        component: ComponentCreator('/docs/QuickStart/Commentaires/Supprimer_commentaire','979'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/login',
+        component: ComponentCreator('/docs/QuickStart/login','051'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Messages/Recuperer_messages',
+        component: ComponentCreator('/docs/QuickStart/Messages/Recuperer_messages','d40'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -87,6 +169,24 @@ export default [
       {
         path: '/docs/QuickStart/Tâches/Recuperer_tâches',
         component: ComponentCreator('/docs/QuickStart/Tâches/Recuperer_tâches','707'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Tags/Afficher_tags_candidats',
+        component: ComponentCreator('/docs/QuickStart/Tags/Afficher_tags_candidats','8d0'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Tags/Ajouter_tag',
+        component: ComponentCreator('/docs/QuickStart/Tags/Ajouter_tag','b52'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/QuickStart/Tags/Recuperer_tags',
+        component: ComponentCreator('/docs/QuickStart/Tags/Recuperer_tags','bb0'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -111,6 +211,24 @@ export default [
       {
         path: '/docs/Schemas/applicant',
         component: ComponentCreator('/docs/Schemas/applicant','578'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/applies',
+        component: ComponentCreator('/docs/Schemas/applies','cd4'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/attachment',
+        component: ComponentCreator('/docs/Schemas/attachment','bac'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/author',
+        component: ComponentCreator('/docs/Schemas/author','2a6'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -163,6 +281,12 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/Schemas/mail',
+        component: ComponentCreator('/docs/Schemas/mail','9b3'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/Schemas/message',
         component: ComponentCreator('/docs/Schemas/message','c41'),
         exact: true,
@@ -189,6 +313,12 @@ export default [
       {
         path: '/docs/Schemas/Referentiels/channels',
         component: ComponentCreator('/docs/Schemas/Referentiels/channels','4c8'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Schemas/Referentiels/columns',
+        component: ComponentCreator('/docs/Schemas/Referentiels/columns','ee7'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Tags/Afficher_tags_candidats",
+  "id": "QuickStart/Tags/Afficher_tags_candidats",
+  "title": "Afficher les tags candidat",
+  "description": "Comment récupérer les tags d'un candidat grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Tags/Afficher_tags_candidats.md",
+  "sourceDirName": "QuickStart/Tags",
+  "slug": "/QuickStart/Tags/Afficher_tags_candidats",
+  "permalink": "/docs/QuickStart/Tags/Afficher_tags_candidats",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "description": "Comment récupérer les tags d'un candidat grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Remplir un tag candidat",
+    "permalink": "/docs/QuickStart/Tags/Ajouter_tag"
+  },
+  "next": {
+    "title": "Récupérer les tâches",
+    "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
+  }
+}

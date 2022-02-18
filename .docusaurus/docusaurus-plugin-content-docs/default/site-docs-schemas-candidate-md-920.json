@@ -12,8 +12,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "applicant",
-    "permalink": "/docs/Schemas/applicant"
+    "title": "author",
+    "permalink": "/docs/Schemas/author"
   },
   "next": {
     "title": "column",

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/Referentiels/columns",
+  "id": "Schemas/Referentiels/columns",
+  "title": "columns",
+  "description": "Le référenciel des colonnes peut être récupéré avec la requête :",
+  "source": "@site/docs/Schemas/Referentiels/columns.md",
+  "sourceDirName": "Schemas/Referentiels",
+  "slug": "/Schemas/Referentiels/columns",
+  "permalink": "/docs/Schemas/Referentiels/columns",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "channels",
+    "permalink": "/docs/Schemas/Referentiels/channels"
+  },
+  "next": {
+    "title": "contract type",
+    "permalink": "/docs/Schemas/Referentiels/contract_type"
+  }
+}

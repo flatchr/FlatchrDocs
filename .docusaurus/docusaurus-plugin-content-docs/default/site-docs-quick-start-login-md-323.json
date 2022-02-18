@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/login",
+  "id": "QuickStart/login",
+  "title": "Login",
+  "description": "Comment récupérer un token utilisateur",
+  "source": "@site/docs/QuickStart/login.md",
+  "sourceDirName": "QuickStart",
+  "slug": "/QuickStart/login",
+  "permalink": "/docs/QuickStart/login",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Comment récupérer un token utilisateur"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/getting_started"
+  },
+  "next": {
+    "title": "Récupérer les annonces",
+    "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
+  }
+}

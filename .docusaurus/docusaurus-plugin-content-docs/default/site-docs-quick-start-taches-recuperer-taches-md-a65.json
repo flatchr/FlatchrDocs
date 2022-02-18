@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Récupérer les annonces",
-    "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
+    "title": "Afficher les tags candidat",
+    "permalink": "/docs/QuickStart/Tags/Afficher_tags_candidats"
   },
   "next": {
     "title": "Créer une tâche",

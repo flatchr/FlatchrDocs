@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Rechercher un candidat",
+    "title": "Récupérer les informations d'un candidat",
     "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
   },
   "next": {
-    "title": "Ajouter des meta informations",
-    "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+    "title": "Déplacer un candidat de colonne",
+    "permalink": "/docs/QuickStart/Candidats/Deplacer_candidat"
   }
 }

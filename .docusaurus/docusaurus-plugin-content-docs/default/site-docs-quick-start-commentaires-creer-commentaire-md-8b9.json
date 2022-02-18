@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Commentaires/Creer_commentaire",
+  "id": "QuickStart/Commentaires/Creer_commentaire",
+  "title": "Créer un commentaire",
+  "description": "Comment créer un commentaire grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Commentaires/Creer_commentaire.md",
+  "sourceDirName": "QuickStart/Commentaires",
+  "slug": "/QuickStart/Commentaires/Creer_commentaire",
+  "permalink": "/docs/QuickStart/Commentaires/Creer_commentaire",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "description": "Comment créer un commentaire grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Récupérer les commentaires",
+    "permalink": "/docs/QuickStart/Commentaires/Recuperer_commentaires"
+  },
+  "next": {
+    "title": "Supprimer un commentaire",
+    "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire"
+  }
+}

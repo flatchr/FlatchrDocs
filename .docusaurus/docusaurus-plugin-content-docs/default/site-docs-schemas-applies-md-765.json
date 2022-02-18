@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Schemas/applies",
+  "id": "Schemas/applies",
+  "title": "applies",
+  "description": "|Name|Type|Description|",
+  "source": "@site/docs/Schemas/applies.md",
+  "sourceDirName": "Schemas",
+  "slug": "/Schemas/applies",
+  "permalink": "/docs/Schemas/applies",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "applicant",
+    "permalink": "/docs/Schemas/applicant"
+  },
+  "next": {
+    "title": "attachment",
+    "permalink": "/docs/Schemas/attachment"
+  }
+}

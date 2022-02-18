@@ -1,0 +1,26 @@
+{
+  "unversionedId": "QuickStart/Messages/Recuperer_messages",
+  "id": "QuickStart/Messages/Recuperer_messages",
+  "title": "Récupérer les messages",
+  "description": "Comment récupérer les messages grâce à l'API Flatchr",
+  "source": "@site/docs/QuickStart/Messages/Recuperer_messages.md",
+  "sourceDirName": "QuickStart/Messages",
+  "slug": "/QuickStart/Messages/Recuperer_messages",
+  "permalink": "/docs/QuickStart/Messages/Recuperer_messages",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Comment récupérer les messages grâce à l'API Flatchr"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Supprimer un commentaire",
+    "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire"
+  },
+  "next": {
+    "title": "Récupérer les tags",
+    "permalink": "/docs/QuickStart/Tags/Recuperer_tags"
+  }
+}

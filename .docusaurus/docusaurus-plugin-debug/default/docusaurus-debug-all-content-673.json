@@ -34,8 +34,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Récupérer les annonces",
-                "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
+                "title": "Login",
+                "permalink": "/docs/QuickStart/login"
               }
             },
             {
@@ -56,12 +56,38 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/getting_started"
+                "title": "Login",
+                "permalink": "/docs/QuickStart/login"
               },
               "next": {
-                "title": "Rechercher un candidat",
+                "title": "Récupérer les informations d'un candidat",
                 "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Candidats/Archiver_candidat",
+              "id": "QuickStart/Candidats/Archiver_candidat",
+              "title": "Archiver un candidat",
+              "description": "Comment archiver un candidat grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Candidats/Archiver_candidat.md",
+              "sourceDirName": "QuickStart/Candidats",
+              "slug": "/QuickStart/Candidats/Archiver_candidat",
+              "permalink": "/docs/QuickStart/Candidats/Archiver_candidat",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "description": "Comment archiver un candidat grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Déplacer un candidat de colonne",
+                "permalink": "/docs/QuickStart/Candidats/Deplacer_candidat"
+              },
+              "next": {
+                "title": "Ajouter des meta informations",
+                "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
               }
             },
             {
@@ -82,12 +108,38 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Rechercher un candidat",
+                "title": "Récupérer les informations d'un candidat",
                 "permalink": "/docs/QuickStart/Candidats/Recuperer_un_candidat"
               },
               "next": {
-                "title": "Ajouter des meta informations",
-                "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+                "title": "Déplacer un candidat de colonne",
+                "permalink": "/docs/QuickStart/Candidats/Deplacer_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Candidats/Deplacer_candidat",
+              "id": "QuickStart/Candidats/Deplacer_candidat",
+              "title": "Déplacer un candidat de colonne",
+              "description": "Comment changer un candidat grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Candidats/Deplacer_candidat.md",
+              "sourceDirName": "QuickStart/Candidats",
+              "slug": "/QuickStart/Candidats/Deplacer_candidat",
+              "permalink": "/docs/QuickStart/Candidats/Deplacer_candidat",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "description": "Comment changer un candidat grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Créer un candidat",
+                "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
+              },
+              "next": {
+                "title": "Archiver un candidat",
+                "permalink": "/docs/QuickStart/Candidats/Archiver_candidat"
               }
             },
             {
@@ -101,26 +153,26 @@
               "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 6,
               "frontMatter": {
-                "sidebar_position": 4,
+                "sidebar_position": 6,
                 "description": "Comment rajouter des meta informations sur une fiche candidat grâce à l'API Flatchr"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Créer un candidat",
-                "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
+                "title": "Archiver un candidat",
+                "permalink": "/docs/QuickStart/Candidats/Archiver_candidat"
               },
               "next": {
-                "title": "Récupérer les tâches",
-                "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
+                "title": "Récupérer les commentaires",
+                "permalink": "/docs/QuickStart/Commentaires/Recuperer_commentaires"
               }
             },
             {
               "unversionedId": "QuickStart/Candidats/Recuperer_un_candidat",
               "id": "QuickStart/Candidats/Recuperer_un_candidat",
-              "title": "Rechercher un candidat",
-              "description": "Comment rechercher un candidat grâce à l'API Flatchr",
+              "title": "Récupérer les informations d'un candidat",
+              "description": "Comment récupérer les informations d'un candidat grâce à l'API Flatchr",
               "source": "@site/docs/QuickStart/Candidats/Recuperer_un_candidat.md",
               "sourceDirName": "QuickStart/Candidats",
               "slug": "/QuickStart/Candidats/Recuperer_un_candidat",
@@ -130,7 +182,7 @@
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2,
-                "description": "Comment rechercher un candidat grâce à l'API Flatchr"
+                "description": "Comment récupérer les informations d'un candidat grâce à l'API Flatchr"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -140,6 +192,136 @@
               "next": {
                 "title": "Créer un candidat",
                 "permalink": "/docs/QuickStart/Candidats/Creer_un_candidat"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Commentaires/Creer_commentaire",
+              "id": "QuickStart/Commentaires/Creer_commentaire",
+              "title": "Créer un commentaire",
+              "description": "Comment créer un commentaire grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Commentaires/Creer_commentaire.md",
+              "sourceDirName": "QuickStart/Commentaires",
+              "slug": "/QuickStart/Commentaires/Creer_commentaire",
+              "permalink": "/docs/QuickStart/Commentaires/Creer_commentaire",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "description": "Comment créer un commentaire grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Récupérer les commentaires",
+                "permalink": "/docs/QuickStart/Commentaires/Recuperer_commentaires"
+              },
+              "next": {
+                "title": "Supprimer un commentaire",
+                "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Commentaires/Recuperer_commentaires",
+              "id": "QuickStart/Commentaires/Recuperer_commentaires",
+              "title": "Récupérer les commentaires",
+              "description": "Comment récupérer les commentaires grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Commentaires/Recuperer_commentaires.md",
+              "sourceDirName": "QuickStart/Commentaires",
+              "slug": "/QuickStart/Commentaires/Recuperer_commentaires",
+              "permalink": "/docs/QuickStart/Commentaires/Recuperer_commentaires",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "description": "Comment récupérer les commentaires grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ajouter des meta informations",
+                "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+              },
+              "next": {
+                "title": "Créer un commentaire",
+                "permalink": "/docs/QuickStart/Commentaires/Creer_commentaire"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Commentaires/Supprimer_commentaire",
+              "id": "QuickStart/Commentaires/Supprimer_commentaire",
+              "title": "Supprimer un commentaire",
+              "description": "Comment supprimer un commentaire grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Commentaires/Supprimer_commentaire.md",
+              "sourceDirName": "QuickStart/Commentaires",
+              "slug": "/QuickStart/Commentaires/Supprimer_commentaire",
+              "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "description": "Comment supprimer un commentaire grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Créer un commentaire",
+                "permalink": "/docs/QuickStart/Commentaires/Creer_commentaire"
+              },
+              "next": {
+                "title": "Récupérer les messages",
+                "permalink": "/docs/QuickStart/Messages/Recuperer_messages"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/login",
+              "id": "QuickStart/login",
+              "title": "Login",
+              "description": "Comment récupérer un token utilisateur",
+              "source": "@site/docs/QuickStart/login.md",
+              "sourceDirName": "QuickStart",
+              "slug": "/QuickStart/login",
+              "permalink": "/docs/QuickStart/login",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "description": "Comment récupérer un token utilisateur"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/getting_started"
+              },
+              "next": {
+                "title": "Récupérer les annonces",
+                "permalink": "/docs/QuickStart/Annonces/Recuperer_les_annonces"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Messages/Recuperer_messages",
+              "id": "QuickStart/Messages/Recuperer_messages",
+              "title": "Récupérer les messages",
+              "description": "Comment récupérer les messages grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Messages/Recuperer_messages.md",
+              "sourceDirName": "QuickStart/Messages",
+              "slug": "/QuickStart/Messages/Recuperer_messages",
+              "permalink": "/docs/QuickStart/Messages/Recuperer_messages",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "description": "Comment récupérer les messages grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Supprimer un commentaire",
+                "permalink": "/docs/QuickStart/Commentaires/Supprimer_commentaire"
+              },
+              "next": {
+                "title": "Récupérer les tags",
+                "permalink": "/docs/QuickStart/Tags/Recuperer_tags"
               }
             },
             {
@@ -212,12 +394,90 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Ajouter des meta informations",
-                "permalink": "/docs/QuickStart/Candidats/Meta_informations_candidat"
+                "title": "Afficher les tags candidat",
+                "permalink": "/docs/QuickStart/Tags/Afficher_tags_candidats"
               },
               "next": {
                 "title": "Créer une tâche",
                 "permalink": "/docs/QuickStart/Tâches/Creer_tache"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Tags/Afficher_tags_candidats",
+              "id": "QuickStart/Tags/Afficher_tags_candidats",
+              "title": "Afficher les tags candidat",
+              "description": "Comment récupérer les tags d'un candidat grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Tags/Afficher_tags_candidats.md",
+              "sourceDirName": "QuickStart/Tags",
+              "slug": "/QuickStart/Tags/Afficher_tags_candidats",
+              "permalink": "/docs/QuickStart/Tags/Afficher_tags_candidats",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "description": "Comment récupérer les tags d'un candidat grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Remplir un tag candidat",
+                "permalink": "/docs/QuickStart/Tags/Ajouter_tag"
+              },
+              "next": {
+                "title": "Récupérer les tâches",
+                "permalink": "/docs/QuickStart/Tâches/Recuperer_tâches"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Tags/Ajouter_tag",
+              "id": "QuickStart/Tags/Ajouter_tag",
+              "title": "Remplir un tag candidat",
+              "description": "Comment remplir un tag candidat grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Tags/Ajouter_tag.md",
+              "sourceDirName": "QuickStart/Tags",
+              "slug": "/QuickStart/Tags/Ajouter_tag",
+              "permalink": "/docs/QuickStart/Tags/Ajouter_tag",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "description": "Comment remplir un tag candidat grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Récupérer les tags",
+                "permalink": "/docs/QuickStart/Tags/Recuperer_tags"
+              },
+              "next": {
+                "title": "Afficher les tags candidat",
+                "permalink": "/docs/QuickStart/Tags/Afficher_tags_candidats"
+              }
+            },
+            {
+              "unversionedId": "QuickStart/Tags/Recuperer_tags",
+              "id": "QuickStart/Tags/Recuperer_tags",
+              "title": "Récupérer les tags",
+              "description": "Comment récupérer les tags grâce à l'API Flatchr",
+              "source": "@site/docs/QuickStart/Tags/Recuperer_tags.md",
+              "sourceDirName": "QuickStart/Tags",
+              "slug": "/QuickStart/Tags/Recuperer_tags",
+              "permalink": "/docs/QuickStart/Tags/Recuperer_tags",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "description": "Comment récupérer les tags grâce à l'API Flatchr"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Récupérer les messages",
+                "permalink": "/docs/QuickStart/Messages/Recuperer_messages"
+              },
+              "next": {
+                "title": "Remplir un tag candidat",
+                "permalink": "/docs/QuickStart/Tags/Ajouter_tag"
               }
             },
             {
@@ -304,6 +564,72 @@
                 "permalink": "/docs/Schemas/answer"
               },
               "next": {
+                "title": "applies",
+                "permalink": "/docs/Schemas/applies"
+              }
+            },
+            {
+              "unversionedId": "Schemas/applies",
+              "id": "Schemas/applies",
+              "title": "applies",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/applies.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/applies",
+              "permalink": "/docs/Schemas/applies",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "applicant",
+                "permalink": "/docs/Schemas/applicant"
+              },
+              "next": {
+                "title": "attachment",
+                "permalink": "/docs/Schemas/attachment"
+              }
+            },
+            {
+              "unversionedId": "Schemas/attachment",
+              "id": "Schemas/attachment",
+              "title": "attachment",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/attachment.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/attachment",
+              "permalink": "/docs/Schemas/attachment",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "applies",
+                "permalink": "/docs/Schemas/applies"
+              },
+              "next": {
+                "title": "author",
+                "permalink": "/docs/Schemas/author"
+              }
+            },
+            {
+              "unversionedId": "Schemas/author",
+              "id": "Schemas/author",
+              "title": "author",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/author.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/author",
+              "permalink": "/docs/Schemas/author",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "attachment",
+                "permalink": "/docs/Schemas/attachment"
+              },
+              "next": {
                 "title": "candidate",
                 "permalink": "/docs/Schemas/candidate"
               }
@@ -322,8 +648,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "applicant",
-                "permalink": "/docs/Schemas/applicant"
+                "title": "author",
+                "permalink": "/docs/Schemas/author"
               },
               "next": {
                 "title": "column",
@@ -480,6 +806,28 @@
                 "permalink": "/docs/Schemas/data_new_vacancy"
               },
               "next": {
+                "title": "mail",
+                "permalink": "/docs/Schemas/mail"
+              }
+            },
+            {
+              "unversionedId": "Schemas/mail",
+              "id": "Schemas/mail",
+              "title": "mail",
+              "description": "|Name|Type|Description|",
+              "source": "@site/docs/Schemas/mail.md",
+              "sourceDirName": "Schemas",
+              "slug": "/Schemas/mail",
+              "permalink": "/docs/Schemas/mail",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "hiddens",
+                "permalink": "/docs/Schemas/hiddens"
+              },
+              "next": {
                 "title": "message",
                 "permalink": "/docs/Schemas/message"
               }
@@ -498,8 +846,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "hiddens",
-                "permalink": "/docs/Schemas/hiddens"
+                "title": "mail",
+                "permalink": "/docs/Schemas/mail"
               },
               "next": {
                 "title": "options",
@@ -590,6 +938,28 @@
                 "permalink": "/docs/Schemas/Referentiels/activities"
               },
               "next": {
+                "title": "columns",
+                "permalink": "/docs/Schemas/Referentiels/columns"
+              }
+            },
+            {
+              "unversionedId": "Schemas/Referentiels/columns",
+              "id": "Schemas/Referentiels/columns",
+              "title": "columns",
+              "description": "Le référenciel des colonnes peut être récupéré avec la requête :",
+              "source": "@site/docs/Schemas/Referentiels/columns.md",
+              "sourceDirName": "Schemas/Referentiels",
+              "slug": "/Schemas/Referentiels/columns",
+              "permalink": "/docs/Schemas/Referentiels/columns",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "channels",
+                "permalink": "/docs/Schemas/Referentiels/channels"
+              },
+              "next": {
                 "title": "contract type",
                 "permalink": "/docs/Schemas/Referentiels/contract_type"
               }
@@ -608,8 +978,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "channels",
-                "permalink": "/docs/Schemas/Referentiels/channels"
+                "title": "columns",
+                "permalink": "/docs/Schemas/Referentiels/columns"
               },
               "next": {
                 "title": "education levels",
@@ -780,6 +1150,10 @@
                 "collapsed": false,
                 "items": [
                   {
+                    "type": "doc",
+                    "id": "QuickStart/login"
+                  },
+                  {
                     "type": "category",
                     "label": "Annonces",
                     "collapsible": true,
@@ -807,7 +1181,67 @@
                       },
                       {
                         "type": "doc",
+                        "id": "QuickStart/Candidats/Deplacer_candidat"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Candidats/Archiver_candidat"
+                      },
+                      {
+                        "type": "doc",
                         "id": "QuickStart/Candidats/Meta_informations_candidat"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Commentaires",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Commentaires/Recuperer_commentaires"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Commentaires/Creer_commentaire"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Commentaires/Supprimer_commentaire"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Messages",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Messages/Recuperer_messages"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Tags",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Tags/Recuperer_tags"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Tags/Ajouter_tag"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "QuickStart/Tags/Afficher_tags_candidats"
                       }
                     ]
                   },
@@ -857,6 +1291,18 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Schemas/applies"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/attachment"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/author"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Schemas/candidate"
                   },
                   {
@@ -886,6 +1332,10 @@
                   {
                     "type": "doc",
                     "id": "Schemas/hiddens"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Schemas/mail"
                   },
                   {
                     "type": "doc",
@@ -928,6 +1378,10 @@
                       {
                         "type": "doc",
                         "id": "Schemas/Referentiels/channels"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Schemas/Referentiels/columns"
                       },
                       {
                         "type": "doc",
@@ -987,6 +1441,11 @@
         "type": "mdx",
         "permalink": "/webhooks",
         "source": "@site/src/pages/webhooks.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/Use%20Cases/Cr%C3%A9er_un_message",
+        "source": "@site/src/pages/Use Cases/Créer_un_message.md"
       },
       {
         "type": "mdx",
